@@ -84,3 +84,5 @@ The repo deploys from `.github/workflows/pages.yml` (owner-pasted — the Muse G
 cannot write workflow files). Dataset growth runs through `data-build.yml`; the daily
 vault through `daily-vault.yml`; CI through `ci.yml`. All four files live in
 `.github/workflows/` in this repo.
+
+<!-- deploy trigger 2026-11-26 -->
