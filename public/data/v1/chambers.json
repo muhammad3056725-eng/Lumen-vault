@@ -1,65 +1,417 @@
 [
  {
-  "brainstormSocket": false,
+  "kind": "venn",
   "id": "venn-01",
-  "intro": "Two brass rings hum on the glass. Slip each vellum tile into the one region of the diagram where it truly belongs.",
-  "kind": "venn",
+  "title": "First Light",
+  "intro": "Two brass rings hum on the glass. Slip each vellum tile into the region where it truly belongs — several may share a home.",
   "rings": [
    {
-    "facet": "DECADE_1990S",
-    "label": "Released in the 1990s"
-   },
-   {
     "facet": "SETTING_SPACE_SCIFI",
-    "label": "Set in Space or Sci-Fi"
-   }
-  ],
-  "tiles": [
-   "E-0001",
-   "E-0029",
-   "E-0004",
-   "E-0007",
-   "E-0022"
-  ],
-  "title": "First Light"
- },
- {
-  "brainstormSocket": false,
-  "id": "venn-03",
-  "intro": "Three rings, five tiles, one exact home each. The vault rewards precision, not speed.",
-  "kind": "venn",
-  "rings": [
-   {
-    "facet": "DECADE_1990S",
-    "label": "Released in the 1990s"
-   },
-   {
-    "facet": "SETTING_SPACE_SCIFI",
-    "label": "Set in Space or Sci-Fi"
+    "label": "Space or science fiction"
    },
    {
     "facet": "WON_OSCAR",
-    "label": "Won an Academy Award"
+    "label": "Won a competitive Oscar"
    }
   ],
   "tiles": [
-   "E-0001",
-   "E-0005",
-   "E-0021",
-   "E-0003",
-   "E-0022"
+   "E-0007",
+   "E-0182",
+   "E-0022",
+   "E-0199",
+   "E-0197",
+   "E-0174"
   ],
-  "title": "Silver Screen Sets"
+  "brainstormSocket": false
  },
  {
-  "brainstormSocket": true,
-  "id": "venn-02",
-  "intro": "Three rings of older gold. Place the tiles — then turn the final tumbler yourself: name any work of a lone creator, made in Europe before 1900.",
+  "kind": "chrono",
+  "id": "chrono-01",
+  "title": "Reels in Time",
+  "intro": "Four reels from four eras of cinema. Read the plaques and wind them into their true order.",
+  "gears": [
+   "E-0184",
+   "E-0183",
+   "E-0022",
+   "E-0199"
+  ],
+  "clues": [
+   {
+    "type": "BEFORE",
+    "a": "E-0183",
+    "b": "E-0022"
+   },
+   {
+    "type": "BEFORE",
+    "a": "E-0022",
+    "b": "E-0199"
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0184",
+    "b": "E-0183",
+    "c": "E-0199"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-01",
+  "title": "The Cold Open",
+  "intro": "The prism is thirsty for cold light. Offer three films that answer every rune at once.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "COLD",
+    "label": "Tied to cold or ice"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_FILM",
+    "label": "A film"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "F",
+     "I",
+     "S",
+     "T"
+    ],
+    "label": "Starts with F, I, S or T"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-01",
+  "title": "The Projectionist's Dial",
+  "intro": "Nine names circle the lens. Read the riddles, cloud every name they rule out, and focus on the one that remains.",
+  "answer": "E-0022",
+  "candidates": [
+   "E-0011",
+   "E-0022",
+   "E-0028",
+   "E-0037",
+   "E-0038",
+   "E-0168",
+   "E-0183",
+   "E-0027",
+   "E-0333"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "DUO",
+    "negate": true,
+    "text": "It was not made by a pair"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_NORTH_AMERICA",
+    "negate": false,
+    "text": "It comes from North America"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "domain",
+    "value": "DOM_MUSIC",
+    "negate": true,
+    "text": "It is not a work of music"
+   }
+  ]
+ },
+ {
   "kind": "venn",
+  "id": "venn-02",
+  "title": "The Gilded Reel",
+  "intro": "Three rings of gold. Place the tiles — then turn the final tumbler yourself: name any 20th-century film that won a competitive Oscar.",
   "rings": [
    {
+    "facet": "DOMAIN_FILM",
+    "label": "A film"
+   },
+   {
+    "facet": "WON_OSCAR",
+    "label": "Won a competitive Oscar"
+   },
+   {
+    "facet": "CENTURY_20TH",
+    "label": "From the 20th century"
+   }
+  ],
+  "tiles": [
+   "E-0004",
+   "E-0335",
+   "E-0168",
+   "E-0036",
+   "E-0011",
+   "E-0330",
+   "E-0348"
+  ],
+  "brainstormSocket": true
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-02",
+  "title": "Drawn in Light",
+  "intro": "Five animated wonders, one true order. The plaques remember.",
+  "gears": [
+   "E-0176",
+   "E-0003",
+   "E-0011",
+   "E-0017",
+   "E-0189"
+  ],
+  "clues": [
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0017",
+    "b": "E-0189",
+    "years": 9
+   },
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0011",
+    "b": "E-0017",
+    "years": 7
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0176",
+    "b": "E-0003",
+    "c": "E-0189"
+   },
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0003",
+    "b": "E-0011",
+    "years": 6
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-02",
+  "title": "Night Music",
+  "intro": "A forge that burns at midnight. Three works of night music will wake it.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "NOCTURNAL",
+    "label": "Tied to night"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_MUSIC",
+    "label": "A work of music"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "B",
+     "M",
+     "N",
+     "S"
+    ],
+    "label": "Starts with B, M, N or S"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-02",
+  "title": "The Composer's Dial",
+  "intro": "A ring of melodies. One of them is the hidden artifact — the riddles know which.",
+  "answer": "E-0042",
+  "candidates": [
+   "E-0040",
+   "E-0315",
+   "E-0042",
+   "E-0307",
+   "E-0333",
+   "E-0341",
+   "E-0347",
+   "E-0324",
+   "E-0316"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "NINETEENTH",
+    "negate": true,
+    "text": "It does not belong to the nineteenth century"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_NORTH_AMERICA",
+    "negate": true,
+    "text": "It does not come from North America"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "EARLY_MODERN",
+    "negate": true,
+    "text": "It does not belong to the early modern age (1500–1799)"
+   },
+   {
+    "type": "YEAR",
+    "op": "before",
+    "year": 1925,
+    "text": "It came before the year 1925"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-03",
+  "title": "Before the Century Turned",
+  "intro": "Invention is a kind of light. Sort the tiles between the rings of making and of time.",
+  "rings": [
+   {
+    "facet": "INVENTED",
+    "label": "An invention"
+   },
+   {
     "facet": "PRE_1900",
-    "label": "Created before 1900"
+    "label": "Made before 1900"
+   }
+  ],
+  "tiles": [
+   "E-0055",
+   "E-0056",
+   "E-0434",
+   "E-0433",
+   "E-0100",
+   "E-0059",
+   "E-0066",
+   "E-0060"
+  ],
+  "brainstormSocket": false
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-03",
+  "title": "Engines of Change",
+  "intro": "Four machines that changed how the world worked. Deduce their order from the plaques alone.",
+  "gears": [
+   "E-0057",
+   "E-0423",
+   "E-0062",
+   "E-0056"
+  ],
+  "clues": [
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0423",
+    "b": "E-0062"
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0062",
+    "b": "E-0056"
+   },
+   {
+    "type": "BEFORE",
+    "a": "E-0057",
+    "b": "E-0056"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-03",
+  "title": "Old Light of Reason",
+  "intro": "The prism wants discoveries made before 1900. Offer three.",
+  "constraints": [
+   {
+    "type": "FACET",
+    "facet": "DISCOVERED",
+    "label": "A discovery"
+   },
+   {
+    "type": "FACET",
+    "facet": "PRE_1900",
+    "label": "Made before 1900"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "D",
+     "G",
+     "H",
+     "O",
+     "P",
+     "R"
+    ],
+    "label": "Starts with D, G, H, O, P or R"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-03",
+  "title": "The Inventor's Dial",
+  "intro": "Nine creations orbit the lens. The riddles point to one.",
+  "answer": "E-0056",
+  "candidates": [
+   "E-0055",
+   "E-0425",
+   "E-0063",
+   "E-0057",
+   "E-0059",
+   "E-0433",
+   "E-0436",
+   "E-0056",
+   "E-0477"
+  ],
+  "clues": [
+   {
+    "type": "YEAR",
+    "op": "after",
+    "year": 1850,
+    "text": "It came after the year 1850"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_NORTH_AMERICA",
+    "negate": false,
+    "text": "It comes from North America"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "TWENTIETH",
+    "negate": true,
+    "text": "It does not belong to the twentieth century"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "TEAM",
+    "negate": true,
+    "text": "It was not made by an ordinary team"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-04",
+  "title": "The Lone Discoverers",
+  "intro": "Three rings for the solitary mind. Place the tiles, then name any discovery made in Europe by one person.",
+  "rings": [
+   {
+    "facet": "DISCOVERED",
+    "label": "A discovery"
    },
    {
     "facet": "REGION_EUROPE",
@@ -67,50 +419,142 @@
    },
    {
     "facet": "CREATOR_SOLO",
-    "label": "By a lone creator"
+    "label": "Made by one person"
    }
   ],
   "tiles": [
-   "E-0101",
-   "E-0087",
-   "E-0112",
-   "E-0088",
-   "E-0046"
+   "E-0059",
+   "E-0070",
+   "E-0477",
+   "E-0423",
+   "E-0071",
+   "E-0056",
+   "E-0486"
   ],
-  "title": "The Gilded Intersection"
+  "brainstormSocket": true
  },
  {
-  "brainstormSocket": false,
-  "id": "venn-04",
-  "intro": "Invention is a kind of light. Sort the tiles between the centuries.",
-  "kind": "venn",
-  "rings": [
+  "kind": "chrono",
+  "id": "chrono-04",
+  "title": "Signals Through the Ages",
+  "intro": "Five inventions that taught the world to speak at a distance. The plaques remember their order.",
+  "gears": [
+   "E-0056",
+   "E-0055",
+   "E-0425",
+   "E-0064",
+   "E-0058"
+  ],
+  "clues": [
    {
-    "facet": "PRE_1900",
-    "label": "Created before 1900"
+    "type": "GAP_YEARS",
+    "a": "E-0056",
+    "b": "E-0425",
+    "years": 19
    },
    {
-    "facet": "INVENTED",
-    "label": "An invention"
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0064",
+    "b": "E-0058"
+   },
+   {
+    "type": "BEFORE",
+    "a": "E-0425",
+    "b": "E-0058"
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0055",
+    "b": "E-0425"
    }
-  ],
-  "tiles": [
-   "E-0055",
-   "E-0064",
-   "E-0100",
-   "E-0046"
-  ],
-  "title": "Before the Century Turned"
+  ]
  },
  {
-  "brainstormSocket": false,
-  "id": "venn-05",
-  "intro": "Stones remember what empires forget. Place each tile where the old world and human hands overlap — or don't.",
+  "kind": "forge",
+  "id": "forge-04",
+  "title": "The Modern Workshop",
+  "intro": "Three inventions of the twentieth century will fill the prism.",
+  "constraints": [
+   {
+    "type": "FACET",
+    "facet": "INVENTED",
+    "label": "An invention"
+   },
+   {
+    "type": "FACET",
+    "facet": "CENTURY_20TH",
+    "label": "From the 20th century"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "A",
+     "B",
+     "I",
+     "M",
+     "T"
+    ],
+    "label": "Starts with A, B, I, M or T"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-04",
+  "title": "The Physicist's Dial",
+  "intro": "Discoveries and devices crowd the dial. Deduce exactly, eliminate kindly.",
+  "answer": "E-0069",
+  "candidates": [
+   "E-0071",
+   "E-0477",
+   "E-0070",
+   "E-0486",
+   "E-0059",
+   "E-0068",
+   "E-0056",
+   "E-0481",
+   "E-0069"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "EARLY_MODERN",
+    "negate": true,
+    "text": "It does not belong to the early modern age (1500–1799)"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "domain",
+    "value": "DOM_SCIENCE",
+    "negate": false,
+    "text": "It is a scientific discovery"
+   },
+   {
+    "type": "YEAR",
+    "op": "before",
+    "year": 1900,
+    "text": "It came before the year 1900"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "DUO",
+    "negate": true,
+    "text": "It was not made by a pair"
+   }
+  ]
+ },
+ {
   "kind": "venn",
+  "id": "venn-05",
+  "title": "Stones of the Old World",
+  "intro": "Stones remember what empires forget. Place each tile where the ancient world and human building overlap — or don't.",
   "rings": [
    {
     "facet": "ANCIENT_WORLD",
-    "label": "From the ancient world"
+    "label": "From the ancient world (before 500)"
    },
    {
     "facet": "MAN_MADE_STRUCTURE",
@@ -120,388 +564,1610 @@
   "tiles": [
    "E-0089",
    "E-0091",
-   "E-0087",
    "E-0114",
-   "E-0046"
-  ],
-  "title": "Stones of the Old World"
- },
- {
-  "clues": [
-   {
-    "a": 0,
-    "b": 1,
-    "type": "IMMEDIATELY_BEFORE"
-   },
-   {
-    "a": 1,
-    "b": 2,
-    "type": "GAP_YEARS",
-    "years": 8
-   },
-   {
-    "count": 2,
-    "type": "BEFORE_YEAR_COUNT",
-    "year": 1970
-   }
-  ],
-  "gears": [
-   "E-0049",
+   "E-0087",
    "E-0046",
-   "E-0045",
-   "E-0048"
+   "E-0551",
+   "E-0090",
+   "E-0234"
   ],
-  "id": "chrono-01",
-  "intro": "Four gears, four leaps beyond the sky. Read the plaques, deduce the order, and let the teeth mesh.",
-  "kind": "chrono",
-  "title": "The Space Race Chain"
+  "brainstormSocket": false
  },
  {
+  "kind": "chrono",
+  "id": "chrono-05",
+  "title": "Ages of Stone",
+  "intro": "Four monuments, three thousand years apart. Let the plaques set them in order.",
+  "gears": [
+   "E-0089",
+   "E-0551",
+   "E-0091",
+   "E-0554"
+  ],
   "clues": [
    {
-    "a": 1,
-    "b": 2,
+    "type": "NOT_ADJACENT",
+    "a": "E-0551",
+    "b": "E-0554"
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0089",
+    "b": "E-0551",
+    "c": "E-0091"
+   },
+   {
     "type": "GAP_YEARS",
-    "years": 3
+    "a": "E-0089",
+    "b": "E-0554",
+    "years": 3096
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-05",
+  "title": "Gods of Thunder",
+  "intro": "The sky darkens over the forge. Offer three storm-bringers of myth.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "STORM",
+    "label": "Tied to storms or thunder"
    },
    {
-    "a": 1,
-    "b": 2,
-    "type": "SAME_REGION"
+    "type": "DOMAIN",
+    "domain": "DOM_MYTHOLOGY",
+    "label": "A figure of myth"
    },
    {
-    "count": 3,
-    "type": "BEFORE_YEAR_COUNT",
-    "year": 1900
-   },
-   {
-    "a": 3,
-    "b": 4,
-    "type": "IMMEDIATELY_BEFORE"
+    "type": "INITIALS",
+    "letters": [
+     "C",
+     "P",
+     "S",
+     "T"
+    ],
+    "label": "Starts with C, P, S or T"
    }
   ],
-  "gears": [
-   "E-0057",
-   "E-0056",
-   "E-0055",
-   "E-0064",
-   "E-0058"
-  ],
-  "id": "chrono-02",
-  "intro": "Five inventions that taught the world to speak at a distance. The plaques remember their order.",
-  "kind": "chrono",
-  "title": "Signals Through the Ages"
+  "answersNeeded": 3
  },
  {
+  "kind": "astrolabe",
+  "id": "astro-05",
+  "title": "The Mountain Dial",
+  "intro": "Nine wonders of stone. One stands where the riddles point.",
+  "answer": "E-0095",
+  "candidates": [
+   "E-0090",
+   "E-0091",
+   "E-0553",
+   "E-0563",
+   "E-0088",
+   "E-0095",
+   "E-0586",
+   "E-0096",
+   "E-0555"
+  ],
   "clues": [
    {
-    "a": 0,
-    "b": 2,
-    "type": "SAME_REGION"
+    "type": "YEAR",
+    "op": "before",
+    "year": 1600,
+    "text": "It came before the year 1600"
    },
    {
-    "a": 1,
-    "b": 3,
-    "type": "GAP_YEARS",
-    "years": 590
+    "type": "YEAR",
+    "op": "after",
+    "year": 1400,
+    "text": "It came after the year 1400"
    },
    {
-    "count": 2,
-    "type": "BEFORE_YEAR_COUNT",
-    "year": 1000
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_ASIA",
+    "negate": true,
+    "text": "It does not come from Asia"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-06",
+  "title": "The Thunder Rings",
+  "intro": "Three rings of myth and weather. Every figure has exactly one home.",
+  "rings": [
+   {
+    "facet": "DEITY",
+    "label": "A god or goddess"
+   },
+   {
+    "facet": "REGION_EUROPE",
+    "label": "From Europe"
+   },
+   {
+    "facet": "SENSE_STORM",
+    "label": "Tied to storms"
    }
   ],
-  "gears": [
-   "E-0066",
-   "E-0067",
-   "E-0065",
-   "E-0057"
+  "tiles": [
+   "E-0122",
+   "E-0742",
+   "E-0763",
+   "E-0774",
+   "E-0747",
+   "E-0757",
+   "E-0756"
   ],
-  "id": "chrono-03",
-  "intro": "Paper, powder, needle, press — an eastern chain of world-changing ideas.",
-  "kind": "chrono",
-  "title": "The Eastern Chain"
+  "brainstormSocket": false
  },
  {
+  "kind": "chrono",
+  "id": "chrono-06",
+  "title": "Walls and Watchtowers",
+  "intro": "Five builders' dreams across two thousand years. Mesh the gears.",
+  "gears": [
+   "E-0088",
+   "E-0570",
+   "E-0568",
+   "E-0553",
+   "E-0095"
+  ],
   "clues": [
    {
-    "a": 0,
-    "b": 1,
-    "type": "IMMEDIATELY_BEFORE"
+    "type": "GAP_YEARS",
+    "a": "E-0568",
+    "b": "E-0095",
+    "years": 1328
    },
    {
-    "a": 1,
-    "b": 2,
+    "type": "FIRST",
+    "a": "E-0088"
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0570",
+    "b": "E-0568",
+    "c": "E-0553"
+   },
+   {
+    "type": "NOT_ADJACENT",
+    "a": "E-0568",
+    "b": "E-0095"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-06",
+  "title": "Keepers of the Flame",
+  "intro": "Fire answers fire. Offer three figures of myth who burn.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "FIRE",
+    "label": "Tied to fire or heat"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_MYTHOLOGY",
+    "label": "A figure of myth"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "A",
+     "C",
+     "H",
+     "P"
+    ],
+    "label": "Starts with A, C, H or P"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-06",
+  "title": "The Marble Dial",
+  "intro": "Palaces and towers crowd the dial. Eliminate kindly, deduce exactly.",
+  "answer": "E-0090",
+  "candidates": [
+   "E-0581",
+   "E-0563",
+   "E-0578",
+   "E-0554",
+   "E-0585",
+   "E-0094",
+   "E-0090",
+   "E-0561",
+   "E-0099"
+  ],
+  "clues": [
+   {
+    "type": "YEAR",
+    "op": "after",
+    "year": 1600,
+    "text": "It came after the year 1600"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_EUROPE",
+    "negate": true,
+    "text": "It does not come from Europe"
+   },
+   {
+    "type": "YEAR",
+    "op": "before",
+    "year": 1850,
+    "text": "It came before the year 1850"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-07",
+  "title": "The Painter's Threshold",
+  "intro": "Paint or stone? Old or new? Every tile has its region.",
+  "rings": [
+   {
+    "facet": "PAINTING",
+    "label": "A painting"
+   },
+   {
+    "facet": "PRE_1900",
+    "label": "Made before 1900"
+   }
+  ],
+  "tiles": [
+   "E-0100",
+   "E-0101",
+   "E-0103",
+   "E-0369",
+   "E-0108",
+   "E-0393",
+   "E-0392",
+   "E-0371"
+  ],
+  "brainstormSocket": false
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-07",
+  "title": "Brushstrokes Through Time",
+  "intro": "Four masterpieces, four centuries. Let the plaques hang them in order.",
+  "gears": [
+   "E-0361",
+   "E-0106",
+   "E-0102",
+   "E-0101"
+  ],
+  "clues": [
+   {
     "type": "GAP_YEARS",
+    "a": "E-0102",
+    "b": "E-0101",
+    "years": 58
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0361",
+    "b": "E-0106",
+    "c": "E-0102"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-07",
+  "title": "Painted Water",
+  "intro": "The prism wants paint that remembers water. Offer three works of art.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "AQUATIC",
+    "label": "Tied to water"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_ART",
+    "label": "A work of art"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "B",
+     "F",
+     "G",
+     "H",
+     "S"
+    ],
+    "label": "Starts with B, F, G, H or S"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-07",
+  "title": "The Printmaker's Dial",
+  "intro": "Nine treasures of art and word. One answers every riddle.",
+  "answer": "E-0102",
+  "candidates": [
+   "E-0101",
+   "E-0100",
+   "E-0369",
+   "E-0102",
+   "E-0396",
+   "E-0389",
+   "E-0397",
+   "E-0040",
+   "E-0237"
+  ],
+  "clues": [
+   {
+    "type": "YEAR",
+    "op": "after",
+    "year": 1000,
+    "text": "It came after the year 1000"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_EUROPE",
+    "negate": true,
+    "text": "It does not come from Europe"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "MEDIEVAL",
+    "negate": true,
+    "text": "It does not belong to the medieval age (500–1499)"
+   },
+   {
+    "type": "YEAR",
+    "op": "before",
+    "year": 1925,
+    "text": "It came before the year 1925"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-08",
+  "title": "The Gilded Library",
+  "intro": "Three rings of the long nineteenth century. Place the books — then name any 19th-century European novel.",
+  "rings": [
+   {
+    "facet": "NOVEL",
+    "label": "A novel"
+   },
+   {
+    "facet": "REGION_EUROPE",
+    "label": "From Europe"
+   },
+   {
+    "facet": "CENTURY_19TH",
+    "label": "From the 19th century"
+   }
+  ],
+  "tiles": [
+   "E-0111",
+   "E-0112",
+   "E-0113",
+   "E-0231",
+   "E-0257",
+   "E-0247",
+   "E-0265"
+  ],
+  "brainstormSocket": true
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-08",
+  "title": "Pages Through Time",
+  "intro": "Five books across a thousand years. Shelve them in true order.",
+  "gears": [
+   "E-0236",
+   "E-0235",
+   "E-0113",
+   "E-0121",
+   "E-0253"
+  ],
+  "clues": [
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0236",
+    "b": "E-0121",
+    "years": 818
+   },
+   {
+    "type": "NOT_ADJACENT",
+    "a": "E-0236",
+    "b": "E-0113"
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0121",
+    "b": "E-0253"
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0235",
+    "b": "E-0113",
+    "c": "E-0121"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-08",
+  "title": "Midnight Pages",
+  "intro": "Books that belong to the night. Offer three.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "NOCTURNAL",
+    "label": "Tied to night"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_LITERATURE",
+    "label": "A work of literature"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "A",
+     "C",
+     "D",
+     "H",
+     "M",
+     "R"
+    ],
+    "label": "Starts with A, C, D, H, M or R"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-08",
+  "title": "The Storyteller's Dial",
+  "intro": "Nine stories circle the lens. The riddles leave only one.",
+  "answer": "E-0113",
+  "candidates": [
+   "E-0265",
+   "E-0237",
+   "E-0114",
+   "E-0112",
+   "E-0113",
+   "E-0277",
+   "E-0119",
+   "E-0235",
+   "E-0262"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_EUROPE",
+    "negate": false,
+    "text": "It comes from Europe"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "ANCIENT",
+    "negate": true,
+    "text": "It does not belong to the ancient world (before 500 CE)"
+   },
+   {
+    "type": "YEAR",
+    "op": "before",
+    "year": 1700,
+    "text": "It came before the year 1700"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "MEDIEVAL",
+    "negate": true,
+    "text": "It does not belong to the medieval age (500–1499)"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-09",
+  "title": "Fin or Fur",
+  "intro": "Which creatures nurse their young, and which live in water? Some do both.",
+  "rings": [
+   {
+    "facet": "MAMMAL",
+    "label": "A mammal"
+   },
+   {
+    "facet": "SENSE_AQUATIC",
+    "label": "Tied to water"
+   }
+  ],
+  "tiles": [
+   "E-0128",
+   "E-0671",
+   "E-0673",
+   "E-0708",
+   "E-0696",
+   "E-0135",
+   "E-0714",
+   "E-0690"
+  ],
+  "brainstormSocket": false
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-09",
+  "title": "The Thread of Life",
+  "intro": "Four turning points in understanding life. The plaques set the order.",
+  "gears": [
+   "E-0479",
+   "E-0073",
+   "E-0070",
+   "E-0493"
+  ],
+  "clues": [
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0479",
+    "b": "E-0073",
     "years": 20
    },
    {
-    "count": 3,
-    "type": "BEFORE_YEAR_COUNT",
-    "year": 2000
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0073",
+    "b": "E-0070"
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0070",
+    "b": "E-0493"
    }
-  ],
-  "gears": [
-   "E-0022",
-   "E-0007",
-   "E-0004",
-   "E-0027"
-  ],
-  "id": "chrono-04",
-  "intro": "Four reels from four eras of cinema. Wind them into their true order.",
-  "kind": "chrono",
-  "title": "Reels in Time"
+  ]
  },
  {
-  "answersNeeded": 3,
-  "constraints": [
-   {
-    "label": "Associated with COLD or ICE",
-    "tag": "COLD",
-    "type": "SENSORY"
-   },
-   {
-    "domain": "DOM_FILM",
-    "label": "A FAMOUS FILM",
-    "type": "DOMAIN"
-   },
-   {
-    "label": "Starts with F, S, G, I or A",
-    "letters": [
-     "F",
-     "S",
-     "G",
-     "I",
-     "A"
-    ],
-    "type": "INITIALS"
-   }
-  ],
-  "id": "forge-01",
-  "intro": "The prism is thirsty for cold light. Offer three films that answer every rune at once.",
   "kind": "forge",
-  "title": "The Cold Open"
- },
- {
-  "answersNeeded": 3,
+  "id": "forge-09",
+  "title": "Creatures of the Water",
+  "intro": "The prism dreams of water. Name three creatures that swim, dive or wade.",
   "constraints": [
    {
-    "label": "Associated with NIGHT or NOCTURNES",
-    "tag": "NOCTURNAL",
-    "type": "SENSORY"
-   },
-   {
-    "domain": "DOM_MUSIC",
-    "label": "A WORK OF MUSIC",
-    "type": "DOMAIN"
-   },
-   {
-    "label": "Starts with M, C, N or E",
-    "letters": [
-     "M",
-     "C",
-     "N",
-     "E"
-    ],
-    "type": "INITIALS"
-   }
-  ],
-  "id": "forge-02",
-  "intro": "A forge that burns at midnight. Three works of night music will wake it.",
-  "kind": "forge",
-  "title": "Night Music"
- },
- {
-  "answersNeeded": 3,
-  "constraints": [
-   {
-    "label": "Lives in or is tied to WATER",
+    "type": "SENSORY",
     "tag": "AQUATIC",
-    "type": "SENSORY"
+    "label": "Tied to water"
    },
    {
+    "type": "DOMAIN",
     "domain": "DOM_ANIMALS",
-    "label": "AN ANIMAL",
-    "type": "DOMAIN"
+    "label": "An animal"
    },
    {
-    "label": "Starts with B, O, G, M, V, N or A",
+    "type": "INITIALS",
     "letters": [
+     "A",
      "B",
-     "O",
+     "E",
      "G",
+     "H",
      "M",
-     "V",
      "N",
-     "A"
+     "O"
     ],
-    "type": "INITIALS"
+    "label": "Starts with A, B, E, G, H, M, N or O"
    }
   ],
-  "id": "forge-03",
-  "intro": "The prism dreams of water. Name three creatures of the deep that fit every rune.",
-  "kind": "forge",
-  "title": "The Aquatic Riddle"
+  "answersNeeded": 3
  },
  {
-  "answersNeeded": 3,
+  "kind": "astrolabe",
+  "id": "astro-09",
+  "title": "The Naturalist's Dial",
+  "intro": "Creatures, peaks and stories share the dial. One answers every riddle.",
+  "answer": "E-0130",
+  "candidates": [
+   "E-0075",
+   "E-0713",
+   "E-0708",
+   "E-0690",
+   "E-0088",
+   "E-0126",
+   "E-0130",
+   "E-0686",
+   "E-0077",
+   "E-0144"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_ASIA",
+    "negate": false,
+    "text": "It comes from Asia"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "domain",
+    "value": "DOM_NATURE",
+    "negate": true,
+    "text": "It is not a wonder of nature"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "TRADITIONAL",
+    "negate": true,
+    "text": "It is not a product of anonymous human tradition"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-10",
+  "title": "The Frozen Crown",
+  "intro": "Three rings of ice and stone. Place the tiles, then name any cold wonder of nature.",
+  "rings": [
+   {
+    "facet": "DOMAIN_NATURE",
+    "label": "A wonder of nature"
+   },
+   {
+    "facet": "SENSE_COLD",
+    "label": "Tied to cold or ice"
+   },
+   {
+    "facet": "TIMELESS",
+    "label": "Timeless (no date)"
+   }
+  ],
+  "tiles": [
+   "E-0075",
+   "E-0076",
+   "E-0131",
+   "E-0122",
+   "E-0004",
+   "E-0627",
+   "E-0082"
+  ],
+  "brainstormSocket": true
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-10",
+  "title": "The Healers' Wheel",
+  "intro": "Five breakthroughs in medicine. Deduce the order they arrived in.",
+  "gears": [
+   "E-0478",
+   "E-0068",
+   "E-0495",
+   "E-0059",
+   "E-0499"
+  ],
+  "clues": [
+   {
+    "type": "BETWEEN",
+    "a": "E-0068",
+    "b": "E-0495",
+    "c": "E-0499"
+   },
+   {
+    "type": "BEFORE",
+    "a": "E-0478",
+    "b": "E-0068"
+   },
+   {
+    "type": "NOT_ADJACENT",
+    "a": "E-0068",
+    "b": "E-0059"
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0478",
+    "b": "E-0059",
+    "c": "E-0499"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-10",
+  "title": "Cold Wonders",
+  "intro": "High peaks, frozen lakes, ice and auroras. Offer three cold wonders of nature.",
   "constraints": [
    {
-    "label": "Associated with COLD or ICE",
+    "type": "SENSORY",
     "tag": "COLD",
-    "type": "SENSORY"
+    "label": "Tied to cold or ice"
    },
    {
+    "type": "DOMAIN",
     "domain": "DOM_NATURE",
-    "label": "A PLACE OF NATURE",
-    "type": "DOMAIN"
+    "label": "A wonder of nature"
    },
    {
-    "label": "Starts with E, A, K or M",
+    "type": "INITIALS",
     "letters": [
-     "E",
      "A",
-     "K",
+     "G",
      "M"
     ],
-    "type": "INITIALS"
+    "label": "Starts with A, G or M"
    }
   ],
-  "id": "forge-04",
-  "intro": "High, cold places hold the oldest light. Offer three to the prism.",
-  "kind": "forge",
-  "title": "High Cold Places"
+  "answersNeeded": 3
  },
  {
-  "answer": "E-0045",
+  "kind": "astrolabe",
+  "id": "astro-10",
+  "title": "The Thundering Dial",
+  "intro": "Waters, deserts and legends ring the lens. One remains when the riddles are read.",
+  "answer": "E-0086",
   "candidates": [
+   "E-0080",
+   "E-0620",
+   "E-0708",
+   "E-0089",
+   "E-0086",
+   "E-0124",
+   "E-0621",
+   "E-0615",
+   "E-0078",
+   "E-0147"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "TIMELESS",
+    "negate": false,
+    "text": "It has no date at all — it is timeless"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "TRADITIONAL",
+    "negate": true,
+    "text": "It is not a product of anonymous human tradition"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "domain",
+    "value": "DOM_ANIMALS",
+    "negate": true,
+    "text": "It is not an animal"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_AFRICA",
+    "negate": false,
+    "text": "It comes from Africa"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-11",
+  "title": "Agency and Age",
+  "intro": "Who built it — and in which century? Place each tile.",
+  "rings": [
+   {
+    "facet": "CREATOR_TEAM_GOVERNMENT_AGENCY",
+    "label": "Built by a space agency"
+   },
+   {
+    "facet": "CENTURY_21ST",
+    "label": "From the 21st century"
+   }
+  ],
+  "tiles": [
+   "E-0048",
+   "E-0052",
    "E-0045",
    "E-0049",
+   "E-0532",
+   "E-0005",
    "E-0047",
-   "E-0101",
-   "E-0087",
+   "E-0423"
+  ],
+  "brainstormSocket": false
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-11",
+  "title": "The Space Race Chain",
+  "intro": "Four leaps beyond the sky. Read the plaques, deduce the order, and let the teeth mesh.",
+  "gears": [
+   "E-0049",
+   "E-0054",
+   "E-0046",
+   "E-0516"
+  ],
+  "clues": [
+   {
+    "type": "BETWEEN",
+    "a": "E-0054",
+    "b": "E-0046",
+    "c": "E-0516"
+   },
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0049",
+    "b": "E-0046",
+    "years": 12
+   },
+   {
+    "type": "NOT_ADJACENT",
+    "a": "E-0049",
+    "b": "E-0046"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-11",
+  "title": "Into the Cold Dark",
+  "intro": "Missions that brave the cold of space. Offer three.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "COLD",
+    "label": "Tied to cold or ice"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_SPACE_EXPLORATION",
+    "label": "A space mission"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "C",
+     "D",
+     "H",
+     "P",
+     "V"
+    ],
+    "label": "Starts with C, D, H, P or V"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-11",
+  "title": "The Observatory Dial",
+  "intro": "Craft and discoveries circle the lens. The riddles leave only one.",
+  "answer": "E-0047",
+  "candidates": [
+   "E-0049",
+   "E-0048",
+   "E-0050",
+   "E-0514",
+   "E-0522",
+   "E-0532",
+   "E-0047",
+   "E-0423",
+   "E-0487"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "TWENTIETH",
+    "negate": false,
+    "text": "It belongs to the twentieth century"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_GLOBAL",
+    "negate": true,
+    "text": "It belongs to one particular region of the world"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_EUROPE",
+    "negate": true,
+    "text": "It does not come from Europe"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-12",
+  "title": "Mission Control",
+  "intro": "Three rings of the space age. Place the tiles, then name any North American space mission flown by a government agency.",
+  "rings": [
+   {
+    "facet": "DOMAIN_SPACE_EXPLORATION",
+    "label": "A space mission"
+   },
+   {
+    "facet": "CREATOR_TEAM_GOVERNMENT_AGENCY",
+    "label": "Built by a space agency"
+   },
+   {
+    "facet": "REGION_NORTH_AMERICA",
+    "label": "From North America"
+   }
+  ],
+  "tiles": [
+   "E-0046",
+   "E-0049",
+   "E-0532",
+   "E-0005",
+   "E-0522",
+   "E-0435",
+   "E-0137"
+  ],
+  "brainstormSocket": true
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-12",
+  "title": "Eyes on the Sky",
+  "intro": "Five patient watchers of the cosmos. Set them in the order they launched.",
+  "gears": [
+   "E-0047",
+   "E-0053",
+   "E-0521",
+   "E-0526",
+   "E-0048"
+  ],
+  "clues": [
+   {
+    "type": "FIRST",
+    "a": "E-0047"
+   },
+   {
+    "type": "BETWEEN",
+    "a": "E-0053",
+    "b": "E-0521",
+    "c": "E-0048"
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0521",
+    "b": "E-0526"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-12",
+  "title": "Night Watchers",
+  "intro": "Discoveries made by watching the night sky. Offer three.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "NOCTURNAL",
+    "label": "Tied to night"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_SCIENCE",
+    "label": "A scientific discovery"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "B",
+     "D",
+     "E",
+     "G",
+     "H"
+    ],
+    "label": "Starts with B, D, E, G or H"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-12",
+  "title": "The Comet Dial",
+  "intro": "Probes and stations ring the lens. Only one chased a comet.",
+  "answer": "E-0521",
+  "candidates": [
+   "E-0537",
+   "E-0049",
+   "E-0521",
+   "E-0524",
+   "E-0520",
+   "E-0492",
+   "E-0514",
+   "E-0525"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_NORTH_AMERICA",
+    "negate": true,
+    "text": "It does not come from North America"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_ASIA",
+    "negate": true,
+    "text": "It does not come from Asia"
+   },
+   {
+    "type": "YEAR",
+    "op": "before",
+    "year": 2010,
+    "text": "It came before the year 2010"
+   },
+   {
+    "type": "YEAR",
+    "op": "after",
+    "year": 1990,
+    "text": "It came after the year 1990"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-13",
+  "title": "Players of the East",
+  "intro": "Games and dishes, east and west. Two rings, one true home for each tile.",
+  "rings": [
+   {
+    "facet": "DOMAIN_VIDEO_GAMES",
+    "label": "A video game"
+   },
+   {
+    "facet": "REGION_ASIA",
+    "label": "From Asia"
+   }
+  ],
+  "tiles": [
+   "E-0138",
+   "E-0794",
    "E-0137",
-   "E-0100",
-   "E-0012",
-   "E-0059",
-   "E-0063"
+   "E-0140",
+   "E-0144",
+   "E-0841",
+   "E-0143",
+   "E-0873"
   ],
-  "filters": [
-   {
-    "attribute": "region",
-    "keep": true,
-    "label": "It comes from North America",
-    "value": "REG_NORTH_AMERICA"
-   },
-   {
-    "attribute": "era",
-    "keep": true,
-    "label": "It belongs to the twentieth century",
-    "value": "TWENTIETH"
-   },
-   {
-    "attribute": "domain",
-    "keep": true,
-    "label": "Its field is space exploration",
-    "value": "DOM_SPACE_EXPLORATION"
-   },
-   {
-    "attribute": "creator",
-    "keep": true,
-    "label": "It was built by a government space agency team",
-    "value": "TEAM_GOVERNMENT_AGENCY"
-   }
-  ],
-  "id": "astro-01",
-  "intro": "Ten sectors gleam on the dial; one artifact hides among them. Flip the filters and watch the impossible fade.",
-  "kind": "astrolabe",
-  "title": "The Golden Record"
+  "brainstormSocket": false
  },
  {
-  "answer": "E-0101",
-  "candidates": [
-   "E-0101",
-   "E-0100",
-   "E-0106",
-   "E-0103",
-   "E-0087",
-   "E-0061",
-   "E-0040",
-   "E-0102",
-   "E-0108"
+  "kind": "chrono",
+  "id": "chrono-13",
+  "title": "Press Start",
+  "intro": "Four games that changed play. Deduce the order they reached the world.",
+  "gears": [
+   "E-0791",
+   "E-0141",
+   "E-0137",
+   "E-0140"
   ],
-  "filters": [
+  "clues": [
    {
-    "attribute": "region",
-    "keep": true,
-    "label": "It comes from Europe",
-    "value": "REG_EUROPE"
+    "type": "GAP_YEARS",
+    "a": "E-0791",
+    "b": "E-0141",
+    "years": 8
    },
    {
-    "attribute": "era",
-    "keep": true,
-    "label": "It belongs to the nineteenth century",
-    "value": "NINETEENTH"
+    "type": "GAP_YEARS",
+    "a": "E-0137",
+    "b": "E-0140",
+    "years": 27
    },
    {
-    "attribute": "domain",
-    "keep": true,
-    "label": "Its field is art",
-    "value": "DOM_ART"
-   },
-   {
-    "attribute": "creator",
-    "keep": true,
-    "label": "It was made by a lone creator",
-    "value": "SOLO"
+    "type": "GAP_YEARS",
+    "a": "E-0141",
+    "b": "E-0137",
+    "years": 4
    }
-  ],
-  "id": "astro-02",
-  "intro": "A painter's ghost turns the dial. Filter by region, era, field and hand until one canvas remains.",
-  "kind": "astrolabe",
-  "title": "The Painter's Dial"
+  ]
  },
  {
-  "answer": "E-0090",
+  "kind": "forge",
+  "id": "forge-13",
+  "title": "The Sweet Tooth",
+  "intro": "The prism craves sugar. Offer three sweet foods or treats.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "SWEET",
+    "label": "Sweet"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_FOOD",
+    "label": "A food or drink"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "B",
+     "C",
+     "G",
+     "M"
+    ],
+    "label": "Starts with B, C, G or M"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-13",
+  "title": "The Falling-Block Dial",
+  "intro": "Nine games orbit the lens. One fits every riddle.",
+  "answer": "E-0137",
   "candidates": [
-   "E-0090",
-   "E-0095",
-   "E-0089",
-   "E-0091",
+   "E-0140",
+   "E-0141",
+   "E-0792",
+   "E-0791",
+   "E-0816",
+   "E-0807",
+   "E-0809",
+   "E-0813",
+   "E-0137"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "era",
+    "value": "TWENTIETH",
+    "negate": false,
+    "text": "It belongs to the twentieth century"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "SOLO",
+    "negate": false,
+    "text": "Its maker worked alone"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_EUROPE",
+    "negate": false,
+    "text": "It comes from Europe"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-14",
+  "title": "The Arcade Constellation",
+  "intro": "Three rings of play. Place the tiles, then name any game made in Asia by a team.",
+  "rings": [
+   {
+    "facet": "DOMAIN_VIDEO_GAMES",
+    "label": "A video game"
+   },
+   {
+    "facet": "REGION_ASIA",
+    "label": "From Asia"
+   },
+   {
+    "facet": "CREATOR_TEAM",
+    "label": "Made by a team"
+   }
+  ],
+  "tiles": [
+   "E-0139",
+   "E-0792",
+   "E-0137",
+   "E-0140",
+   "E-0144",
+   "E-0168",
+   "E-0825",
+   "E-0850"
+  ],
+  "brainstormSocket": true
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-14",
+  "title": "The Sporting Wheel",
+  "intro": "Five great contests, each with a first edition. Deduce their order.",
+  "gears": [
+   "E-0884",
+   "E-0871",
+   "E-0149",
+   "E-0872",
+   "E-0150"
+  ],
+  "clues": [
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0149",
+    "b": "E-0872",
+    "years": 7
+   },
+   {
+    "type": "BEFORE",
+    "a": "E-0884",
+    "b": "E-0149"
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0872",
+    "b": "E-0150"
+   },
+   {
+    "type": "NOT_ADJACENT",
+    "a": "E-0884",
+    "b": "E-0149"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-14",
+  "title": "Realms of Fantasy",
+  "intro": "Games of swords, spells and strange kingdoms. Offer three.",
+  "constraints": [
+   {
+    "type": "FACET",
+    "facet": "FANTASY_WORK",
+    "label": "A work of fantasy"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_VIDEO_GAMES",
+    "label": "A video game"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "D",
+     "E",
+     "F",
+     "L",
+     "W"
+    ],
+    "label": "Starts with D, E, F, L or W"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-14",
+  "title": "The Chef's Dial",
+  "intro": "Dishes, legends and landmarks share the dial. One answers every riddle.",
+  "answer": "E-0144",
+  "candidates": [
+   "E-0143",
+   "E-0849",
+   "E-0126",
    "E-0088",
-   "E-0087",
-   "E-0122",
-   "E-0126"
+   "E-0130",
+   "E-0832",
+   "E-0852",
+   "E-0144",
+   "E-0138"
   ],
-  "filters": [
+  "clues": [
    {
-    "attribute": "region",
-    "keep": true,
-    "label": "It stands in Asia",
-    "value": "REG_ASIA"
-   },
-   {
+    "type": "ATTR",
     "attribute": "era",
-    "keep": true,
-    "label": "It rose in the early modern age",
-    "value": "EARLY_MODERN"
+    "value": "TIMELESS",
+    "negate": false,
+    "text": "It has no date at all — it is timeless"
    },
    {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_ASIA",
+    "negate": false,
+    "text": "It comes from Asia"
+   },
+   {
+    "type": "ATTR",
     "attribute": "domain",
-    "keep": true,
-    "label": "It is a work of engineering",
-    "value": "DOM_ENGINEERING"
+    "value": "DOM_MYTHOLOGY",
+    "negate": true,
+    "text": "It is not a figure of myth"
    },
    {
+    "type": "ATTR",
     "attribute": "creator",
-    "keep": true,
-    "label": "It was raised by an organised team of builders",
-    "value": "TEAM"
+    "value": "NATURE",
+    "negate": true,
+    "text": "Human hands shaped it"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-15",
+  "title": "Gold by Night",
+  "intro": "Golden things and night things — and a few that are both.",
+  "rings": [
+   {
+    "facet": "SENSE_GOLDEN",
+    "label": "Golden"
+   },
+   {
+    "facet": "SENSE_NOCTURNAL",
+    "label": "Tied to night"
    }
   ],
-  "id": "astro-03",
-  "intro": "Marble, myth and empire crowd the dial. Eliminate kindly, deduce exactly.",
+  "tiles": [
+   "E-0045",
+   "E-0378",
+   "E-0105",
+   "E-0101",
+   "E-0702",
+   "E-0136",
+   "E-0143",
+   "E-0038"
+  ],
+  "brainstormSocket": false
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-15",
+  "title": "Unlikely Neighbours",
+  "intro": "A painting, a sonata, a tower and a Moon landing. Deduce their order.",
+  "gears": [
+   "E-0100",
+   "E-0040",
+   "E-0087",
+   "E-0046"
+  ],
+  "clues": [
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0100",
+    "b": "E-0040",
+    "years": 298
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0087",
+    "b": "E-0046"
+   },
+   {
+    "type": "GAP_YEARS",
+    "a": "E-0040",
+    "b": "E-0046",
+    "years": 168
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-15",
+  "title": "Fire on the Tongue",
+  "intro": "The forge wants heat you can taste. Offer three spicy foods.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "SPICY",
+    "label": "Spicy-hot"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_FOOD",
+    "label": "A food or drink"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "C",
+     "H",
+     "J",
+     "K",
+     "M",
+     "S",
+     "T"
+    ],
+    "label": "Starts with C, H, J, K, M, S or T"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
   "kind": "astrolabe",
-  "title": "The Marble Dial"
+  "id": "astro-15",
+  "title": "The Moonlit Dial",
+  "intro": "Works and wonders of many kinds. The riddles leave only one.",
+  "answer": "E-0040",
+  "candidates": [
+   "E-0121",
+   "E-0101",
+   "E-0040",
+   "E-0087",
+   "E-0038",
+   "E-0333",
+   "E-0056",
+   "E-0316",
+   "E-0059"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_EUROPE",
+    "negate": false,
+    "text": "It comes from Europe"
+   },
+   {
+    "type": "YEAR",
+    "op": "after",
+    "year": 1800,
+    "text": "It came after the year 1800"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "domain",
+    "value": "DOM_MUSIC",
+    "negate": false,
+    "text": "It is a work of music"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "SOLO",
+    "negate": false,
+    "text": "Its maker worked alone"
+   }
+  ]
+ },
+ {
+  "kind": "venn",
+  "id": "venn-16",
+  "title": "Cold Water Riddle",
+  "intro": "Water, ice and the timeless. Place the tiles, then name anything timeless tied to both cold and water.",
+  "rings": [
+   {
+    "facet": "SENSE_AQUATIC",
+    "label": "Tied to water"
+   },
+   {
+    "facet": "SENSE_COLD",
+    "label": "Tied to cold or ice"
+   },
+   {
+    "facet": "TIMELESS",
+    "label": "Timeless (no date)"
+   }
+  ],
+  "tiles": [
+   "E-0674",
+   "E-0004",
+   "E-0076",
+   "E-0135",
+   "E-0012",
+   "E-0627",
+   "E-0100"
+  ],
+  "brainstormSocket": true
+ },
+ {
+  "kind": "chrono",
+  "id": "chrono-16",
+  "title": "Leaps Across Ages",
+  "intro": "An epic, a craft, a powder, a novel and a game. Five gears, one order.",
+  "gears": [
+   "E-0114",
+   "E-0066",
+   "E-0067",
+   "E-0113",
+   "E-0140"
+  ],
+  "clues": [
+   {
+    "type": "BETWEEN",
+    "a": "E-0114",
+    "b": "E-0066",
+    "c": "E-0067"
+   },
+   {
+    "type": "BEFORE",
+    "a": "E-0067",
+    "b": "E-0140"
+   },
+   {
+    "type": "IMMEDIATELY_BEFORE",
+    "a": "E-0067",
+    "b": "E-0113"
+   }
+  ]
+ },
+ {
+  "kind": "forge",
+  "id": "forge-16",
+  "title": "Built on Water",
+  "intro": "Bridges, canals and towers by the sea. Offer three works of engineering tied to water.",
+  "constraints": [
+   {
+    "type": "SENSORY",
+    "tag": "AQUATIC",
+    "label": "Tied to water"
+   },
+   {
+    "type": "DOMAIN",
+    "domain": "DOM_ENGINEERING",
+    "label": "A work of architecture or engineering"
+   },
+   {
+    "type": "INITIALS",
+    "letters": [
+     "A",
+     "B",
+     "P",
+     "S",
+     "T"
+    ],
+    "label": "Starts with A, B, P, S or T"
+   }
+  ],
+  "answersNeeded": 3
+ },
+ {
+  "kind": "astrolabe",
+  "id": "astro-16",
+  "title": "The Coral Dial",
+  "intro": "Reefs, peaks and wonders from every shore. The riddles point to one.",
+  "answer": "E-0078",
+  "candidates": [
+   "E-0093",
+   "E-0078",
+   "E-0713",
+   "E-0779",
+   "E-0639",
+   "E-0080",
+   "E-0836",
+   "E-0077",
+   "E-0615"
+  ],
+  "clues": [
+   {
+    "type": "ATTR",
+    "attribute": "domain",
+    "value": "DOM_ENGINEERING",
+    "negate": true,
+    "text": "It is not a work of architecture or engineering"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "creator",
+    "value": "TRADITIONAL",
+    "negate": true,
+    "text": "It is not a product of anonymous human tradition"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "domain",
+    "value": "DOM_ANIMALS",
+    "negate": true,
+    "text": "It is not an animal"
+   },
+   {
+    "type": "ATTR",
+    "attribute": "region",
+    "value": "REG_OCEANIA",
+    "negate": false,
+    "text": "It comes from Oceania"
+   }
+  ]
  }
 ]

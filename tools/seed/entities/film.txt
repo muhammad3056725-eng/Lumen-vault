@@ -1,0 +1,96 @@
+# LUMEN VAULT curated entities — FILM
+# id|title|year|region|domain[/secondary]|creator|notability|facets|sensory|aliases
+# Region = country of the main production company. OSCAR = won at least one
+# COMPETITIVE Academy Award (honorary / special-achievement awards excluded,
+# so Toy Story and Total Recall carry no OSCAR facet).
+0001|Apollo 13|1995|NA|FILM|TEAM|88|OSCAR,SCIFI||apollo 13 film
+0002|The Matrix|1999|NA|FILM|DUO|95|OSCAR,SCIFI||matrix
+0003|Toy Story|1995|NA|FILM|TEAM|90|ANIM||toy story 1
+0004|Titanic|1997|NA|FILM|TEAM|97|OSCAR|AQUATIC,COLD|titanic film
+0005|Interstellar|2014|NA|FILM|TEAM|94|OSCAR,SCIFI|COLD|interstellar film
+0006|2001: A Space Odyssey|1968|NA|FILM|TEAM|93|OSCAR,SCIFI|COLD|space odyssey
+0007|Star Wars|1977|NA|FILM|TEAM|98|OSCAR,SCIFI|ARID|star wars a new hope;a new hope
+0008|E.T. the Extra-Terrestrial|1982|NA|FILM|TEAM|92|OSCAR,SCIFI|NOCTURNAL|et;e t
+0009|The Lord of the Rings: The Fellowship of the Ring|2001|NA|FILM|TEAM|95|OSCAR,FANT||fellowship of the ring;lord of the rings film
+0010|Harry Potter and the Philosopher's Stone|2001|EU|FILM|TEAM|93|FANT||harry potter film;sorcerers stone
+0011|Spirited Away|2001|AS|FILM|TEAM|94|ANIM,FANT,OSCAR||sen to chihiro
+0012|Frozen|2013|NA|FILM|TEAM|91|ANIM,FANT,OSCAR|COLD|frozen film;disney frozen
+0013|Snowpiercer|2013|AS|FILM|TEAM|84|SCIFI|COLD|
+0014|Gravity|2013|NA|FILM|TEAM|87|OSCAR,SCIFI|COLD|gravity film
+0015|The Martian|2015|NA|FILM|TEAM|88|SCIFI|COLD,ARID|martian film
+0016|Alien|1979|NA|FILM|TEAM|92|OSCAR,SCIFI|NOCTURNAL|alien film
+0017|WALL-E|2008|NA|FILM|TEAM|91|ANIM,OSCAR,SCIFI||walle
+0018|Jurassic Park|1993|NA|FILM|TEAM|95|OSCAR,SCIFI|VERDANT|
+0019|Back to the Future|1985|NA|FILM|TEAM|93|OSCAR,SCIFI||bttf
+0020|Pulp Fiction|1994|NA|FILM|TEAM|94|OSCAR||
+0021|The Lion King|1994|NA|FILM|TEAM|95|ANIM,OSCAR|GOLDEN|lion king
+0022|Casablanca|1942|NA|FILM|TEAM|93|OSCAR|NOCTURNAL|
+0023|Gone with the Wind|1939|NA|FILM|TEAM|90|OSCAR|FIRE|gwtw
+0024|Solaris|1972|EU|FILM|TEAM|82|SCIFI|COLD,AQUATIC|solaris film
+0025|Avatar|2009|NA|FILM|TEAM|94|OSCAR,SCIFI|VERDANT,GLOWING|avatar film
+0026|Inception|2010|NA|FILM|TEAM|93|OSCAR,SCIFI||
+0027|Parasite|2019|AS|FILM|TEAM|95|OSCAR|STORM|gisaengchung
+0028|Amélie|2001|EU|FILM|TEAM|88|||amelie;le fabuleux destin damelie poulain
+0029|Men in Black|1997|NA|FILM|TEAM|89|OSCAR,SCIFI||mib
+0030|Independence Day|1996|NA|FILM|TEAM|87|OSCAR,SCIFI|FIRE|id4
+0031|Terminator 2: Judgment Day|1991|NA|FILM|TEAM|93|OSCAR,SCIFI|FIRE|terminator 2;t2
+0032|Total Recall|1990|NA|FILM|TEAM|85|SCIFI|ARID|total recall 1990
+0033|Beauty and the Beast|1991|NA|FILM|TEAM|90|ANIM,FANT,OSCAR|GOLDEN|beauty and the beast 1991
+0034|Aladdin|1992|NA|FILM|TEAM|90|ANIM,FANT,OSCAR|ARID,FLIGHT|aladdin 1992
+0035|Pocahontas|1995|NA|FILM|TEAM|82|ANIM,OSCAR|VERDANT|pocahontas film
+0152|The Godfather|1972|NA|FILM|TEAM|96|OSCAR||godfather
+0153|Schindler's List|1993|NA|FILM|TEAM|94|OSCAR||
+0154|Fargo|1996|NA|FILM|TEAM|86|OSCAR|COLD|fargo film
+0155|The Thing|1982|NA|FILM|TEAM|83|SCIFI|COLD|the thing 1982
+0156|Ice Age|2002|NA|FILM|TEAM|86|ANIM|COLD|ice age film
+0157|Happy Feet|2006|NA|FILM|TEAM|80|ANIM,OSCAR|COLD,AQUATIC|
+0158|The Revenant|2015|NA|FILM|TEAM|87|OSCAR|COLD|
+0159|The Empire Strikes Back|1980|NA|FILM|TEAM|94|OSCAR,SCIFI|COLD|empire strikes back;star wars episode 5
+0160|The Shining|1980|NA|FILM|TEAM|90||COLD,NOCTURNAL|
+0161|Jaws|1975|NA|FILM|TEAM|92|OSCAR|AQUATIC|
+0162|Finding Nemo|2003|NA|FILM|TEAM|92|ANIM,OSCAR|AQUATIC|
+0163|The Little Mermaid|1989|NA|FILM|TEAM|88|ANIM,FANT,OSCAR|AQUATIC|little mermaid film
+0164|Moana|2016|NA|FILM|TEAM|87|ANIM,FANT|AQUATIC|
+0165|Ponyo|2008|AS|FILM|TEAM|80|ANIM,FANT|AQUATIC|
+0166|My Neighbor Totoro|1988|AS|FILM|TEAM|89|ANIM,FANT|VERDANT|totoro
+0167|Princess Mononoke|1997|AS|FILM|TEAM|88|ANIM,FANT|VERDANT|mononoke hime
+0168|Seven Samurai|1954|AS|FILM|TEAM|88||STORM|shichinin no samurai
+0169|Rashomon|1950|AS|FILM|TEAM|83||STORM|
+0170|Crouching Tiger, Hidden Dragon|2000|AS|FILM|TEAM|85|OSCAR,FANT|FLIGHT|crouching tiger
+0171|Life of Pi|2012|NA|FILM|TEAM|84|OSCAR|AQUATIC|
+0172|The Shape of Water|2017|NA|FILM|TEAM|82|OSCAR,FANT|AQUATIC|
+0173|Gladiator|2000|NA|FILM|TEAM|90|OSCAR||
+0174|Forrest Gump|1994|NA|FILM|TEAM|93|OSCAR||
+0175|The Wizard of Oz|1939|NA|FILM|TEAM|92|OSCAR,FANT|STORM|wizard of oz
+0176|Snow White and the Seven Dwarfs|1937|NA|FILM|TEAM|88|ANIM,FANT||snow white
+0177|Mary Poppins|1964|NA|FILM|TEAM|86|OSCAR,FANT|FLIGHT|
+0178|The Sound of Music|1965|NA|FILM|TEAM|88|OSCAR||
+0179|Lawrence of Arabia|1962|EU|FILM|TEAM|86|OSCAR|ARID|
+0180|Dune|2021|NA|FILM|TEAM|88|OSCAR,SCIFI|ARID|dune film;dune 2021
+0181|Mad Max: Fury Road|2015|OC|FILM|TEAM|88|OSCAR,SCIFI|ARID,FIRE|fury road
+0182|Blade Runner|1982|NA|FILM|TEAM|90|SCIFI|NOCTURNAL|
+0183|Metropolis|1927|EU|FILM|TEAM|84|SCIFI||metropolis 1927
+0184|A Trip to the Moon|1902|EU|FILM|TEAM|82|SCIFI||le voyage dans la lune
+0185|Close Encounters of the Third Kind|1977|NA|FILM|TEAM|84|OSCAR,SCIFI|NOCTURNAL|close encounters
+0186|Arrival|2016|NA|FILM|TEAM|84|OSCAR,SCIFI||arrival film
+0187|Up|2009|NA|FILM|TEAM|89|ANIM,OSCAR|FLIGHT|up pixar
+0188|Ratatouille|2007|NA|FILM|TEAM|86|ANIM,OSCAR||
+0189|Coco|2017|NA|FILM|TEAM|87|ANIM,FANT,OSCAR|NOCTURNAL|coco pixar
+0190|Inside Out|2015|NA|FILM|TEAM|86|ANIM,OSCAR||
+0191|Shrek|2001|NA|FILM|TEAM|89|ANIM,FANT,OSCAR||
+0192|Howl's Moving Castle|2004|AS|FILM|TEAM|85|ANIM,FANT|FLIGHT,FIRE|
+0193|Pan's Labyrinth|2006|EU|FILM|TEAM|84|OSCAR,FANT|NOCTURNAL|el laberinto del fauno
+0194|Cinema Paradiso|1988|EU|FILM|TEAM|80|OSCAR||nuovo cinema paradiso
+0195|La La Land|2016|NA|FILM|TEAM|86|OSCAR|NOCTURNAL|
+0196|Black Panther|2018|NA|FILM|TEAM|86|OSCAR,SCIFI||
+0197|Avengers: Endgame|2019|NA|FILM|TEAM|88|SCIFI||endgame
+0198|The Dark Knight|2008|NA|FILM|TEAM|93|OSCAR|NOCTURNAL|dark knight
+0199|Psycho|1960|NA|FILM|TEAM|86||NOCTURNAL|psycho 1960
+0200|Vertigo|1958|NA|FILM|TEAM|84|||
+0201|Citizen Kane|1941|NA|FILM|TEAM|88|OSCAR||
+0202|Singin' in the Rain|1952|NA|FILM|TEAM|84||AQUATIC|singing in the rain
+0203|Slumdog Millionaire|2008|EU|FILM|TEAM|83|OSCAR||
+0204|Life Is Beautiful|1997|EU|FILM|TEAM|84|OSCAR||la vita e bella
+0205|Pirates of the Caribbean: The Curse of the Black Pearl|2003|NA|FILM|TEAM|86|FANT|AQUATIC|pirates of the caribbean;curse of the black pearl
+0206|Encanto|2021|NA|FILM|TEAM|83|ANIM,FANT,OSCAR||
+0207|Top Gun|1986|NA|FILM|TEAM|85|OSCAR|FLIGHT|

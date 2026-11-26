@@ -1,0 +1,55 @@
+# LUMEN VAULT curated entities — VISUAL ART
+# Year = completion (or the commonly cited date). Anonymous works are TRAD.
+0100|Mona Lisa|1503|EU|ART|SOLO|99|PAINT||la gioconda
+0101|The Starry Night|1889|EU|ART|SOLO|97|PAINT|NOCTURNAL|starry night
+0102|The Great Wave off Kanagawa|1831|AS|ART|SOLO|94|PAINT|AQUATIC,STORM|great wave;kanagawa wave
+0103|Guernica|1937|EU|ART|SOLO|92|PAINT|FIRE|picasso guernica
+0104|The Persistence of Memory|1931|EU|ART|SOLO|91|PAINT|ARID|melting clocks
+0105|Sunflowers|1888|EU|ART|SOLO|90|PAINT|GOLDEN|van gogh sunflowers
+0106|Girl with a Pearl Earring|1665|EU|ART|SOLO|93|PAINT||pearl earring
+0107|The Scream|1893|EU|ART|SOLO|93|PAINT|FIRE|munch scream
+0108|David (Michelangelo)|1504|EU|ART|SOLO|95|SCULPT||michelangelos david;david statue
+0109|The Night Watch|1642|EU|ART|SOLO|90|PAINT||rembrandt night watch
+0361|The Last Supper|1498|EU|ART|SOLO|94|PAINT||last supper
+0362|The Birth of Venus|1485|EU|ART|SOLO|91|PAINT|AQUATIC|birth of venus
+0363|The Creation of Adam|1512|EU|ART|SOLO|92|PAINT||creation of adam
+0364|The School of Athens|1511|EU|ART|SOLO|85|PAINT||school of athens
+0365|Impression, Sunrise|1872|EU|ART|SOLO|86|PAINT|AQUATIC|impression soleil levant
+0366|The Kiss|1908|EU|ART|SOLO|88|PAINT|GOLDEN|klimt kiss;the kiss klimt
+0367|Portrait of Adele Bloch-Bauer I|1907|EU|ART|SOLO|80|PAINT|GOLDEN|woman in gold;golden adele
+0368|American Gothic|1930|NA|ART|SOLO|85|PAINT||
+0369|Nighthawks|1942|NA|ART|SOLO|86|PAINT|NOCTURNAL|nighthawks hopper
+0370|Christina's World|1948|NA|ART|SOLO|78|PAINT|GOLDEN|christinas world
+0371|Campbell's Soup Cans|1962|NA|ART|SOLO|82|PAINT||campbells soup cans;soup cans
+0372|Las Meninas|1656|EU|ART|SOLO|85|PAINT||
+0373|Liberty Leading the People|1830|EU|ART|SOLO|84|PAINT|FIRE|
+0374|The Raft of the Medusa|1819|EU|ART|SOLO|80|PAINT|AQUATIC,STORM|raft of the medusa
+0375|The Fighting Temeraire|1839|EU|ART|SOLO|78|PAINT|AQUATIC,GOLDEN|fighting temeraire
+0376|Wanderer above the Sea of Fog|1818|EU|ART|SOLO|82|PAINT|COLD|wanderer above the sea of fog
+0377|The Ninth Wave|1850|EU|ART|SOLO|76|PAINT|AQUATIC,STORM|ninth wave aivazovsky
+0378|Café Terrace at Night|1888|EU|ART|SOLO|82|PAINT|NOCTURNAL,GOLDEN|cafe terrace at night
+0379|Starry Night Over the Rhône|1888|EU|ART|SOLO|80|PAINT|NOCTURNAL,AQUATIC|starry night over the rhone
+0380|The Sleeping Gypsy|1897|EU|ART|SOLO|76|PAINT|NOCTURNAL,ARID|sleeping gypsy
+0381|A Sunday Afternoon on the Island of La Grande Jatte|1886|EU|ART|SOLO|82|PAINT|AQUATIC,VERDANT|la grande jatte;sunday afternoon
+0382|Bathers at Asnières|1884|EU|ART|SOLO|74|PAINT|AQUATIC|bathers at asnieres
+0383|Ophelia|1852|EU|ART|SOLO|78|PAINT|AQUATIC,VERDANT|ophelia millais
+0384|The Hay Wain|1821|EU|ART|SOLO|78|PAINT|AQUATIC,VERDANT|hay wain
+0385|Hunters in the Snow|1565|EU|ART|SOLO|80|PAINT|COLD|
+0386|The Arnolfini Portrait|1434|EU|ART|SOLO|80|PAINT||arnolfini portrait
+0387|Les Demoiselles d'Avignon|1907|EU|ART|SOLO|80|PAINT||demoiselles davignon
+0388|The Son of Man|1964|EU|ART|SOLO|80|PAINT||son of man magritte
+0389|The Two Fridas|1939|NA|ART|SOLO|80|PAINT||two fridas;las dos fridas
+0390|The Garden of Earthly Delights||EU|ART|SOLO|84|PAINT|VERDANT|garden of earthly delights
+0391|Water Lilies||EU|ART|SOLO|88|PAINT|AQUATIC,VERDANT|nympheas;monet water lilies
+0392|Venus de Milo|-130|EU|ART|TRAD|88|SCULPT||aphrodite of milos
+0393|The Thinker|1904|EU|ART|SOLO|88|SCULPT||le penseur;rodin thinker
+0394|Pietà|1499|EU|ART|SOLO|86|SCULPT||pieta;michelangelo pieta
+0395|Winged Victory of Samothrace|-190|EU|ART|TRAD|80|SCULPT|FLIGHT|nike of samothrace
+0396|Terracotta Army|-210|AS|ART/ENG|TEAM|92|SCULPT||terracotta warriors
+0397|Bust of Nefertiti|-1345|AF|ART|SOLO|85|SCULPT|GOLDEN|nefertiti bust
+0398|Moai||OC|ART|TRAD|86|SCULPT||easter island heads;moai statues
+0399|Cloud Gate|2006|NA|ART|SOLO|80|SCULPT||the bean
+0400|Girl with Balloon|2002|EU|ART|SOLO|80|PAINT|FLIGHT|banksy balloon girl
+0401|Composition with Red, Blue and Yellow|1930|EU|ART|SOLO|78|PAINT||mondrian composition
+0402|The Garden at Sainte-Adresse|1867|EU|ART|SOLO|72|PAINT|AQUATIC|
+0403|Tutankhamun's Mask|-1323|AF|ART|TRAD|92|SCULPT|GOLDEN|mask of tutankhamun;king tut mask

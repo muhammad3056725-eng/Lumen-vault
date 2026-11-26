@@ -1,42 +1,122 @@
 [
  {
+  "id": "wing-cinema",
+  "title": "Cinema & Sound",
+  "theme": "Projected light and the music of the spheres.",
+  "chambers": [
+   "venn-01",
+   "chrono-01",
+   "forge-01",
+   "astro-01",
+   "venn-02",
+   "chrono-02",
+   "forge-02",
+   "astro-02"
+  ]
+ },
+ {
+  "id": "wing-inventions",
+  "title": "Inventions & Science",
+  "theme": "Ideas that rewired the world.",
   "chambers": [
    "venn-03",
-   "chrono-04",
-   "forge-01"
-  ],
-  "id": "wing-cinema",
-  "theme": "Projected light and the music of the spheres.",
-  "title": "Cinema & Sound"
- },
- {
-  "chambers": [
+   "chrono-03",
+   "forge-03",
+   "astro-03",
    "venn-04",
-   "chrono-02",
-   "chrono-03"
-  ],
-  "id": "wing-inventions",
-  "theme": "Ideas that rewired the world.",
-  "title": "Inventions & Science"
+   "chrono-04",
+   "forge-04",
+   "astro-04"
+  ]
  },
  {
+  "id": "wing-myth",
+  "title": "Myth & World Wonders",
+  "theme": "Old stones, older stories.",
   "chambers": [
    "venn-05",
-   "forge-04",
-   "astro-03"
-  ],
-  "id": "wing-myth",
-  "theme": "Old stones, older stories.",
-  "title": "Myth & World Wonders"
+   "chrono-05",
+   "forge-05",
+   "astro-05",
+   "venn-06",
+   "chrono-06",
+   "forge-06",
+   "astro-06"
+  ]
  },
  {
+  "id": "wing-letters",
+  "title": "Art & Letters",
+  "theme": "Ink, oil and the long memory of stories.",
   "chambers": [
-   "forge-02",
-   "forge-03",
-   "astro-02"
-  ],
+   "venn-07",
+   "chrono-07",
+   "forge-07",
+   "astro-07",
+   "venn-08",
+   "chrono-08",
+   "forge-08",
+   "astro-08"
+  ]
+ },
+ {
+  "id": "wing-wild",
+  "title": "Wild Earth",
+  "theme": "Fur, fin, ice and the threads of life.",
+  "chambers": [
+   "venn-09",
+   "chrono-09",
+   "forge-09",
+   "astro-09",
+   "venn-10",
+   "chrono-10",
+   "forge-10",
+   "astro-10"
+  ]
+ },
+ {
+  "id": "wing-stars",
+  "title": "Stars & Machines",
+  "theme": "Rockets, probes and patient telescopes.",
+  "chambers": [
+   "venn-11",
+   "chrono-11",
+   "forge-11",
+   "astro-11",
+   "venn-12",
+   "chrono-12",
+   "forge-12",
+   "astro-12"
+  ]
+ },
+ {
+  "id": "wing-play",
+  "title": "Hearth & Play",
+  "theme": "Feasts, games and the joy of the contest.",
+  "chambers": [
+   "venn-13",
+   "chrono-13",
+   "forge-13",
+   "astro-13",
+   "venn-14",
+   "chrono-14",
+   "forge-14",
+   "astro-14"
+  ]
+ },
+ {
   "id": "wing-lateral",
+  "title": "Lateral Riddles",
   "theme": "Sideways thinking, gently lit.",
-  "title": "Lateral Riddles"
+  "chambers": [
+   "venn-15",
+   "chrono-15",
+   "forge-15",
+   "astro-15",
+   "venn-16",
+   "chrono-16",
+   "forge-16",
+   "astro-16"
+  ]
  }
 ]

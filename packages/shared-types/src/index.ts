@@ -1,12 +1,11 @@
 /**
- * LUMEN VAULT — shared schema definitions (Blueprint §5 entity schema,
- * §2 chamber types, §3/S3 Wonder Artifact Cards).
+ * LUMEN VAULT — shared schema definitions.
  *
  * Entity facets drive every lock type:
- *  - Venn rings test membership in a named facet set (`facets`).
- *  - Chrono gears order entities by `era_year` under relational clues.
- *  - Astrolabe attributes are region / era / domain / creator_type.
- *  - Resonance Forge constraints test sensory tags, domain, initials.
+ *  - Venn rings test membership in a named facet (`facets`).
+ *  - Chrono gears are ordered by `era_year`, deduced from relational clues.
+ *  - Astrolabe riddles test region / era / domain / creator type / year.
+ *  - Resonance Forge runes test sensory tags, domains, facets and initials.
  */
 
 export type RegionId =
@@ -31,7 +30,7 @@ export interface Entity {
   entity_id: string;
   canonical_title: string;
   aliases: string[];
-  /** Anchor year: release / invention / founding / occurrence. Negative = BCE. */
+  /** Anchor year: release / invention / founding / occurrence. Negative = BCE. Null = timeless. */
   era_year: number | null;
   region_id: RegionId;
   primary_domain: string;
@@ -40,8 +39,10 @@ export interface Entity {
   /** 0..100 — drives Creative Spark rarity (lower = rarer answer). */
   notability_score: number;
   sensory_tags: string[];
-  /** Named boolean facets tested by Venn rings, e.g. "DECADE_1990S". */
+  /** Named boolean facets tested by Venn rings and forge runes, e.g. "DECADE_1990S". */
   facets: string[];
+  /** Present only on entities that came from the Wikidata pipeline. */
+  wikidata_id?: string;
 }
 
 /** Era buckets used by the Astrolabe's Era attribute. */
@@ -64,7 +65,7 @@ export function eraBucket(year: number | null): EraBucket | null {
 }
 
 /* ------------------------------------------------------------------ */
-/* Chambers (Blueprint §2)                                             */
+/* Chambers                                                            */
 /* ------------------------------------------------------------------ */
 
 export type ChamberKind = "venn" | "chrono" | "forge" | "astrolabe";
@@ -80,17 +81,24 @@ export interface VennChamberSpec {
   title: string;
   intro: string;
   rings: VennRing[]; // 2 or 3
-  /** Entity ids of the draggable vellum tiles. */
+  /** Entity ids of the draggable vellum tiles. Several tiles may share a region. */
   tiles: string[];
-  /** 3-ring chambers only: typed answer must satisfy ALL rings (H3: ≥15 valid in dictionary). */
+  /** 3-ring chambers only: a typed answer must satisfy ALL rings (≥15 valid in the dictionary). */
   brainstormSocket: boolean;
 }
 
+/**
+ * Relational chrono clues. `a`, `b`, `c` are entity ids of gears; every
+ * clue is checked against the gears' true chronological positions.
+ */
 export type ChronoClue =
-  | { type: "GAP_YEARS"; a: number; b: number; years: number } // gear b happened `years` after gear a
-  | { type: "SAME_REGION"; a: number; b: number }
-  | { type: "BEFORE_YEAR_COUNT"; year: number; count: number } // exactly `count` gears before `year`
-  | { type: "IMMEDIATELY_BEFORE"; a: number; b: number };
+  | { type: "BEFORE"; a: string; b: string }
+  | { type: "IMMEDIATELY_BEFORE"; a: string; b: string }
+  | { type: "GAP_YEARS"; a: string; b: string; years: number }
+  | { type: "FIRST"; a: string }
+  | { type: "LAST"; a: string }
+  | { type: "NOT_ADJACENT"; a: string; b: string }
+  | { type: "BETWEEN"; a: string; b: string; c: string };
 
 export interface ChronoChamberSpec {
   kind: "chrono";
@@ -105,6 +113,7 @@ export interface ChronoChamberSpec {
 export type ForgeConstraint =
   | { type: "SENSORY"; tag: string; label: string }
   | { type: "DOMAIN"; domain: string; label: string }
+  | { type: "FACET"; facet: string; label: string }
   | { type: "INITIALS"; letters: string[]; label: string };
 
 export interface ForgeChamberSpec {
@@ -118,13 +127,10 @@ export interface ForgeChamberSpec {
 
 export type AstrolabeAttribute = "region" | "era" | "domain" | "creator";
 
-export interface AstrolabeFilter {
-  attribute: AstrolabeAttribute;
-  /** Keep candidates whose attribute equals `keep` (true) or differs (false). */
-  keep: boolean;
-  value: string;
-  label: string;
-}
+/** A riddle plaque: a true statement about the hidden artifact. */
+export type AstrolabeClue =
+  | { type: "ATTR"; attribute: AstrolabeAttribute; value: string; negate: boolean; text: string }
+  | { type: "YEAR"; op: "before" | "after"; year: number; text: string };
 
 export interface AstrolabeChamberSpec {
   kind: "astrolabe";
@@ -133,9 +139,9 @@ export interface AstrolabeChamberSpec {
   intro: string;
   /** Entity id of the hidden artifact. */
   answer: string;
-  /** Candidate entity ids shown as dial sectors (includes the answer). */
+  /** Candidate entity ids shown on the dial (includes the answer). */
   candidates: string[];
-  filters: AstrolabeFilter[];
+  clues: AstrolabeClue[];
 }
 
 export type ChamberSpec =
@@ -145,16 +151,16 @@ export type ChamberSpec =
   | AstrolabeChamberSpec;
 
 /* ------------------------------------------------------------------ */
-/* Wonder Artifact Cards (Blueprint §2 / S3)                           */
+/* Wonder Artifact Cards                                               */
 /* ------------------------------------------------------------------ */
 
 export interface ArtifactCard {
   id: string;
   chamberId: string;
   name: string;
-  /** Short vector-motif key rendered by the web app (no raster art). */
+  /** "glyph:frame" — a vector motif rendered by the web app (no raster art). Unique per card. */
   motif: string;
-  /** Exactly 2 sentences of curated lore (S3). */
+  /** Exactly 2 sentences of curated lore. */
   lore: string;
 }
 
@@ -162,14 +168,14 @@ export interface WingSpec {
   id: string;
   title: string;
   theme: string;
-  /** Ordered chamber ids; the constellation branches by listing nodes. */
+  /** Ordered chamber ids; every chamber belongs to exactly one wing. */
   chambers: string[];
 }
 
 export interface DailyVault {
   date: string; // YYYY-MM-DD (UTC)
-  number: number; // vault number, days since launch epoch
-  chambers: string[]; // 5 chamber ids, pacing curve M1
+  number: number; // vault number, days since launch epoch + 1
+  chambers: string[]; // 5 chamber ids on the pacing curve
 }
 
 export interface DataManifest {

@@ -1,0 +1,45 @@
+# LUMEN VAULT curated entities — SPACE EXPLORATION
+# Year = launch. Soviet missions are listed under Europe (designed and built
+# around Moscow); creator AGENCY = a government space agency/programme
+# (NASA, ESA, the Soviet programme, ISRO, CNSA, JAXA). Hubble and the ISS
+# are agency projects, so they carry AGENCY too.
+0045|Voyager 1|1977|NA|SPACE/ENG|AGENCY|98|SCIFI|COLD,NOCTURNAL,GOLDEN|voyager 1 space probe;voyager one
+0046|Apollo 11|1969|NA|SPACE|AGENCY|99|SCIFI||apollo eleven;moon landing
+0047|Hubble Space Telescope|1990|NA|SPACE|AGENCY|93|SCIFI|COLD,NOCTURNAL|hubble;hst
+0048|James Webb Space Telescope|2021|NA|SPACE|AGENCY|94|SCIFI|COLD,NOCTURNAL,GOLDEN|jwst;webb telescope
+0049|Sputnik 1|1957|EU|SPACE|AGENCY|92|SCIFI|COLD|sputnik
+0050|International Space Station|1998|GL|SPACE|AGENCY|93|SCIFI||iss;space station
+0051|Curiosity Rover|2011|NA|SPACE|AGENCY|89|SCIFI|COLD,ARID|curiosity;msl
+0052|Perseverance Rover|2020|NA|SPACE|AGENCY|88|SCIFI|COLD,ARID|perseverance;mars 2020
+0053|Cassini–Huygens|1997|NA|SPACE|AGENCY|87|SCIFI|COLD|cassini;cassini huygens
+0054|Vostok 1|1961|EU|SPACE|AGENCY|91|SCIFI||gagarin flight;yuri gagarin
+0511|Apollo 8|1968|NA|SPACE|AGENCY|84|SCIFI|NOCTURNAL|earthrise mission
+0512|Luna 2|1959|EU|SPACE|AGENCY|74|SCIFI||
+0513|Vostok 6|1963|EU|SPACE|AGENCY|78|SCIFI||tereshkova flight;valentina tereshkova
+0514|Mir|1986|EU|SPACE|AGENCY|82|SCIFI||mir space station
+0515|Skylab|1973|NA|SPACE|AGENCY|78|SCIFI||
+0516|Space Shuttle|1981|NA|SPACE|AGENCY|88|SCIFI|FIRE,FLIGHT|space shuttle columbia;sts 1
+0517|Viking 1|1975|NA|SPACE|AGENCY|78|SCIFI|ARID,COLD|
+0518|Pioneer 10|1972|NA|SPACE|AGENCY|78|SCIFI|COLD|
+0519|Voyager 2|1977|NA|SPACE|AGENCY|86|SCIFI|COLD,GOLDEN|voyager two
+0520|New Horizons|2006|NA|SPACE|AGENCY|84|SCIFI|COLD|
+0521|Rosetta|2004|EU|SPACE|AGENCY|80|SCIFI|COLD|rosetta probe
+0522|Chandrayaan-3|2023|AS|SPACE|AGENCY|82|SCIFI||chandrayaan 3
+0523|Chang'e 4|2018|AS|SPACE|AGENCY|78|SCIFI|NOCTURNAL|change 4
+0524|Hayabusa|2003|AS|SPACE|AGENCY|76|SCIFI||hayabusa probe
+0525|Tiangong Space Station|2021|AS|SPACE|AGENCY|78|SCIFI||tiangong
+0526|Kepler Space Telescope|2009|NA|SPACE|AGENCY|80|SCIFI|NOCTURNAL|kepler telescope
+0527|Mars Pathfinder|1996|NA|SPACE|AGENCY|78|SCIFI|ARID|sojourner rover;pathfinder
+0528|Opportunity Rover|2003|NA|SPACE|AGENCY|82|SCIFI|ARID,COLD|opportunity;oppy
+0529|Juno|2011|NA|SPACE|AGENCY|76|SCIFI|STORM|juno probe
+0530|Galileo Probe|1989|NA|SPACE|AGENCY|74|SCIFI||galileo spacecraft
+0531|Parker Solar Probe|2018|NA|SPACE|AGENCY|80|SCIFI|FIRE,GLOWING|parker probe
+0532|Falcon 9|2010|NA|SPACE/ENG|TEAM|84|SCIFI|FIRE,FLIGHT|spacex falcon 9
+0533|Mariner 4|1964|NA|SPACE|AGENCY|72|SCIFI|ARID|
+0534|Venera 7|1970|EU|SPACE|AGENCY|72|SCIFI|FIRE|
+0535|Explorer 1|1958|NA|SPACE|AGENCY|78|SCIFI||
+0536|Salyut 1|1971|EU|SPACE|AGENCY|72|SCIFI||
+0537|Gaia|2013|EU|SPACE|AGENCY|72|SCIFI|NOCTURNAL|gaia telescope
+0538|Mars Express|2003|EU|SPACE|AGENCY|70|SCIFI|ARID,COLD|
+0539|Ingenuity Helicopter|2020|NA|SPACE|AGENCY|80|SCIFI|FLIGHT,ARID|ingenuity
+0540|Apollo 13 Mission|1970|NA|SPACE|AGENCY|86|SCIFI|COLD|apollo 13 mission

@@ -1,9 +1,9 @@
 # LUMEN VAULT — Wikidata data build.
-# Pulls entities + relations from Wikidata, rebuilds the dictionary
-# (facets tagged, trie shards recompiled), validates every chamber
-# with the H3 solvability proof, and commits the enlarged dataset —
-# which then flows into the Pages deploy. Real counts are printed in
-# the run log by each step; nothing is extrapolated.
+# Pulls notable works from Wikidata (ordered by sitelinks, adult genres
+# excluded), appends genuinely new ones to tools/seed/ingested.json,
+# rebuilds public/data/v1 with `npm run data` (which re-proves every
+# chamber), runs the full test suite, commits, and then deploys via the
+# Pages workflow. The curated seed is never overwritten.
 name: Wikidata Data Build
 on:
   workflow_dispatch:
@@ -11,7 +11,11 @@ on:
       limit:
         description: "Max Wikidata rows per class"
         required: false
-        default: "1000"
+        default: "300"
+      min_sitelinks:
+        description: "Minimum Wikipedia sitelinks for an item to be admitted"
+        required: false
+        default: "40"
   schedule:
     - cron: "0 4 1 * *" # monthly, 04:00 UTC on the 1st
 permissions:
@@ -19,32 +23,50 @@ permissions:
 jobs:
   grow-dataset:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install pipeline dependencies
-        run: pip install -r pipeline/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: pip install -r pipeline/requirements.txt
+      - run: npm ci
       - name: Ingest from Wikidata
-        run: python3 pipeline/ingest_wikidata.py --limit ${{ inputs.limit || '1000' }}
-      - name: Tag facets and merge into the shipped dataset
+        run: python pipeline/ingest_wikidata.py --limit ${{ inputs.limit || '300' }} --min-sitelinks ${{ inputs.min_sitelinks || '40' }}
+      - name: Tag facets and append new entities to tools/seed/ingested.json
+        run: python pipeline/tag_facets.py --merge
+      - name: Rebuild and re-prove the dataset
+        run: npm run data
+      - name: Validate (solvability proofs + all tests)
         run: |
-          python3 pipeline/tag_facets.py --merge
-          python3 pipeline/compile_shards.py
-      - name: Validate (H3 solvability proof + pipeline tests)
-        run: |
-          python3 pipeline/verify_solvability.py
-          python3 -m pytest pipeline/tests -q
-      - name: Commit and push the enlarged dataset
+          python pipeline/verify_solvability.py
+          npm test
+        env:
+          CI: "true"
+      - name: Commit the enlarged dataset
+        id: commit
         run: |
           git config user.name "LumenVault-Bot"
-          git config user.email "bot@lumenvault.app"
-          git add public/data/v1
+          git config user.email "lumenvault-bot@users.noreply.github.com"
+          git add tools/seed/ingested.json public/data/v1
           if git diff --cached --quiet; then
             echo "Dataset unchanged — nothing to publish."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "data(wikidata): enlarge entity dictionary [skip ci]"
-            git push origin main
+            git commit -m "data(wikidata): enlarge entity dictionary"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-          
+  deploy:
+    needs: grow-dataset
+    if: needs.grow-dataset.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

@@ -1,0 +1,47 @@
+# LUMEN VAULT curated entities — FOOD & DRINK (origins are traditional; no single date)
+0143|Pizza||EU|FOOD|TRAD|95|||neapolitan pizza;pizza margherita
+0144|Sushi||AS|FOOD|TRAD|93||AQUATIC|nigiri
+0145|Croissant||EU|FOOD|TRAD|90||GOLDEN|
+0146|Chocolate||NA|FOOD|TRAD|93||SWEET|cacao;cocoa
+0147|Coffee||AF|FOOD|TRAD|94||FIRE|coffee beans;arabica
+0148|Ice Cream||GL|FOOD|TRAD|92||COLD,SWEET|icecream;gelato
+0831|Tiramisu||EU|FOOD|TRAD|86||SWEET|tiramisu cake
+0832|Baklava||ME|FOOD|TRAD|84||SWEET,GOLDEN|
+0833|Mochi||AS|FOOD|TRAD|82||SWEET|
+0834|Churros||EU|FOOD|TRAD|84||SWEET,GOLDEN|churro
+0835|Crème Brûlée||EU|FOOD|TRAD|82||SWEET,FIRE|creme brulee
+0836|Pavlova||OC|FOOD|TRAD|78||SWEET|
+0837|Macaron||EU|FOOD|TRAD|82||SWEET|macarons
+0838|Gulab Jamun||AS|FOOD|TRAD|76||SWEET,GOLDEN|
+0839|Maple Syrup||NA|FOOD|TRAD|82||SWEET,GOLDEN|
+0840|Honey||GL|FOOD|NATURE|88||SWEET,GOLDEN|
+0841|Kimchi||AS|FOOD|TRAD|84||SPICY|
+0842|Vindaloo||AS|FOOD|TRAD|76||SPICY,FIRE|vindaloo curry
+0843|Chili con Carne||NA|FOOD|TRAD|80||SPICY,FIRE|chili;chilli con carne
+0844|Tom Yum||AS|FOOD|TRAD|78||SPICY,AQUATIC|tom yum goong
+0845|Mapo Tofu||AS|FOOD|TRAD|76||SPICY,FIRE|
+0846|Jambalaya||NA|FOOD|TRAD|76||SPICY|
+0847|Harissa||AF|FOOD|TRAD|72||SPICY,FIRE|
+0848|Wasabi||AS|FOOD|TRAD|80||SPICY|
+0849|Tacos||NA|FOOD|TRAD|90|||taco
+0850|Paella||EU|FOOD|TRAD|86||GOLDEN|paella valenciana
+0851|Fish and Chips||EU|FOOD|TRAD|86||AQUATIC,GOLDEN|fish n chips
+0852|Ceviche||SA|FOOD|TRAD|80||AQUATIC,COLD|cebiche
+0853|Bouillabaisse||EU|FOOD|TRAD|74||AQUATIC|
+0854|Baguette||EU|FOOD|TRAD|86||GOLDEN|french bread
+0855|Ramen||AS|FOOD|TRAD|90||FIRE|
+0856|Pho||AS|FOOD|TRAD|84|||pho bo
+0857|Hummus||ME|FOOD|TRAD|84|||houmous
+0858|Falafel||ME|FOOD|TRAD|82||GOLDEN|
+0859|Gazpacho||EU|FOOD|TRAD|78||COLD|
+0860|Kakigōri||AS|FOOD|TRAD|70||COLD,SWEET|kakigori;shaved ice
+0861|Fondue||EU|FOOD|TRAD|80||FIRE|cheese fondue
+0862|Sichuan Hot Pot||AS|FOOD|TRAD|76||SPICY,FIRE|hot pot;hotpot
+0863|Green Tea||AS|FOOD|TRAD|86||VERDANT|matcha
+0864|Curry||AS|FOOD|TRAD|90||SPICY|
+0865|Dumplings||AS|FOOD|TRAD|86|||jiaozi;dumpling
+0866|Popcorn||NA|FOOD|TRAD|86||FIRE,GOLDEN|
+0867|Bubble Tea||AS|FOOD|TRAD|82||SWEET,COLD|boba;boba tea
+0868|Sorbet||ME|FOOD|TRAD|76||COLD,SWEET|sherbet
+0869|Borscht||EU|FOOD|TRAD|76|||borsch
+0870|Lemonade||GL|FOOD|TRAD|80||COLD|

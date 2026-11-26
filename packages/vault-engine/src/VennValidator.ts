@@ -1,8 +1,9 @@
 /**
- * VennValidator (Blueprint §2 Chamber Type A, §4 S4).
+ * VennValidator (Chamber Type A).
  * A tile's region is the bitmask of rings whose facet the entity
  * holds; bit i corresponds to rings[i]. Placement is correct iff the
- * chosen region equals the entity's true region.
+ * chosen region equals the entity's true region. Any number of tiles
+ * may share a region — every region socket holds as many as belong.
  */
 import type { Entity, VennChamberSpec, VennRing } from "@lumen-vault/shared-types";
 
@@ -18,11 +19,12 @@ export function regionOf(entity: Entity, rings: readonly VennRing[]): number {
   return mask;
 }
 
-/** Human label for a region bitmask, e.g. "Ring 1 + Ring 3 only". */
+/** Human label for a region bitmask, e.g. "Released in the 1990s + Won an Oscar". */
 export function regionLabel(mask: number, rings: readonly VennRing[]): string {
   if (mask === 0) return "outside every ring";
   const names = rings.filter((_, i) => mask & (1 << i)).map((r) => r.label);
-  return names.join(" + ");
+  const only = mask !== (1 << rings.length) - 1 && rings.length > 1 ? " only" : "";
+  return names.join(" + ") + only;
 }
 
 export interface VennValidation {

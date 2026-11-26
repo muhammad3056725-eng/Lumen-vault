@@ -3,18 +3,23 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
-import type { ChamberSpec, Entity } from "@lumen-vault/shared-types";
+import type { ArtifactCard, ChamberSpec, Entity, WingSpec } from "@lumen-vault/shared-types";
 import {
   normalizeInput,
   containsProfanity,
   matchEntity,
+  letterCount,
   regionOf,
   validatePlacements,
   satisfiesAllRings,
   solveChrono,
   validateArrangement,
-  clueHolds,
-  applyFilters,
+  countOrderings,
+  clueIsTrue,
+  yearsBetween,
+  generateChronoClues,
+  remainingCandidates,
+  verifyAstrolabe,
   evaluateForgeAnswer,
   forgePool,
   verifyAllChambers,
@@ -22,153 +27,225 @@ import {
   logicPrecisionBonus,
   creativeSparkBonus,
   prismsEarned,
+  starsFor,
   renderShareCard,
+  dailyVaultFor,
+  dailyNumber,
+  fnv1a,
   MIN_BRAINSTORM_ANSWERS,
+  MIN_FORGE_POOL,
 } from "../src/index.js";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(here, "..", "..", "..", "public", "data", "v1");
-const entities = JSON.parse(readFileSync(join(dataDir, "entities.json"), "utf8")) as Entity[];
-const chambers = JSON.parse(readFileSync(join(dataDir, "chambers.json"), "utf8")) as ChamberSpec[];
+const read = <T,>(f: string) => JSON.parse(readFileSync(join(dataDir, f), "utf8")) as T;
+const entities = read<Entity[]>("entities.json");
+const chambers = read<ChamberSpec[]>("chambers.json");
+const wings = read<WingSpec[]>("wings.json");
+const artifacts = read<ArtifactCard[]>("artifacts.json");
 const byId = new Map(entities.map((e) => [e.entity_id, e]));
-const chamber = (id: string) => chambers.find((c) => c.id === id)!;
+const idOf = (title: string, domain?: string) =>
+  entities.find((e) => e.canonical_title === title && (!domain || e.primary_domain === domain))!.entity_id;
 
-describe("normalize (H6/M3)", () => {
-  test("NFKC, case, articles and punctuation", () => {
+describe("normalize & matching", () => {
+  test("NFKD folding, apostrophes, articles, numbers", () => {
     expect(normalizeInput("  The  MATRIX!! ")).toBe("matrix");
     expect(normalizeInput("ＷＡＬＬ－Ｅ")).toBe("wall e");
-    expect(normalizeInput("An American Tail")).toBe("american tail");
+    expect(normalizeInput("Schindler's List")).toBe("schindlers list");
+    expect(normalizeInput("Amélie")).toBe("amelie");
+    expect(normalizeInput("Apollo Thirteen")).toBe("apollo 13");
+    expect(normalizeInput("Street Fighter II")).toBe("street fighter 2");
   });
-  test("profanity is scrubbed", () => {
-    expect(containsProfanity(normalizeInput("what the shit"))).toBe(true);
+  test("profanity filter runs only after matching (Moby-Dick is a title)", () => {
+    expect(matchEntity("Moby Dick", entities)?.entityId).toBe("E-0112");
     expect(matchEntity("shit", entities)).toBeNull();
+    expect(containsProfanity(normalizeInput("what the shit"))).toBe(true);
   });
-  test("canonical, alias and acronym matching", () => {
-    expect(matchEntity("apollo 13", entities)?.entityId).toBe(byId.get("E-0001")!.entity_id);
+  test("canonical, alias, diacritics, apostrophes", () => {
     expect(matchEntity("JWST", entities)?.via).toBe("alias");
-    expect(matchEntity("the lord of the rings", entities)?.entityId).toBe("E-0110");
-    // acronym: ISS -> International Space Station alias covers it
-    expect(matchEntity("iss", entities)).not.toBeNull();
-  });
-  test("fuzzy tolerance: edit distance <= 1 for length >= 6", () => {
+    expect(matchEntity("amelie", entities)?.entityId).toBe("E-0028");
+    expect(matchEntity("schindlers list", entities)?.entityId).toBe(idOf("Schindler's List"));
     expect(matchEntity("interstelar", entities)?.entityId).toBe("E-0005");
+  });
+  test("token-subset partial matching", () => {
+    expect(matchEntity("night music", entities)?.entityId).toBe(idOf("Eine kleine Nachtmusik"));
+    expect(matchEntity("pyramids", entities)?.entityId).toBe(idOf("Pyramids of Giza"));
     expect(matchEntity("xyzzy nonsense", entities)).toBeNull();
+  });
+  test("acronyms need 3+ letters and 3+ word titles", () => {
+    expect(matchEntity("me", entities)).toBeNull();
+    expect(matchEntity("lotr", entities)).not.toBeNull();
+  });
+  test("same-title disambiguation by the chamber's constraints", () => {
+    const novel = idOf("Dune", "DOM_LITERATURE");
+    const film = idOf("Dune", "DOM_FILM");
+    expect(matchEntity("Dune", entities, (id) => id === novel)?.entityId).toBe(novel);
+    expect(matchEntity("Dune", entities, (id) => id === film)?.entityId).toBe(film);
+    const mission = idOf("Apollo 13 Mission");
+    expect(matchEntity("Apollo 13", entities, (id) => byId.get(id)!.primary_domain === "DOM_SPACE_EXPLORATION")?.entityId).toBe(mission);
+  });
+  test("letter count ignores spaces", () => {
+    expect(letterCount("Blue Whale")).toBe(9);
   });
 });
 
-describe("H3 solvability proof over the shipped dataset", () => {
+describe("dataset shape", () => {
+  test("scale: ≥600 entities, ≥60 chambers, ≥15 per type, ≥6 wings", () => {
+    expect(entities.length).toBeGreaterThanOrEqual(600);
+    expect(chambers.length).toBeGreaterThanOrEqual(60);
+    for (const k of ["venn", "chrono", "forge", "astrolabe"]) {
+      expect(chambers.filter((c) => c.kind === k).length).toBeGreaterThanOrEqual(15);
+    }
+    expect(wings.length).toBeGreaterThanOrEqual(6);
+  });
+  test("every chamber sits in exactly one wing and has a unique artifact", () => {
+    const inWings = wings.flatMap((w) => w.chambers);
+    expect(new Set(inWings).size).toBe(inWings.length);
+    expect([...inWings].sort()).toEqual(chambers.map((c) => c.id).sort());
+    expect(artifacts.map((a) => a.chamberId).sort()).toEqual(chambers.map((c) => c.id).sort());
+    expect(new Set(artifacts.map((a) => a.motif)).size).toBe(artifacts.length);
+    for (const a of artifacts) expect(a.lore.split(/(?<=[.!?])\s+(?=[A-Z0-9])/).length, a.lore).toBe(2);
+  });
+  test("entity ids unique; no domain dominates", () => {
+    expect(new Set(entities.map((e) => e.entity_id)).size).toBe(entities.length);
+    const film = entities.filter((e) => e.primary_domain === "DOM_FILM").length;
+    expect(film / entities.length).toBeLessThan(0.2);
+  });
+  test("fact fixes: Hubble is an agency project; Toy Story has no competitive Oscar", () => {
+    expect(byId.get("E-0047")!.creator_type).toBe("TEAM_GOVERNMENT_AGENCY");
+    expect(byId.get("E-0003")!.facets).not.toContain("WON_OSCAR");
+  });
+});
+
+describe("solvability proof over the shipped dataset", () => {
   const proofs = verifyAllChambers(chambers, entities);
   test("every chamber passes", () => {
+    for (const p of proofs) expect(p.problems, `${p.chamberId}: ${p.problems.join("; ")}`).toEqual([]);
+  });
+  test("brainstorm sockets ≥15, forge pools ≥8", () => {
     for (const p of proofs) {
-      expect(p.problems, `${p.chamberId}: ${p.problems.join("; ")}`).toEqual([]);
-      expect(p.ok).toBe(true);
-    }
-  });
-  test("brainstorm socket accepts at least 15 answers", () => {
-    const venn2 = proofs.find((p) => p.chamberId === "venn-02")!;
-    expect(venn2.stats.brainstormValidAnswers).toBeGreaterThanOrEqual(MIN_BRAINSTORM_ANSWERS);
-  });
-  test("forge pools cover the answers needed", () => {
-    for (const c of chambers.filter((c) => c.kind === "forge")) {
-      if (c.kind !== "forge") continue;
-      expect(forgePool(c, entities).length).toBeGreaterThanOrEqual(c.answersNeeded);
+      if (p.stats.brainstormValidAnswers !== undefined) expect(p.stats.brainstormValidAnswers).toBeGreaterThanOrEqual(MIN_BRAINSTORM_ANSWERS);
+      if (p.stats.poolSize !== undefined) expect(p.stats.poolSize).toBeGreaterThanOrEqual(MIN_FORGE_POOL);
     }
   });
 });
 
 describe("VennValidator", () => {
-  test("blueprint example: Apollo 13 sits in the triple intersection", () => {
-    const spec = chamber("venn-03");
-    if (spec.kind !== "venn") throw new Error("kind");
-    expect(regionOf(byId.get("E-0001")!, spec.rings)).toBe(0b111);
-    expect(regionOf(byId.get("E-0022")!, spec.rings)).toBe(0b100); // Oscar only (bit 2)
-  });
-  test("placement validation counts wrong tiles", () => {
-    const spec = chamber("venn-01");
-    if (spec.kind !== "venn") throw new Error("kind");
+  const spec = chambers.find((c) => c.kind === "venn" && c.rings.length === 2)!;
+  if (spec.kind !== "venn") throw new Error("kind");
+  test("several tiles can share a region and still validate", () => {
     const correct = new Map(spec.tiles.map((id) => [id, regionOf(byId.get(id)!, spec.rings)]));
+    const regions = [...correct.values()];
+    expect(new Set(regions).size).toBeLessThan(regions.length); // a shared socket exists
     expect(validatePlacements(spec, byId, correct).allCorrect).toBe(true);
     const wrong = new Map(correct);
-    wrong.set(spec.tiles[0], 0);
-    const v = validatePlacements(spec, byId, wrong);
-    expect(v.allCorrect).toBe(false);
-    expect(v.wrongCount).toBeGreaterThanOrEqual(1);
+    wrong.set(spec.tiles[0], (correct.get(spec.tiles[0])! + 1) % 4);
+    expect(validatePlacements(spec, byId, wrong).wrongCount).toBe(1);
   });
   test("satisfiesAllRings gates the brainstorm socket", () => {
-    const spec = chamber("venn-02");
-    if (spec.kind !== "venn") throw new Error("kind");
-    expect(satisfiesAllRings(byId.get("E-0101")!, spec.rings)).toBe(true); // Starry Night
-    expect(satisfiesAllRings(byId.get("E-0087")!, spec.rings)).toBe(false); // Eiffel (team)
+    const b = chambers.find((c) => c.kind === "venn" && c.brainstormSocket)!;
+    if (b.kind !== "venn") throw new Error("kind");
+    const valid = entities.filter((e) => satisfiesAllRings(e, b.rings));
+    expect(valid.length).toBeGreaterThanOrEqual(15);
   });
 });
 
 describe("ChronoSolver", () => {
-  test("space race chain solves to Sputnik, Apollo, Voyager, JWST", () => {
-    const spec = chamber("chrono-01");
-    if (spec.kind !== "chrono") throw new Error("kind");
-    const sol = solveChrono(spec, byId);
-    expect(sol.valid).toBe(true);
-    expect(sol.order).toEqual(["E-0049", "E-0046", "E-0045", "E-0048"]);
-    expect(validateArrangement(sol, sol.order).correct).toBe(true);
-    const swapped = [...sol.order];
-    [swapped[0], swapped[1]] = [swapped[1], swapped[0]];
-    expect(validateArrangement(sol, swapped).misplacedCount).toBe(2);
-  });
-  test("every shipped clue plaque is true", () => {
+  test("clues are checked against true positions, and pin exactly one order", () => {
     for (const c of chambers) {
       if (c.kind !== "chrono") continue;
-      const gears = c.gears.map((id) => byId.get(id)!);
-      for (const clue of c.clues) expect(clueHolds(clue, gears)).toBe(true);
+      const sol = solveChrono(c, byId);
+      expect(sol.valid, sol.problems.join("; ")).toBe(true);
+      expect(countOrderings(c.gears, c.clues)).toBe(1);
+      for (const clue of c.clues) {
+        expect(clueIsTrue(clue, byId, sol.order)).toBe(true);
+        expect(countOrderings(c.gears, [clue])).toBeGreaterThan(1);
+      }
+      expect(validateArrangement(sol, sol.order).correct).toBe(true);
+      const swapped = [...sol.order];
+      [swapped[0], swapped[1]] = [swapped[1], swapped[0]];
+      expect(validateArrangement(sol, swapped).misplacedCount).toBe(2);
+    }
+  });
+  test("generator is deterministic and BCE gaps skip year 0", () => {
+    const order = ["a", "b", "c", "d"];
+    const years: Record<string, number> = { a: -500, b: 100, c: 1200, d: 1900 };
+    const one = generateChronoClues(order, (id) => years[id], 42);
+    expect(generateChronoClues(order, (id) => years[id], 42)).toEqual(one);
+    expect(countOrderings(order, one)).toBe(1);
+    expect(yearsBetween(-500, 100)).toBe(599);
+  });
+});
+
+describe("Astrolabe deduction", () => {
+  test("riddles leave exactly the answer; none is a giveaway", () => {
+    for (const c of chambers) {
+      if (c.kind !== "astrolabe") continue;
+      expect(verifyAstrolabe(c, byId)).toEqual([]);
+      expect(remainingCandidates(c.candidates, byId, c.clues)).toEqual([c.answer]);
+      expect(c.candidates[0]).not.toBe(c.answer);
     }
   });
 });
 
-describe("AstrolabeFilter", () => {
-  test("all filters leave exactly the Golden Record answer", () => {
-    const spec = chamber("astro-01");
-    if (spec.kind !== "astrolabe") throw new Error("kind");
-    const all = new Set(spec.filters.map((_, i) => i));
-    expect(applyFilters(spec, byId, all)).toEqual(["E-0045"]);
-    expect(applyFilters(spec, byId, new Set()).length).toBe(spec.candidates.length);
-  });
-});
-
-describe("BrainstormEvaluator (Resonance Forge)", () => {
-  test("accepts a valid cold film, rejects duplicates and rune-breakers", () => {
-    const spec = chamber("forge-01");
-    if (spec.kind !== "forge") throw new Error("kind");
+describe("Resonance Forge", () => {
+  const spec = chambers.find((c) => c.kind === "forge")!;
+  if (spec.kind !== "forge") throw new Error("kind");
+  const pool = forgePool(spec, entities);
+  test("accepts a pool answer, flags duplicates; unknown names never count as wrong", () => {
     const used = new Set<string>();
-    const ok = evaluateForgeAnswer("frozen", spec, entities, used);
+    const ok = evaluateForgeAnswer(pool[0].canonical_title, spec, entities, used, byId);
     expect(ok.accepted).toBe(true);
     used.add(ok.entity!.entity_id);
-    expect(evaluateForgeAnswer("Frozen", spec, entities, used).duplicate).toBe(true);
-    const bad = evaluateForgeAnswer("Titanic", spec, entities, used);
-    expect(bad.accepted).toBe(false); // no COLD tag
-    expect(bad.reason).toContain("breaks a rune");
+    const dup = evaluateForgeAnswer(pool[0].canonical_title, spec, entities, used, byId);
+    expect(dup.duplicate).toBe(true);
+    expect(dup.countsAsWrong).toBe(false);
+    const unknown = evaluateForgeAnswer("Qwertyuiop the Movie", spec, entities, used, byId);
+    expect(unknown.outcome).toBe("unknown");
+    expect(unknown.countsAsWrong).toBe(false);
+  });
+  test("a known answer that breaks a rune counts as a misstep", () => {
+    const breaker = entities.find((e) => !pool.includes(e))!;
+    const res = evaluateForgeAnswer(breaker.canonical_title, spec, entities, new Set(), byId);
+    expect(res.accepted).toBe(false);
+    expect(res.countsAsWrong).toBe(true);
+    expect(res.reason).toContain("breaks a rune");
   });
 });
 
-describe("Scoring economy (Blueprint §2 formulas)", () => {
-  test("precision bonus: 300 flawless, -50 per wrong placement, floor 0", () => {
+describe("Daily Grand Vault (client-side, rotates daily)", () => {
+  test("deterministic, matches the Python mirror, follows the pacing curve", () => {
+    const a = dailyVaultFor("2026-12-01", chambers);
+    expect(dailyVaultFor("2026-12-01", chambers)).toEqual(a);
+    expect(fnv1a("2026-12-01:1")).toBe(3318837882);
+    expect(a.number).toBe(6);
+    expect(dailyNumber("2026-11-26")).toBe(1);
+    const kinds = a.chambers.map((id) => chambers.find((c) => c.id === id)!.kind);
+    expect(kinds).toEqual(["venn", "chrono", "forge", "venn", "astrolabe"]);
+    expect(dailyVaultFor("2026-12-02", chambers)).not.toEqual(a);
+  });
+});
+
+describe("Scoring economy", () => {
+  test("precision bonus and mastery", () => {
     expect(logicPrecisionBonus(0)).toBe(300);
     expect(logicPrecisionBonus(2)).toBe(200);
     expect(logicPrecisionBonus(9)).toBe(0);
-  });
-  test("chamber mastery = 500 + precision + spark (spark capped at 250)", () => {
     expect(chamberMastery(0, [])).toBe(800);
     const rare = byId.get("E-0024")!; // Solaris, notability 82
     expect(creativeSparkBonus([rare])).toBe(23);
-    expect(chamberMastery(1, [rare])).toBe(500 + 250 + 23);
+    expect(prismsEarned(3, 5)).toBe(5);
   });
-  test("prism economy: 1 per flawless chamber + 1 per 2 rare brainstorms", () => {
-    expect(prismsEarned(5, 0)).toBe(5);
-    expect(prismsEarned(3, 5)).toBe(3 + 2);
-    expect(prismsEarned(0, 1)).toBe(0);
+  test("stars: −1 per nudge, −1 for any misstep, floor 1", () => {
+    expect(starsFor(0, 0)).toBe(3);
+    expect(starsFor(2, 0)).toBe(2);
+    expect(starsFor(0, 1)).toBe(2);
+    expect(starsFor(1, 5)).toBe(1);
   });
 });
 
 describe("ShareCardRenderer", () => {
-  test("renders the blueprint's plain-text constellation card", () => {
+  test("notes state real nudges and missteps; lines never overflow", () => {
     const card = renderShareCard({
       dailyNumber: 42,
       cleared: 5,
@@ -176,18 +253,20 @@ describe("ShareCardRenderer", () => {
       timeSeconds: 252,
       score: 4850,
       prisms: 3,
-      goldRun: true,
+      goldRun: false,
       chambers: [
-        { kind: "venn", stars: 3, pathCode: "A1" },
-        { kind: "chrono", stars: 3, pathCode: "B2" },
-        { kind: "forge", stars: 2, note: "1 Nudge", pathCode: "C1" },
-        { kind: "astrolabe", stars: 3, pathCode: "D4" },
-        { kind: "venn", stars: 3, note: "Rare Spark: \"Solaris\"", pathCode: "E0" },
+        { kind: "venn", stars: 3, pathCode: "V2" },
+        { kind: "chrono", stars: 2, wrong: 1, pathCode: "C4" },
+        { kind: "forge", stars: 2, nudges: 1, pathCode: "F3" },
+        { kind: "venn", stars: 1, nudges: 1, wrong: 2, pathCode: "V3" },
+        { kind: "astrolabe", stars: 3, pathCode: "A9" },
       ],
     });
     expect(card).toContain("LUMEN VAULT DAILY #042 - 5/5 CHAMBERS CLEARED");
-    expect(card).toContain("Time: 04:12 | Score: 4,850 | Insight Prisms: 3");
+    expect(card).toContain("1 misstep");
+    expect(card).toContain("1 nudge, 2 missteps");
     expect(card).toContain("[Master Vault]");
-    expect(card).toContain("Constellation Path: A1-B2-C1-D4-E0 [GOLD FLUID RUN]");
+    const widths = new Set(card.split("\n").map((l) => l.length));
+    expect(widths.size).toBe(1);
   });
 });

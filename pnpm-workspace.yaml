@@ -1,7 +1,0 @@
-# Blueprint §6 names pnpm workspaces; the build environment standardises
-# on npm workspaces (same layout, package.json "workspaces" field) — the
-# directory structure and package names are exactly as the blueprint lays
-# out. See README.md "Deviations" D2.
-packages:
-  - "apps/*"
-  - "packages/*"

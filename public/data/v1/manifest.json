@@ -1,16 +1,15 @@
 {
- "version": "1.0.0-starter+wd229",
- "generatedAt": "2026-11-26T09:11:30.019Z",
- "entityCount": 229,
- "chamberCount": 16,
- "wingCount": 4,
- "artifactCount": 16,
- "trieShards": 141,
+ "version": "2.0.0",
+ "generatedAt": "2026-11-26T18:06:43.124Z",
+ "entityCount": 766,
+ "chamberCount": 64,
+ "wingCount": 8,
+ "artifactCount": 64,
  "files": {
-  "entities.json": "9a533c9ebb47b9c4",
-  "chambers.json": "a68dca267410cff0",
-  "wings.json": "358f0358cc4ec461",
-  "artifacts.json": "6c4b85b748e1b8de",
-  "daily/latest.json": "4a5d4989afd76194"
+  "entities.json": "4647962519788e70",
+  "chambers.json": "6e16c6a46c43a4ef",
+  "wings.json": "f07cc9d9d9d4bd0e",
+  "artifacts.json": "71c69a623c9679d0",
+  "daily/latest.json": "aea0cdabae2164e3"
  }
 }

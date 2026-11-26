@@ -1,0 +1,58 @@
+# LUMEN VAULT curated entities — ARCHITECTURE & ENGINEERING
+# Year = completion (or opening) unless noted. STRUCT = a built structure.
+0087|Eiffel Tower|1889|EU|ENG|TEAM|97|STRUCT||tour eiffel
+0088|Great Wall of China|-700|AS|ENG|TRAD|96|STRUCT||great wall
+0089|Pyramids of Giza|-2560|AF|ENG|TEAM|97|STRUCT|ARID,GOLDEN|great pyramid;giza pyramids;pyramid of giza
+0090|Taj Mahal|1653|AS|ENG|TEAM|95|STRUCT||taj
+0091|Colosseum|80|EU|ENG|TEAM|93|STRUCT||roman colosseum;flavian amphitheatre
+0092|Statue of Liberty|1886|NA|ENG/ART|TEAM|94|STRUCT,SCULPT||lady liberty
+0093|Sydney Opera House|1973|OC|ENG|TEAM|91|STRUCT|AQUATIC|opera house sydney
+0094|Burj Khalifa|2010|ME|ENG|TEAM|93|STRUCT|ARID|burj dubai
+0095|Machu Picchu|1450|SA|ENG|TEAM|92|STRUCT|VERDANT|machu pichu
+0096|Stonehenge|-2500|EU|ENG|TRAD|90|STRUCT||stone henge
+0097|Golden Gate Bridge|1937|NA|ENG|TEAM|92|STRUCT,BRIDGE|AQUATIC,GOLDEN|golden gate
+0098|Panama Canal|1914|NA|ENG|TEAM|90|STRUCT|AQUATIC|panama canal locks
+0099|Leaning Tower of Pisa|1372|EU|ENG|TEAM|90|STRUCT||tower of pisa;pisa tower
+0551|Parthenon|-432|EU|ENG|TEAM|90|STRUCT||
+0552|Petra||ME|ENG|TRAD|88|STRUCT|ARID|al khazneh;rose city
+0553|Angkor Wat|1150|AS|ENG|TEAM|89|STRUCT|VERDANT|angkor
+0554|Hagia Sophia|537|EU|ENG|TEAM|88|STRUCT|GOLDEN|aya sofya
+0555|Notre-Dame de Paris|1345|EU|ENG|TEAM|88|STRUCT|FIRE|notre dame;notre dame cathedral
+0556|Big Ben|1859|EU|ENG|TEAM|88|STRUCT||elizabeth tower
+0557|Tower Bridge|1894|EU|ENG|TEAM|84|STRUCT,BRIDGE|AQUATIC|
+0558|Brooklyn Bridge|1883|NA|ENG|TEAM|84|STRUCT,BRIDGE|AQUATIC|
+0559|Empire State Building|1931|NA|ENG|TEAM|90|STRUCT||empire state
+0560|CN Tower|1976|NA|ENG|TEAM|80|STRUCT||
+0561|Petronas Towers|1998|AS|ENG|TEAM|80|STRUCT||petronas twin towers
+0562|Tokyo Skytree|2012|AS|ENG|TEAM|78|STRUCT||skytree
+0563|Forbidden City|1420|AS|ENG|TEAM|88|STRUCT|GOLDEN|palace museum beijing
+0564|Hoover Dam|1936|NA|ENG|TEAM|84|STRUCT|AQUATIC,ARID|boulder dam
+0565|Three Gorges Dam|2006|AS|ENG|TEAM|80|STRUCT|AQUATIC|
+0566|Suez Canal|1869|AF|ENG|TEAM|86|STRUCT|AQUATIC,ARID|
+0567|Channel Tunnel|1994|EU|ENG|TEAM|84|STRUCT|AQUATIC|chunnel;eurotunnel
+0568|Hadrian's Wall|122|EU|ENG|TEAM|80|STRUCT|COLD|hadrians wall
+0569|Pantheon|125|EU|ENG|TEAM|84|STRUCT||pantheon rome
+0570|Lighthouse of Alexandria|-280|AF|ENG|TEAM|80|STRUCT|AQUATIC,GLOWING,FIRE|pharos of alexandria
+0571|Mount Rushmore|1941|NA|ENG/ART|TEAM|84|STRUCT,SCULPT||
+0572|Atomium|1958|EU|ENG|TEAM|74|STRUCT|GLOWING|
+0573|Space Needle|1962|NA|ENG|TEAM|76|STRUCT||
+0574|Burj Al Arab|1999|ME|ENG|TEAM|78|STRUCT|AQUATIC|
+0575|Millau Viaduct|2004|EU|ENG|TEAM|74|STRUCT,BRIDGE||
+0576|Akashi Kaikyō Bridge|1998|AS|ENG|TEAM|72|STRUCT,BRIDGE|AQUATIC|akashi kaikyo bridge;pearl bridge
+0577|Ponte Vecchio|1345|EU|ENG|TEAM|78|STRUCT,BRIDGE|AQUATIC,GOLDEN|
+0578|Rialto Bridge|1591|EU|ENG|TEAM|76|STRUCT,BRIDGE|AQUATIC|ponte di rialto
+0579|Sydney Harbour Bridge|1932|OC|ENG|TEAM|82|STRUCT,BRIDGE|AQUATIC|harbour bridge;coathanger
+0580|Itaipu Dam|1984|SA|ENG|TEAM|72|STRUCT|AQUATIC|
+0581|Palace of Versailles|1682|EU|ENG|TEAM|86|STRUCT|GOLDEN|versailles
+0582|Louvre Pyramid|1989|EU|ENG|TEAM|80|STRUCT|GLOWING|pyramide du louvre
+0583|Guggenheim Museum Bilbao|1997|EU|ENG|TEAM|76|STRUCT||guggenheim bilbao
+0584|Gateway Arch|1965|NA|ENG|TEAM|76|STRUCT||st louis arch
+0585|Borobudur|825|AS|ENG|TEAM|80|STRUCT|VERDANT|
+0586|Christ the Redeemer|1931|SA|ENG/ART|TEAM|90|STRUCT,SCULPT||cristo redentor
+0587|Great Sphinx of Giza|-2500|AF|ENG/ART|TEAM|90|STRUCT,SCULPT|ARID|sphinx
+0588|Alhambra||EU|ENG|TEAM|86|STRUCT|GOLDEN|
+0589|Chichén Itzá||NA|ENG|TEAM|86|STRUCT|VERDANT|chichen itza;el castillo
+0590|Kremlin||EU|ENG|TEAM|84|STRUCT||moscow kremlin
+0591|Neuschwanstein Castle||EU|ENG|TEAM|84|STRUCT|COLD|neuschwanstein
+0592|Sagrada Família||EU|ENG|TEAM|88|STRUCT||sagrada familia
+0593|The Shard|2012|EU|ENG|TEAM|72|STRUCT|GLOWING|shard london bridge

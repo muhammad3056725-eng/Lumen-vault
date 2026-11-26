@@ -1,0 +1,41 @@
+# LUMEN VAULT curated entities — SCIENCE (discoveries & theories)
+# NOBEL = the discovery itself was recognised by a Nobel Prize.
+0059|Penicillin|1928|EU|SCI|SOLO|95|DISC,NOBEL||penicillin antibiotic
+0060|Theory of Relativity|1905|EU|SCI|SOLO|96|DISC||relativity;special relativity;e mc2
+0061|Periodic Table|1869|EU|SCI|SOLO|92|DISC||mendeleev table;periodic table of elements
+0068|Vaccination|1796|EU|SCI|SOLO|93|DISC||smallpox vaccine;jenner vaccine
+0069|X-rays|1895|EU|SCI|SOLO|91|DISC,NOBEL|GLOWING|x ray;rontgen rays
+0070|DNA Double Helix|1953|EU|SCI|TEAM|94|DISC,NOBEL||double helix;dna structure
+0071|Radium|1898|EU|SCI|DUO|90|DISC,NOBEL|GLOWING|curie radium
+0072|Principia Mathematica (Newton)|1687|EU|SCI/LIT|SOLO|90|DISC||newtons principia;principia;law of universal gravitation
+0073|On the Origin of Species|1859|EU|SCI/LIT|SOLO|93|DISC||origin of species;theory of evolution
+0471|Heliocentric Model|1543|EU|SCI|SOLO|86|DISC|NOCTURNAL|heliocentrism;copernican model;de revolutionibus
+0472|Pasteurization|1864|EU|SCI|SOLO|80|DISC|FIRE|pasteurisation
+0473|Maxwell's Equations|1865|EU|SCI|SOLO|80|DISC||electromagnetism
+0474|Electron|1897|EU|SCI|SOLO|84|DISC,NOBEL||discovery of the electron
+0475|Atomic Nucleus|1911|EU|SCI|SOLO|80|DISC||rutherford nucleus;nucleus
+0476|Radioactivity|1896|EU|SCI|SOLO|82|DISC,NOBEL|GLOWING|
+0477|Insulin|1921|NA|SCI|TEAM|84|DISC,NOBEL||
+0478|Blood Circulation|1628|EU|SCI|SOLO|76|DISC||circulation of the blood
+0479|Cell Theory|1839|EU|SCI|DUO|78|DISC||
+0480|Photoelectric Effect|1905|EU|SCI|SOLO|78|DISC,NOBEL|GLOWING|
+0481|Big Bang Theory|1927|EU|SCI/SPACE|SOLO|85|DISC|FIRE|big bang;primeval atom
+0482|Expanding Universe|1929|NA|SCI/SPACE|SOLO|80|DISC|NOCTURNAL|hubbles law;expansion of the universe
+0483|Continental Drift|1912|EU|SCI|SOLO|80|DISC||plate tectonics
+0484|Discovery of Neptune|1846|EU|SCI/SPACE|TEAM|80|DISC|COLD,NOCTURNAL|neptune
+0485|Discovery of Uranus|1781|EU|SCI/SPACE|SOLO|78|DISC|COLD,NOCTURNAL|uranus
+0486|Discovery of Pluto|1930|NA|SCI/SPACE|SOLO|82|DISC|COLD,NOCTURNAL|pluto
+0487|Galilean Moons|1610|EU|SCI/SPACE|SOLO|78|DISC|NOCTURNAL|moons of jupiter;io europa ganymede callisto
+0488|Halley's Comet|1705|EU|SCI/SPACE|SOLO|80|DISC|COLD,NOCTURNAL,GLOWING|halleys comet;halley comet
+0489|Oxygen|1774|EU|SCI|SOLO|80|DISC|FIRE|discovery of oxygen
+0490|Hydrogen|1766|EU|SCI|SOLO|76|DISC|FIRE|discovery of hydrogen
+0491|Gravitational Waves|2015|NA|SCI/SPACE|TEAM|80|DISC,NOBEL||ligo detection
+0492|Higgs Boson|2012|EU|SCI|TEAM|84|DISC||higgs particle;god particle
+0493|Human Genome Project|2003|GL|SCI|TEAM|82|DISC||human genome
+0494|CRISPR Gene Editing|2012|GL|SCI|DUO|80|DISC,NOBEL||crispr;crispr cas9
+0495|Germ Theory of Disease|1861|EU|SCI|SOLO|78|DISC||germ theory
+0496|Laws of Planetary Motion|1609|EU|SCI/SPACE|SOLO|78|DISC|NOCTURNAL|keplers laws
+0497|Superconductivity|1911|EU|SCI|SOLO|72|DISC|COLD|
+0498|Antibiotic Streptomycin|1943|NA|SCI|TEAM|70|DISC,NOBEL||streptomycin
+0499|Polio Vaccine|1955|NA|SCI|SOLO|82|DISC||salk vaccine
+0500|Black Hole Image|2019|GL|SCI/SPACE|TEAM|82|DISC|NOCTURNAL,GLOWING|event horizon telescope;m87 black hole

@@ -1,12 +1,14 @@
-# Deploys the built web app + static dataset to GitHub Pages.
-# (Blueprint §7 production target is Cloudflare Pages + R2; GitHub
-# Pages is the current zero-cost static host. Requires
-# Settings -> Pages -> Source: GitHub Actions.)
+# Verifies, builds and deploys the web app + static dataset to GitHub Pages.
+# Requires Settings -> Pages -> Source: GitHub Actions.
+# Also callable from other workflows (data-build.yml calls it after it
+# commits a regenerated dataset, because pushes made with GITHUB_TOKEN do
+# not trigger other workflows on their own).
 name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_call:
 permissions:
   contents: read
   pages: write
@@ -22,10 +24,21 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r pipeline/requirements.txt
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+        env:
+          CI: "true"
       - run: npm run build
       - name: Copy dataset beside the built app
         run: cp -r public apps/web/dist/public
@@ -35,4 +48,3 @@ jobs:
           path: apps/web/dist
       - id: deployment
         uses: actions/deploy-pages@v4
-        

@@ -1,0 +1,47 @@
+# LUMEN VAULT curated entities — VIDEO GAMES. Region = lead developer's country; year = first release.
+0137|Tetris|1984|EU|GAME|SOLO|94|||tetris game
+0138|Super Mario Bros.|1985|AS|GAME|TEAM|96|||super mario bros;mario bros
+0139|The Legend of Zelda|1986|AS|GAME|TEAM|94|FANT||zelda;legend of zelda
+0140|Minecraft|2011|EU|GAME|TEAM|96|||minecraft game
+0141|Pac-Man|1980|AS|GAME|TEAM|93|||pacman;pac man
+0142|Portal|2007|NA|GAME|TEAM|91|SCIFI||portal game
+0791|Pong|1972|NA|GAME|TEAM|86|||pong atari
+0792|Space Invaders|1978|AS|GAME|SOLO|88|SCIFI|NOCTURNAL|
+0793|Donkey Kong|1981|AS|GAME|TEAM|86|||
+0794|Pokémon Red and Green|1996|AS|GAME|TEAM|90|FANT||pokemon red;pokemon green;pokemon
+0795|Final Fantasy|1987|AS|GAME|TEAM|86|FANT|GLOWING|final fantasy 1
+0796|Street Fighter II|1991|AS|GAME|TEAM|84|||street fighter 2
+0797|Sonic the Hedgehog|1991|AS|GAME|TEAM|88|||sonic
+0798|Super Mario 64|1996|AS|GAME|TEAM|88|||mario 64
+0799|The Legend of Zelda: Ocarina of Time|1998|AS|GAME|TEAM|89|FANT||ocarina of time
+0800|Metroid|1986|AS|GAME|TEAM|80|SCIFI||
+0801|Halo: Combat Evolved|2001|NA|GAME|TEAM|86|SCIFI||halo
+0802|Doom|1993|NA|GAME|TEAM|86|SCIFI|FIRE|doom 1993
+0803|Half-Life|1998|NA|GAME|TEAM|84|SCIFI||half life
+0804|Myst|1993|NA|GAME|DUO|80|FANT|AQUATIC|
+0805|The Sims|2000|NA|GAME|TEAM|84|||sims
+0806|World of Warcraft|2004|NA|GAME|TEAM|88|FANT||wow
+0807|Grand Theft Auto V|2013|EU|GAME|TEAM|88|||gta 5;gta v
+0808|The Elder Scrolls V: Skyrim|2011|NA|GAME|TEAM|88|FANT|COLD|skyrim
+0809|The Witcher 3: Wild Hunt|2015|EU|GAME|TEAM|86|FANT||witcher 3
+0810|Dark Souls|2011|AS|GAME|TEAM|84|FANT|FIRE|
+0811|Elden Ring|2022|AS|GAME|TEAM|86|FANT|GOLDEN|
+0812|Animal Crossing: New Horizons|2020|AS|GAME|TEAM|84||VERDANT|animal crossing
+0813|Angry Birds|2009|EU|GAME|TEAM|84||FLIGHT|
+0814|Fortnite|2017|NA|GAME|TEAM|86||STORM|
+0815|Among Us|2018|NA|GAME|TEAM|82|SCIFI||
+0816|Stardew Valley|2016|NA|GAME|SOLO|82||VERDANT|
+0817|Undertale|2015|NA|GAME|SOLO|80|FANT||
+0818|Subnautica|2018|NA|GAME|TEAM|78|SCIFI|AQUATIC|
+0819|BioShock|2007|NA|GAME|TEAM|80|SCIFI|AQUATIC|bioshock
+0820|Journey|2012|NA|GAME|TEAM|78||ARID,GOLDEN|journey game
+0821|Celeste|2018|NA|GAME|TEAM|76||COLD|celeste game
+0822|Super Mario Galaxy|2007|AS|GAME|TEAM|84|SCIFI|NOCTURNAL|mario galaxy
+0823|Kirby's Dream Land|1992|AS|GAME|TEAM|78|FANT|FLIGHT|kirby
+0824|Galaga|1981|AS|GAME|TEAM|78|SCIFI|NOCTURNAL|
+0825|Flappy Bird|2013|AS|GAME|SOLO|78||FLIGHT|
+0826|Hollow Knight|2017|OC|GAME|TEAM|80|FANT|NOCTURNAL|
+0827|Splatoon|2015|AS|GAME|TEAM|78|||
+0828|Candy Crush Saga|2012|EU|GAME|TEAM|82||SWEET|candy crush
+0829|Asteroids|1979|NA|GAME|TEAM|78|SCIFI|NOCTURNAL|
+0830|Frogger|1981|AS|GAME|TEAM|76||AQUATIC|

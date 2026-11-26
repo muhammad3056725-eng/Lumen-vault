@@ -1,0 +1,49 @@
+# LUMEN VAULT curated entities — INVENTIONS
+# Year = first working demonstration / patent as commonly cited. Region = where it was made.
+0055|Light Bulb|1879|NA|INV|TEAM|96|INV|GLOWING|edison bulb;incandescent bulb;lightbulb
+0056|Telephone|1876|NA|INV|SOLO|95|INV||bell telephone
+0057|Printing Press|1440|EU|INV|SOLO|97|INV||gutenberg press;gutenberg printing press
+0058|World Wide Web|1989|EU|INV|SOLO|97|INV||www;the web
+0062|Watt Steam Engine|1776|EU|INV|SOLO|93|INV|FIRE|steam engine;watts steam engine
+0063|Airplane|1903|NA|INV|DUO|95|INV|FLIGHT|wright flyer;aeroplane;first airplane
+0064|Television|1926|EU|INV|SOLO|91|INV|GLOWING|tv;baird television
+0065|Compass|1040|AS|INV|TRAD|88|INV||magnetic compass
+0066|Paper|105|AS|INV|TRAD|90|INV||paper invention;papermaking
+0067|Gunpowder|850|AS|INV|TRAD|89|INV|FIRE|black powder
+0074|Voltaic Pile|1800|EU|INV|SOLO|84|INV||first battery;volta pile
+0421|Wheel|-3500|ME|INV|TRAD|90|INV||the wheel
+0422|Cuneiform Writing|-3200|ME|INV|TRAD|85|INV||cuneiform;writing
+0423|Telescope|1608|EU|INV|SOLO|88|INV|NOCTURNAL|refracting telescope
+0424|Pendulum Clock|1656|EU|INV|SOLO|80|INV||huygens clock
+0425|Radio|1895|EU|INV|SOLO|89|INV||wireless telegraphy;marconi radio
+0426|Phonograph|1877|NA|INV|SOLO|84|INV||edison phonograph
+0427|Daguerreotype|1839|EU|INV|SOLO|80|INV||daguerre photograph;early photography
+0428|Automobile|1886|EU|INV|SOLO|92|INV|FIRE|motorwagen;benz patent motorwagen;car
+0429|Hot Air Balloon|1783|EU|INV|DUO|84|INV|FLIGHT,FIRE|montgolfier balloon
+0430|Jet Engine|1937|EU|INV|SOLO|83|INV|FLIGHT,FIRE|turbojet
+0431|Dynamite|1867|EU|INV|SOLO|84|INV|FIRE|
+0432|Transistor|1947|NA|INV|TEAM|86|INV,NOBEL||
+0433|Laser|1960|NA|INV|SOLO|84|INV|GLOWING|ruby laser
+0434|iPhone|2007|NA|INV|TEAM|90|INV|GLOWING|smartphone;apple iphone
+0435|ARPANET|1969|NA|INV|AGENCY|86|INV||internet;arpa net
+0436|Lightning Rod|1752|NA|INV|SOLO|78|INV|STORM|lightning conductor;franklin rod
+0437|Microwave Oven|1945|NA|INV|SOLO|80|INV|FIRE|microwave
+0438|Velcro|1955|EU|INV|SOLO|76|INV||hook and loop
+0439|Ballpoint Pen|1938|EU|INV|DUO|80|INV||biro
+0440|Movable Type|1040|AS|INV|SOLO|82|INV||bi sheng movable type
+0441|Seismoscope|132|AS|INV|SOLO|74|INV||zhang heng seismoscope
+0442|Steam Locomotive|1804|EU|INV|SOLO|82|INV|FIRE|locomotive
+0443|Mobile Phone|1973|NA|INV|TEAM|84|INV||cell phone;cellphone
+0444|Saxophone|1846|EU|INV/MUS|SOLO|78|INV||sax
+0445|Piano|1700|EU|INV/MUS|SOLO|82|INV||pianoforte
+0446|Stethoscope|1816|EU|INV|SOLO|76|INV||
+0447|Braille|1824|EU|INV|SOLO|80|INV||braille alphabet
+0448|Barometer|1643|EU|INV|SOLO|74|INV|STORM|mercury barometer
+0449|Bicycle|1817|EU|INV|SOLO|86|INV||draisine;running machine
+0450|Sewing Machine|1846|NA|INV|SOLO|76|INV||lockstitch sewing machine
+0451|Nuclear Reactor|1942|NA|INV|TEAM|80|INV|GLOWING|chicago pile 1
+0452|IBM Personal Computer|1981|NA|INV|TEAM|84|INV|GLOWING|ibm pc
+0453|Escalator|1896|NA|INV|SOLO|70|INV||
+0454|Refrigerator|1834|EU|INV|SOLO|80|INV|COLD|fridge;vapour compression refrigeration
+0455|Parachute|1783|EU|INV|SOLO|76|INV|FLIGHT|
+0456|Elevator Safety Brake|1852|NA|INV|SOLO|72|INV||otis elevator;safety elevator

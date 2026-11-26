@@ -1,0 +1,73 @@
+# LUMEN VAULT curated entities — LITERATURE
+# Region = the author's home region. Year = first publication (or traditional date).
+0110|The Lord of the Rings|1954|EU|LIT|SOLO|97|NOVEL,FANT||lotr;tolkien lord of the rings
+0111|Pride and Prejudice|1813|EU|LIT|SOLO|91|NOVEL||
+0112|Moby-Dick|1851|NA|LIT|SOLO|90|NOVEL|AQUATIC|moby dick;the whale
+0113|Don Quixote|1605|EU|LIT|SOLO|92|NOVEL||don quijote
+0114|The Odyssey|-700|EU|LIT|TRAD|93|POEM|AQUATIC|odyssey homer
+0115|Romeo and Juliet|1597|EU|LIT|SOLO|94|PLAY|NOCTURNAL|
+0116|Harry Potter and the Philosopher's Stone|1997|EU|LIT|SOLO|95|NOVEL,FANT||harry potter book;philosophers stone book
+0117|The Hobbit|1937|EU|LIT|SOLO|93|NOVEL,FANT|GOLDEN|hobbit book
+0118|Alice's Adventures in Wonderland|1865|EU|LIT|SOLO|92|NOVEL,FANT||alice in wonderland
+0119|One Hundred Years of Solitude|1967|SA|LIT|SOLO|90|NOVEL|STORM|cien anos de soledad;100 years of solitude
+0120|The Little Prince|1943|EU|LIT|SOLO|91|FANT|ARID,NOCTURNAL|le petit prince
+0121|Frankenstein|1818|EU|LIT|SOLO|93|NOVEL,SCIFI|STORM,COLD|mary shelley frankenstein
+0231|Hamlet|1603|EU|LIT|SOLO|96|PLAY|NOCTURNAL|
+0232|Macbeth|1623|EU|LIT|SOLO|92|PLAY|NOCTURNAL,STORM|
+0233|A Midsummer Night's Dream|1600|EU|LIT|SOLO|88|PLAY,FANT|NOCTURNAL|midsummer nights dream
+0234|The Iliad|-750|EU|LIT|TRAD|92|POEM|FIRE|iliad
+0235|The Divine Comedy|1320|EU|LIT|SOLO|91|POEM|FIRE|divina commedia;dantes inferno
+0236|Beowulf|1000|EU|LIT|TRAD|85|POEM,FANT|FIRE|
+0237|The Tale of Genji|1010|AS|LIT|SOLO|82|NOVEL||genji monogatari
+0238|One Thousand and One Nights||ME|LIT|TRAD|88|FANT|NOCTURNAL,ARID|arabian nights;1001 nights
+0239|War and Peace|1869|EU|LIT|SOLO|92|NOVEL|COLD|voyna i mir
+0240|Anna Karenina|1878|EU|LIT|SOLO|88|NOVEL|COLD|
+0241|Crime and Punishment|1866|EU|LIT|SOLO|89|NOVEL||
+0242|Les Misérables|1862|EU|LIT|SOLO|91|NOVEL||les miserables
+0243|Madame Bovary|1857|EU|LIT|SOLO|84|NOVEL||
+0244|Jane Eyre|1847|EU|LIT|SOLO|88|NOVEL|FIRE|
+0245|Wuthering Heights|1847|EU|LIT|SOLO|87|NOVEL|STORM|
+0246|Great Expectations|1861|EU|LIT|SOLO|86|NOVEL||
+0247|A Christmas Carol|1843|EU|LIT|SOLO|89|FANT|COLD,NOCTURNAL|christmas carol
+0248|Dracula|1897|EU|LIT|SOLO|90|NOVEL,FANT|NOCTURNAL|
+0249|Twenty Thousand Leagues Under the Seas|1870|EU|LIT|SOLO|86|NOVEL,SCIFI|AQUATIC|20000 leagues under the sea;twenty thousand leagues under the sea
+0250|Around the World in Eighty Days|1872|EU|LIT|SOLO|85|NOVEL|FLIGHT|around the world in 80 days
+0251|The Time Machine|1895|EU|LIT|SOLO|84|NOVEL,SCIFI||
+0252|The War of the Worlds|1898|EU|LIT|SOLO|85|NOVEL,SCIFI|FIRE|war of the worlds
+0253|Nineteen Eighty-Four|1949|EU|LIT|SOLO|94|NOVEL,SCIFI||1984 novel;1984
+0254|Brave New World|1932|EU|LIT|SOLO|88|NOVEL,SCIFI||
+0255|Fahrenheit 451|1953|NA|LIT|SOLO|86|NOVEL,SCIFI|FIRE|
+0256|Dune|1965|NA|LIT|SOLO|88|NOVEL,SCIFI|ARID|dune novel
+0257|The Great Gatsby|1925|NA|LIT|SOLO|91|NOVEL|GOLDEN|great gatsby
+0258|To Kill a Mockingbird|1960|NA|LIT|SOLO|91|NOVEL||
+0259|Adventures of Huckleberry Finn|1884|NA|LIT|SOLO|86|NOVEL|AQUATIC|huckleberry finn;huck finn
+0260|The Old Man and the Sea|1952|NA|LIT|SOLO|86|NOVEL|AQUATIC|old man and the sea
+0261|Treasure Island|1883|EU|LIT|SOLO|86|NOVEL|AQUATIC,GOLDEN|
+0262|Robinson Crusoe|1719|EU|LIT|SOLO|85|NOVEL|AQUATIC|
+0263|Gulliver's Travels|1726|EU|LIT|SOLO|85|NOVEL,FANT|AQUATIC|gullivers travels
+0264|The Call of the Wild|1903|NA|LIT|SOLO|82|NOVEL|COLD|call of the wild
+0265|Things Fall Apart|1958|AF|LIT|SOLO|84|NOVEL||
+0266|The Alchemist|1988|SA|LIT|SOLO|86|NOVEL|ARID,GOLDEN|o alquimista
+0267|Norwegian Wood|1987|AS|LIT|SOLO|80|NOVEL|COLD|noruwei no mori
+0268|The Metamorphosis|1915|EU|LIT|SOLO|87|FANT||die verwandlung
+0269|Ulysses|1922|EU|LIT|SOLO|84|NOVEL||ulysses joyce
+0270|The Raven|1845|NA|LIT|SOLO|84|POEM|NOCTURNAL|the raven poem
+0271|The Lion, the Witch and the Wardrobe|1950|EU|LIT|SOLO|89|NOVEL,FANT|COLD|narnia;chronicles of narnia
+0272|Charlotte's Web|1952|NA|LIT|SOLO|83|NOVEL||charlottes web
+0273|Oedipus Rex|-429|EU|LIT|SOLO|83|PLAY||oedipus the king
+0274|Faust|1808|EU|LIT|SOLO|83|PLAY|FIRE|faust goethe
+0275|Paradise Lost|1667|EU|LIT|SOLO|83|POEM|FIRE|
+0276|The Canterbury Tales|1400|EU|LIT|SOLO|83|POEM||canterbury tales
+0277|Journey to the West|1592|AS|LIT|SOLO|83|NOVEL,FANT|FLIGHT|xi you ji
+0278|Little Women|1868|NA|LIT|SOLO|85|NOVEL||
+0279|The Catcher in the Rye|1951|NA|LIT|SOLO|86|NOVEL|COLD|catcher in the rye
+0280|The Hunger Games|2008|NA|LIT|SOLO|86|NOVEL,SCIFI|FIRE|hunger games novel
+0281|A Game of Thrones|1996|NA|LIT|SOLO|88|NOVEL,FANT|COLD|game of thrones novel
+0282|The Adventures of Sherlock Holmes|1892|EU|LIT|SOLO|88||NOCTURNAL|sherlock holmes
+0283|Peter Pan|1911|EU|LIT|SOLO|86|NOVEL,FANT|FLIGHT|peter and wendy
+0284|Heart of Darkness|1899|EU|LIT|SOLO|80||AQUATIC|
+0285|The Epic of Gilgamesh|-1800|ME|LIT|TRAD|84|POEM|AQUATIC|epic of gilgamesh
+0286|Tao Te Ching|-400|AS|LIT|SOLO|82|||daodejing
+0287|The Art of War|-500|AS|LIT|SOLO|86|||sun tzu art of war
+0288|Matilda|1988|EU|LIT|SOLO|82|NOVEL,FANT||matilda dahl
+0289|Charlie and the Chocolate Factory|1964|EU|LIT|SOLO|86|NOVEL,FANT|SWEET|willy wonka

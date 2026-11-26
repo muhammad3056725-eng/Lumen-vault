@@ -1,0 +1,18 @@
+# LUMEN VAULT curated entities — SPORTING EVENTS. Year = first edition.
+0149|Modern Olympic Games|1896|EU|SPORT|TEAM|91|||olympics;olympic games;athens 1896
+0150|FIFA World Cup|1930|SA|SPORT|TEAM|96|||world cup;football world cup
+0871|Wimbledon Championships|1877|EU|SPORT|TEAM|88||VERDANT|wimbledon
+0872|Tour de France|1903|EU|SPORT|TEAM|86||GOLDEN|
+0873|Super Bowl|1967|NA|SPORT|TEAM|86|||
+0874|Rugby World Cup|1987|OC|SPORT|TEAM|78|||
+0875|Cricket World Cup|1975|EU|SPORT|TEAM|80|||
+0876|Boston Marathon|1897|NA|SPORT|TEAM|80|||
+0877|Winter Olympic Games|1924|EU|SPORT|TEAM|84||COLD|winter olympics;chamonix 1924
+0878|Stanley Cup|1893|NA|SPORT|TEAM|78||COLD|
+0879|Monaco Grand Prix|1929|EU|SPORT|TEAM|78||FIRE|
+0880|Kentucky Derby|1875|NA|SPORT|TEAM|76|||
+0881|The Masters|1934|NA|SPORT|TEAM|76||VERDANT|masters tournament
+0882|America's Cup|1851|EU|SPORT|TEAM|76||AQUATIC|americas cup
+0883|Iditarod Trail Sled Dog Race|1973|NA|SPORT|TEAM|72||COLD|iditarod
+0884|The Boat Race|1829|EU|SPORT|TEAM|70||AQUATIC|oxford cambridge boat race
+0885|Paralympic Games|1960|EU|SPORT|TEAM|84|||paralympics

@@ -1,0 +1,66 @@
+# LUMEN VAULT curated entities — MUSIC
+# Creator = the credited songwriter(s) for songs; the performing act for albums.
+# OSCAR on a song = it won Best Original Song.
+# Year = composition/premiere for classical works, release for recordings.
+0036|Bohemian Rhapsody|1975|EU|MUS|SOLO|96|SONG||bohemian rhapsody song
+0037|Imagine|1971|EU|MUS|SOLO|93|SONG||imagine song
+0038|Thriller|1982|NA|MUS|SOLO|95|ALBUM|NOCTURNAL|thriller album
+0039|Winter Wonderland|1934|NA|MUS|DUO|80|SONG|COLD|
+0040|Moonlight Sonata|1801|EU|MUS|SOLO|90|CLASSICAL|NOCTURNAL|beethoven moonlight;mondscheinsonate
+0041|The Four Seasons|1725|EU|MUS|SOLO|89|CLASSICAL|COLD,STORM|vivaldi four seasons;le quattro stagioni
+0042|Clair de Lune|1905|EU|MUS|SOLO|86|CLASSICAL|NOCTURNAL|clair de lune debussy
+0043|Nocturnes (Chopin)|1832|EU|MUS|SOLO|83|CLASSICAL|NOCTURNAL|chopin nocturnes;nocturnes
+0044|Eine kleine Nachtmusik|1787|EU|MUS|SOLO|85|CLASSICAL|NOCTURNAL|a little night music;little night music mozart
+0301|Symphony No. 9 (Beethoven)|1824|EU|MUS|SOLO|92|CLASSICAL||beethovens ninth;ode to joy;choral symphony
+0302|Symphony No. 5 (Beethoven)|1808|EU|MUS|SOLO|90|CLASSICAL|STORM|beethovens fifth
+0303|The Magic Flute|1791|EU|MUS|SOLO|86|CLASSICAL,FANT|NOCTURNAL|die zauberflote;magic flute
+0304|Requiem (Mozart)|1791|EU|MUS|SOLO|84|CLASSICAL||mozart requiem
+0305|Swan Lake|1877|EU|MUS|SOLO|89|CLASSICAL,FANT|AQUATIC,NOCTURNAL|swan lake ballet
+0306|The Nutcracker|1892|EU|MUS|SOLO|88|CLASSICAL,FANT|COLD,SWEET|nutcracker ballet
+0307|Boléro|1928|EU|MUS|SOLO|85|CLASSICAL||bolero;bolero ravel
+0308|The Blue Danube|1867|EU|MUS|SOLO|86|CLASSICAL|AQUATIC|blue danube waltz
+0309|Ride of the Valkyries|1870|EU|MUS|SOLO|84|CLASSICAL|STORM,FLIGHT|ride of the valkyries wagner
+0310|Carmen|1875|EU|MUS|SOLO|85|CLASSICAL|FIRE|carmen opera
+0311|Night on Bald Mountain|1867|EU|MUS|SOLO|82|CLASSICAL|NOCTURNAL|night on the bare mountain
+0312|Nessun dorma|1926|EU|MUS|SOLO|85|CLASSICAL|NOCTURNAL|nessun dorma puccini
+0313|Für Elise|1810|EU|MUS|SOLO|88|CLASSICAL||fur elise
+0314|The Planets|1918|EU|MUS|SOLO|83|CLASSICAL|NOCTURNAL|the planets holst
+0315|Rhapsody in Blue|1924|NA|MUS|SOLO|84|CLASSICAL||
+0316|Messiah|1742|EU|MUS|SOLO|86|CLASSICAL||handel messiah;hallelujah chorus
+0317|Gymnopédies|1888|EU|MUS|SOLO|80|CLASSICAL||gymnopedie;gymnopedies
+0318|Peter and the Wolf|1936|EU|MUS|SOLO|80|CLASSICAL|COLD|
+0319|The Rite of Spring|1913|EU|MUS|SOLO|83|CLASSICAL|VERDANT|rite of spring
+0320|The Firebird|1910|EU|MUS|SOLO|80|CLASSICAL,FANT|FIRE,FLIGHT|firebird ballet
+0321|Abbey Road|1969|EU|MUS|TEAM|90|ALBUM||
+0322|Sgt. Pepper's Lonely Hearts Club Band|1967|EU|MUS|TEAM|89|ALBUM||sgt peppers
+0323|The Dark Side of the Moon|1973|EU|MUS|TEAM|92|ALBUM|NOCTURNAL|dark side of the moon
+0324|Hotel California|1976|NA|MUS|TEAM|88|SONG|ARID,NOCTURNAL|
+0325|Stairway to Heaven|1971|EU|MUS|DUO|88|SONG||
+0326|Billie Jean|1983|NA|MUS|SOLO|90|SONG|NOCTURNAL|
+0327|Like a Rolling Stone|1965|NA|MUS|SOLO|86|SONG||
+0328|What a Wonderful World|1967|NA|MUS|DUO|85|SONG||
+0329|Fly Me to the Moon|1954|NA|MUS|SOLO|84|SONG|NOCTURNAL|in other words
+0330|Moon River|1961|NA|MUS|DUO|83|SONG,OSCAR|NOCTURNAL,AQUATIC|
+0331|Blue Moon|1934|NA|MUS|DUO|78|SONG|NOCTURNAL|
+0332|Bad Moon Rising|1969|NA|MUS|SOLO|78|SONG|NOCTURNAL,STORM|
+0333|Silent Night|1818|EU|MUS|DUO|90|SONG|NOCTURNAL,COLD|stille nacht
+0334|Jingle Bells|1857|NA|MUS|SOLO|88|SONG|COLD|
+0335|Let It Go|2013|NA|MUS|DUO|86|SONG,OSCAR|COLD|let it go frozen
+0336|White Christmas|1942|NA|MUS|SOLO|86|SONG,OSCAR|COLD|
+0337|Purple Rain|1984|NA|MUS|SOLO|85|SONG|STORM|
+0338|Smells Like Teen Spirit|1991|NA|MUS|TEAM|85|SONG||
+0339|Yellow Submarine|1966|EU|MUS|DUO|82|SONG|AQUATIC|
+0340|Under the Sea|1989|NA|MUS|DUO|80|SONG,OSCAR|AQUATIC|
+0341|Dancing Queen|1976|EU|MUS|TEAM|86|SONG||
+0342|La Vie en rose|1947|EU|MUS|DUO|83|SONG||la vie en rose song
+0343|Over the Rainbow|1939|NA|MUS|DUO|88|SONG,OSCAR|STORM|somewhere over the rainbow
+0344|Here Comes the Sun|1969|EU|MUS|SOLO|86|SONG|GOLDEN|
+0345|Good Vibrations|1966|NA|MUS|DUO|80|SONG||
+0346|Hallelujah|1984|NA|MUS|SOLO|86|SONG||hallelujah cohen
+0347|Gangnam Style|2012|AS|MUS|DUO|84|SONG||
+0348|Despacito|2017|NA|MUS|TEAM|84|SONG|FIRE|
+0349|Starman|1972|EU|MUS|SOLO|80|SONG|NOCTURNAL|starman bowie
+0350|Rocket Man|1972|EU|MUS|DUO|82|SONG|FLIGHT|
+0351|Ring of Fire|1963|NA|MUS|DUO|80|SONG|FIRE|
+0352|Light My Fire|1967|NA|MUS|TEAM|80|SONG|FIRE|
+0353|Riders on the Storm|1971|NA|MUS|TEAM|76|SONG|STORM,NOCTURNAL|

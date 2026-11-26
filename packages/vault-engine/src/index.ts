@@ -1,3 +1,4 @@
+export * from "./random.js";
 export * from "./normalize.js";
 export * from "./VennValidator.js";
 export * from "./ChronoSolver.js";

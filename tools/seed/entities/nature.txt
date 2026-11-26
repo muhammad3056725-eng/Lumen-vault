@@ -1,0 +1,69 @@
+# LUMEN VAULT curated entities — WONDERS OF NATURE (timeless: no year)
+0075|Mount Everest||AS|NAT|NATURE|97|MOUNTAIN|COLD|everest;chomolungma;sagarmatha
+0076|Sahara Desert||AF|NAT|NATURE|92|DESERT|ARID,FIRE|sahara
+0077|Amazon Rainforest||SA|NAT|NATURE|94||VERDANT,AQUATIC|amazon forest;amazonia
+0078|Great Barrier Reef||OC|NAT|NATURE|91|REEF|AQUATIC|barrier reef
+0079|Grand Canyon||NA|NAT|NATURE|93|CANYON|ARID|the grand canyon
+0080|Niagara Falls||NA|NAT|NATURE|91|WATERFALL|AQUATIC|niagara
+0081|Antarctica||GL|NAT|NATURE|90||COLD|antarctic continent
+0082|Mount Kilimanjaro||AF|NAT|NATURE|88|MOUNTAIN,VOLCANO|COLD|kilimanjaro
+0083|Dead Sea||ME|NAT|NATURE|85|LAKE|AQUATIC,ARID|the dead sea
+0084|Aurora Borealis||GL|NAT|NATURE|92||COLD,NOCTURNAL,GLOWING|northern lights;aurora
+0085|Mariana Trench||OC|NAT|NATURE|87||AQUATIC,COLD|mariana;challenger deep
+0086|Victoria Falls||AF|NAT|NATURE|88|WATERFALL|AQUATIC|mosi oa tunya
+0611|K2||AS|NAT|NATURE|84|MOUNTAIN|COLD|mount godwin austen
+0612|Mont Blanc||EU|NAT|NATURE|84|MOUNTAIN|COLD|monte bianco
+0613|Matterhorn||EU|NAT|NATURE|84|MOUNTAIN|COLD|cervino
+0614|Denali||NA|NAT|NATURE|82|MOUNTAIN|COLD|mount mckinley
+0615|Mount Fuji||AS|NAT|NATURE|92|MOUNTAIN,VOLCANO|COLD|fuji;fujisan
+0616|Aconcagua||SA|NAT|NATURE|78|MOUNTAIN|COLD|
+0617|Mount Elbrus||EU|NAT|NATURE|76|MOUNTAIN,VOLCANO|COLD|elbrus
+0618|Mount Vesuvius||EU|NAT|NATURE|88|MOUNTAIN,VOLCANO|FIRE|vesuvius
+0619|Mount Etna||EU|NAT|NATURE|82|MOUNTAIN,VOLCANO|FIRE|etna
+0620|Angel Falls||SA|NAT|NATURE|84|WATERFALL|AQUATIC|kerepakupai meru;salto angel
+0621|Iguazu Falls||SA|NAT|NATURE|84|WATERFALL|AQUATIC|iguacu falls
+0622|Amazon River||SA|NAT|NATURE|90|RIVER|AQUATIC,VERDANT|amazon
+0623|Nile||AF|NAT|NATURE|92|RIVER|AQUATIC,ARID|river nile;the nile
+0624|Mississippi River||NA|NAT|NATURE|86|RIVER|AQUATIC|mississippi
+0625|Yangtze||AS|NAT|NATURE|84|RIVER|AQUATIC|yangtze river;chang jiang
+0626|Danube||EU|NAT|NATURE|82|RIVER|AQUATIC|danube river
+0627|Lake Baikal||AS|NAT|NATURE|82|LAKE|AQUATIC,COLD|baikal
+0628|Lake Titicaca||SA|NAT|NATURE|80|LAKE|AQUATIC|titicaca
+0629|Lake Victoria||AF|NAT|NATURE|78|LAKE|AQUATIC|
+0630|Atacama Desert||SA|NAT|NATURE|80|DESERT|ARID|atacama
+0631|Gobi Desert||AS|NAT|NATURE|82|DESERT|ARID,COLD|gobi
+0632|Namib Desert||AF|NAT|NATURE|76|DESERT|ARID|namib
+0633|Kalahari Desert||AF|NAT|NATURE|76|DESERT|ARID|kalahari
+0634|Death Valley||NA|NAT|NATURE|82|DESERT|ARID,FIRE|
+0635|Uluru||OC|NAT|NATURE|84||ARID,GOLDEN|ayers rock
+0636|Monument Valley||NA|NAT|NATURE|78|CANYON|ARID|
+0637|Mojave Desert||NA|NAT|NATURE|76|DESERT|ARID|mojave
+0638|Rub' al Khali||ME|NAT|NATURE|74|DESERT|ARID,FIRE|empty quarter;rub al khali
+0639|Galápagos Islands||SA|NAT|NATURE|86|ISLAND|AQUATIC|galapagos
+0640|Ha Long Bay||AS|NAT|NATURE|80|ISLAND|AQUATIC|halong bay
+0641|Old Faithful||NA|NAT|NATURE|80|GEYSER|AQUATIC,FIRE|old faithful geyser
+0642|Black Forest||EU|NAT|NATURE|78||VERDANT,NOCTURNAL|schwarzwald
+0643|General Sherman Tree||NA|NAT|NATURE|72||VERDANT|general sherman
+0644|Giant's Causeway||EU|NAT|NATURE|80||AQUATIC|giants causeway
+0645|Cliffs of Moher||EU|NAT|NATURE|78||AQUATIC,STORM|
+0646|White Cliffs of Dover||EU|NAT|NATURE|76||AQUATIC|
+0647|Greenland Ice Sheet||NA|NAT|NATURE|76||COLD|
+0648|Perito Moreno Glacier||SA|NAT|NATURE|76|GLACIER|COLD,AQUATIC|perito moreno
+0649|Milky Way||GL|NAT|NATURE|90||NOCTURNAL,GLOWING|the milky way;our galaxy
+0650|Great Rift Valley||AF|NAT|NATURE|76|CANYON||rift valley
+0651|Congo Rainforest||AF|NAT|NATURE|78||VERDANT,AQUATIC|congo basin
+0652|Daintree Rainforest||OC|NAT|NATURE|74||VERDANT|daintree
+0653|Pamukkale||ME|NAT|NATURE|76||AQUATIC|cotton castle
+0654|Bay of Fundy||NA|NAT|NATURE|72||AQUATIC|
+0655|Everglades||NA|NAT|NATURE|80||AQUATIC,VERDANT|the everglades
+0656|Sundarbans||AS|NAT|NATURE|76||AQUATIC,VERDANT|
+0657|Mount Olympus||EU|NAT|NATURE|80|MOUNTAIN|COLD|olympus
+0658|Jökulsárlón||EU|NAT|NATURE|70|LAKE,GLACIER|COLD,AQUATIC|jokulsarlon;glacier lagoon
+0659|Svalbard||EU|NAT|NATURE|72|ISLAND|COLD,NOCTURNAL|
+0660|Komodo Island||AS|NAT|NATURE|70|ISLAND|ARID|
+0661|Serengeti||AF|NAT|NATURE|86||GOLDEN|serengeti plain
+0662|Okavango Delta||AF|NAT|NATURE|76|RIVER|AQUATIC,VERDANT|okavango
+0663|Zhangjiajie||AS|NAT|NATURE|72||VERDANT|avatar mountains
+0664|Salar de Uyuni||SA|NAT|NATURE|78||ARID|uyuni salt flat
+0665|Lake Superior||NA|NAT|NATURE|76|LAKE|AQUATIC,COLD|
+0666|Mount Kilauea||OC|NAT|NATURE|72|MOUNTAIN,VOLCANO|FIRE,GLOWING|kilauea

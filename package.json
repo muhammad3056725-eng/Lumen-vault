@@ -1,1 +1,23 @@
-{"description":"LUMEN VAULT — tactile puzzle, trivia-logic & brainstorming game. Kinetic Obsidian & Liquid Brass (Blueprint §1). Monorepo root (Blueprint §6).","devDependencies":{"@types/node":"^22.0.0","jsdom":"^31.0.1","typescript":"^5.6.0","vite":"^5.4.0","vitest":"^2.1.0"},"name":"lumen-vault","private":true,"scripts":{"build":"npm run build --workspace=@lumen-vault/web","data":"node tools/build-data.mjs","test":"npm run test --workspace=@lumen-vault/vault-engine && npm run test --workspace=@lumen-vault/web && python3 -m pytest pipeline/tests -q","typecheck":"tsc --noEmit -p tsconfig.json"},"type":"module","version":"0.1.0","workspaces":["apps/*","packages/*"]}
+{
+  "name": "lumen-vault",
+  "version": "2.0.0",
+  "private": true,
+  "description": "LUMEN VAULT — a calm puzzle-adventure in obsidian and liquid brass: Venn locks, chrono gears, resonance forges and deduction astrolabes.",
+  "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace=@lumen-vault/web",
+    "build": "npm run build --workspace=@lumen-vault/web",
+    "data": "vite-node tools/build-data.ts",
+    "test": "npm run test --workspace=@lumen-vault/vault-engine && npm run test --workspace=@lumen-vault/web && node tools/run-pytest.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "jsdom": "^31.0.1",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0",
+    "vite-node": "^2.1.9",
+    "vitest": "^2.1.0"
+  }
+}

@@ -1,114 +1,450 @@
 [
  {
-  "chamberId": "venn-01",
   "id": "ART-01",
-  "lore": "The first photograph of Earth from deep space turned a species into its own audience. This lens is engraved with the words mission control whispered that day: 'There it is.'",
-  "motif": "lens",
-  "name": "The First Lens"
+  "chamberId": "venn-01",
+  "name": "The First Reel",
+  "motif": "reel:ring",
+  "lore": "Star Wars won six competitive Oscars, including Best Visual Effects and Best Original Score. Its starship shots were filmed with a computer-controlled camera rig built specially for the production."
  },
  {
-  "chamberId": "venn-02",
   "id": "ART-02",
-  "lore": "Van Gogh painted his swirling night sky from an asylum window in Saint-Rémy in June 1889. He considered it a failure; the vault respectfully disagrees.",
-  "motif": "star",
-  "name": "The Gilded Star"
- },
- {
-  "chamberId": "venn-03",
-  "id": "ART-03",
-  "lore": "Apollo 13's crew never landed on the Moon, yet their improvised rescue became NASA's finest hour. The prism holds a splinter of every checklist written in those four days.",
-  "motif": "prism",
-  "name": "The Silver Prism"
- },
- {
-  "chamberId": "venn-04",
-  "id": "ART-04",
-  "lore": "Edison's first successful bulb burned for thirteen and a half hours in October 1879. Every lit window since is, in a sense, still borrowing that glow.",
-  "motif": "orb",
-  "name": "The Edison Orb"
- },
- {
-  "chamberId": "venn-05",
-  "id": "ART-05",
-  "lore": "The Great Pyramid was the tallest human-made structure for more than 3,800 years. It held the record longer than writing itself has existed in most of the world.",
-  "motif": "crown",
-  "name": "The Old Crown"
- },
- {
   "chamberId": "chrono-01",
-  "id": "ART-06",
-  "lore": "Voyager 1 now drifts farther from home than any object ever built by human hands. Its Golden Record still carries a greeting in fifty-five languages, just in case.",
-  "motif": "compass",
-  "name": "The Voyager Compass"
+  "name": "The Méliès Moon",
+  "motif": "moon:ring",
+  "lore": "Georges Méliès made A Trip to the Moon in 1902, and its rocket lodged in the Moon's eye became one of cinema's first iconic images. Before turning to film, Méliès was a stage magician who ran his own theatre of illusions in Paris."
  },
  {
-  "chamberId": "chrono-02",
-  "id": "ART-07",
-  "lore": "The first words ever spoken through a telephone were a summons: Bell calling his assistant in the next room. Humanity has been calling across rooms ever since.",
-  "motif": "gear",
-  "name": "The Signal Gear"
- },
- {
-  "chamberId": "chrono-03",
-  "id": "ART-08",
-  "lore": "Paper, gunpowder, the compass and printing anchor the classic list of China's Four Great Inventions. Together they carried ideas farther than any army of their age.",
-  "motif": "seed",
-  "name": "The Eastern Seed"
- },
- {
-  "chamberId": "chrono-04",
-  "id": "ART-09",
-  "lore": "Casablanca premiered in 1942 while the real Casablanca Conference was still weeks away. Art and history briefly shared a marquee, and neither blinked.",
-  "motif": "wave",
-  "name": "The Reel Wave"
- },
- {
+  "id": "ART-03",
   "chamberId": "forge-01",
-  "id": "ART-10",
-  "lore": "Snowpiercer's endless train circles a frozen Earth, yet its director hid warmth in nearly every carriage. Cold settings, this shard insists, make the human stories burn brighter.",
-  "motif": "shell",
-  "name": "The Frost Shard"
+  "name": "The Frost Shard",
+  "motif": "crystal:ring",
+  "lore": "Fargo won the Oscar for Best Original Screenplay, and Frances McDormand won Best Actress as police chief Marge Gunderson. A mild winter forced the crew to chase snow into North Dakota to finish filming."
  },
  {
-  "chamberId": "forge-02",
-  "id": "ART-11",
-  "lore": "Chopin wrote his Nocturnes across two decades, mostly for the quiet hours after midnight. Liszt claimed they sounded like stars improvising.",
-  "motif": "moon",
-  "name": "The Nocturne Moon"
- },
- {
-  "chamberId": "forge-03",
-  "id": "ART-12",
-  "lore": "The blue whale's heart is roughly the size of a small car, and its song can cross an entire ocean basin. This conch hums at a frequency only patience can hear.",
-  "motif": "shell",
-  "name": "The Whale Conch"
- },
- {
-  "chamberId": "forge-04",
-  "id": "ART-13",
-  "lore": "Everest grows about four millimetres taller every year as tectonic plates keep their slow argument. The mountain, quite literally, is still being written.",
-  "motif": "leaf",
-  "name": "The Summit Leaf"
- },
- {
+  "id": "ART-04",
   "chamberId": "astro-01",
-  "id": "ART-14",
-  "lore": "The Golden Record's grooves hold thunder, whale song, and Chuck Berry's 'Johnny B. Goode'. It will outlive the Sun's patience and possibly the species that pressed it.",
-  "motif": "astrolabe",
-  "name": "The Golden Astrolabe"
+  "name": "The Projectionist's Lens",
+  "motif": "lens:ring",
+  "lore": "Casablanca premiered in New York in November 1942, just weeks after Allied forces landed in North Africa. It went on to win the Academy Award for Best Picture."
  },
  {
+  "id": "ART-05",
+  "chamberId": "venn-02",
+  "name": "The Gilded Reel",
+  "motif": "star:ring",
+  "lore": "Titanic won eleven Academy Awards, tying the record first set by Ben-Hur. At its release it was the most expensive film ever made."
+ },
+ {
+  "id": "ART-06",
+  "chamberId": "chrono-02",
+  "name": "The Animator's Spiral",
+  "motif": "spiral:ring",
+  "lore": "Snow White and the Seven Dwarfs (1937) was Disney's first feature-length animated film. Toy Story followed in 1995 as the first feature made entirely with computer animation."
+ },
+ {
+  "id": "ART-07",
+  "chamberId": "forge-02",
+  "name": "The Nocturne Moon",
+  "motif": "note:ring",
+  "lore": "Frédéric Chopin composed twenty-one nocturnes for solo piano. He borrowed the name of the form from the Irish composer John Field, who wrote the first piano nocturnes."
+ },
+ {
+  "id": "ART-08",
   "chamberId": "astro-02",
-  "id": "ART-15",
-  "lore": "Van Gogh sold almost nothing in his lifetime and died at thirty-seven, unknown. The dial turns for every creator still waiting for their century to catch up.",
-  "motif": "feather",
-  "name": "The Painter's Feather"
+  "name": "The Verlaine Lyre",
+  "motif": "lyre:ring",
+  "lore": "Debussy's Clair de Lune is the third movement of his Suite bergamasque, published in 1905. Its title, meaning moonlight, comes from a poem by Paul Verlaine."
  },
  {
+  "id": "ART-09",
+  "chamberId": "venn-03",
+  "name": "The Edison Orb",
+  "motif": "orb:ring",
+  "lore": "Thomas Edison's laboratory tested thousands of materials before settling on carbonised bamboo for longer-lasting filaments. His Pearl Street Station in Manhattan began supplying electricity in 1882."
+ },
+ {
+  "id": "ART-10",
+  "chamberId": "chrono-03",
+  "name": "The Gutenberg Key",
+  "motif": "key:ring",
+  "lore": "Johannes Gutenberg's press in Mainz combined movable metal type, oil-based ink and a screw press. His Bible, printed around 1455, was the first major book printed with movable type in Europe."
+ },
+ {
+  "id": "ART-11",
+  "chamberId": "forge-03",
+  "name": "The Mendeleev Flask",
+  "motif": "flask:ring",
+  "lore": "Dmitri Mendeleev published his periodic table in 1869 and left gaps for elements no one had yet found. Gallium, discovered in 1875, matched his predictions closely."
+ },
+ {
+  "id": "ART-12",
   "chamberId": "astro-03",
+  "name": "The Signal Bell",
+  "motif": "bolt:ring",
+  "lore": "Alexander Graham Bell was granted his telephone patent in March 1876. Days later he made the first call, to his assistant Thomas Watson in the next room."
+ },
+ {
+  "id": "ART-13",
+  "chamberId": "venn-04",
+  "name": "The Fleming Plate",
+  "motif": "eye:ring",
+  "lore": "Alexander Fleming noticed in 1928 that mould on a culture plate had killed the bacteria around it. Howard Florey and Ernst Chain later turned penicillin into a usable medicine, and all three shared the 1945 Nobel Prize."
+ },
+ {
+  "id": "ART-14",
+  "chamberId": "chrono-04",
+  "name": "The Signal Gear",
+  "motif": "gear:ring",
+  "lore": "Tim Berners-Lee proposed the World Wide Web at CERN in 1989. CERN released the underlying software into the public domain in 1993."
+ },
+ {
+  "id": "ART-15",
+  "chamberId": "forge-04",
+  "name": "The Kitty Hawk Wing",
+  "motif": "wing:ring",
+  "lore": "The Wright brothers' first powered flight at Kitty Hawk in 1903 lasted twelve seconds and covered about 120 feet. Orville was at the controls while Wilbur ran alongside the wing."
+ },
+ {
   "id": "ART-16",
-  "lore": "The Taj Mahal's white marble shifts colour with the light — blush at dawn, gold at dusk, silver under the full moon. Grief, given twenty years and twenty thousand artisans, became a lantern.",
-  "motif": "key",
-  "name": "The Marble Key"
+  "chamberId": "astro-04",
+  "name": "The Röntgen Prism",
+  "motif": "prism:ring",
+  "lore": "Wilhelm Röntgen discovered X-rays in 1895 and soon made an image of the bones in his wife's hand. He received the first Nobel Prize in Physics in 1901."
+ },
+ {
+  "id": "ART-17",
+  "chamberId": "venn-05",
+  "name": "The Old Crown",
+  "motif": "crown:ring",
+  "lore": "The Great Pyramid of Giza was the tallest human-made structure on Earth for more than 3,800 years. It is the only one of the Seven Wonders of the Ancient World still standing."
+ },
+ {
+  "id": "ART-18",
+  "chamberId": "chrono-05",
+  "name": "The Justinian Dome",
+  "motif": "tower:ring",
+  "lore": "Hagia Sophia was completed in Constantinople in 537 under Emperor Justinian. It served as the world's largest cathedral for nearly a thousand years."
+ },
+ {
+  "id": "ART-19",
+  "chamberId": "forge-05",
+  "name": "The Thunder Bolt",
+  "motif": "bolt:diamond",
+  "lore": "In Norse myth Thor's hammer is called Mjölnir. Thursday is named after him."
+ },
+ {
+  "id": "ART-20",
+  "chamberId": "astro-05",
+  "name": "The Inca Sun",
+  "motif": "sun:ring",
+  "lore": "Machu Picchu was built for the Inca emperor Pachacuti in the 15th century, high on a ridge above the Urubamba valley. Hiram Bingham brought it to international attention in 1911."
+ },
+ {
+  "id": "ART-21",
+  "chamberId": "venn-06",
+  "name": "The Olympian Bolt",
+  "motif": "flame:ring",
+  "lore": "In Greek myth Zeus ruled from Mount Olympus and hurled thunderbolts forged for him by the Cyclopes. The ancient Olympic Games were held in his honour at Olympia."
+ },
+ {
+  "id": "ART-22",
+  "chamberId": "chrono-06",
+  "name": "The Pharos Lamp",
+  "motif": "comet:ring",
+  "lore": "The Lighthouse of Alexandria stood on the island of Pharos, whose name became the word for lighthouse in several languages, such as French phare. Earthquakes damaged it badly before its last remains fell in the 14th century."
+ },
+ {
+  "id": "ART-23",
+  "chamberId": "forge-06",
+  "name": "The Stolen Ember",
+  "motif": "flame:diamond",
+  "lore": "In Greek myth Prometheus stole fire from the gods and gave it to humankind. As punishment Zeus chained him to a rock, where an eagle came each day to eat his liver."
+ },
+ {
+  "id": "ART-24",
+  "chamberId": "astro-06",
+  "name": "The Marble Key",
+  "motif": "key:diamond",
+  "lore": "Mughal emperor Shah Jahan commissioned the Taj Mahal in Agra as a tomb for his wife Mumtaz Mahal. The mausoleum was finished around 1643, and the wider complex about a decade later."
+ },
+ {
+  "id": "ART-25",
+  "chamberId": "venn-07",
+  "name": "The Gioconda Feather",
+  "motif": "feather:ring",
+  "lore": "Leonardo da Vinci began the Mona Lisa around 1503 and kept refining it for years. It was stolen from the Louvre in 1911 and recovered in 1913."
+ },
+ {
+  "id": "ART-26",
+  "chamberId": "chrono-07",
+  "name": "The Delft Pearl",
+  "motif": "orb:diamond",
+  "lore": "Girl with a Pearl Earring is a tronie, a Dutch study of a face rather than a portrait of a known sitter. Johannes Vermeer painted it in Delft around 1665."
+ },
+ {
+  "id": "ART-27",
+  "chamberId": "forge-07",
+  "name": "The Le Havre Wave",
+  "motif": "wave:ring",
+  "lore": "Claude Monet's Impression, Sunrise shows the port of Le Havre in morning mist. A critic mocked its title in 1874, and the name Impressionism stuck to the whole movement."
+ },
+ {
+  "id": "ART-28",
+  "chamberId": "astro-07",
+  "name": "The Kanagawa Crest",
+  "motif": "mountain:ring",
+  "lore": "Hokusai's Great Wave is a woodblock print from his series Thirty-six Views of Mount Fuji. Thousands of impressions were printed, and many survive in museums around the world."
+ },
+ {
+  "id": "ART-29",
+  "chamberId": "venn-08",
+  "name": "The Austen Quill",
+  "motif": "quill:ring",
+  "lore": "Jane Austen published Pride and Prejudice in 1813 without her name on the title page. An early draft of the novel had been called First Impressions."
+ },
+ {
+  "id": "ART-30",
+  "chamberId": "chrono-08",
+  "name": "The Diodati Scroll",
+  "motif": "scroll:ring",
+  "lore": "Mary Shelley began Frankenstein during the wet summer of 1816 at the Villa Diodati near Geneva, after Lord Byron suggested that everyone write a ghost story. The novel was published in 1818, when she was twenty."
+ },
+ {
+  "id": "ART-31",
+  "chamberId": "forge-08",
+  "name": "The Lyceum Mask",
+  "motif": "mask:ring",
+  "lore": "Bram Stoker's Dracula was published in 1897 and told almost entirely through letters, diary entries and newspaper clippings. Stoker managed London's Lyceum Theatre for much of his working life."
+ },
+ {
+  "id": "ART-32",
+  "chamberId": "astro-08",
+  "name": "The Windmill Compass",
+  "motif": "compass:ring",
+  "lore": "Miguel de Cervantes published the first part of Don Quixote in 1605 and the second in 1615. The phrase tilting at windmills comes from the knight's charge at windmills he mistakes for giants."
+ },
+ {
+  "id": "ART-33",
+  "chamberId": "venn-09",
+  "name": "The Whale Conch",
+  "motif": "shell:ring",
+  "lore": "The blue whale is the largest animal known to have ever lived, larger than any dinosaur. Its low calls are among the loudest sounds made by any animal."
+ },
+ {
+  "id": "ART-34",
+  "chamberId": "chrono-09",
+  "name": "The Beagle Seed",
+  "motif": "seed:ring",
+  "lore": "Charles Darwin published On the Origin of Species in November 1859, more than twenty years after his voyage on HMS Beagle. Alfred Russel Wallace had reached a similar theory independently."
+ },
+ {
+  "id": "ART-35",
+  "chamberId": "forge-09",
+  "name": "The Xochimilco Drop",
+  "motif": "drop:ring",
+  "lore": "The axolotl lives wild only in the lake and canal system of Xochimilco near Mexico City. It can regrow lost limbs and even parts of its heart."
+ },
+ {
+  "id": "ART-36",
+  "chamberId": "astro-09",
+  "name": "The Bamboo Leaf",
+  "motif": "leaf:ring",
+  "lore": "Giant pandas spend most of their waking hours eating bamboo, often twelve kilograms or more a day. In 2016 the IUCN moved the species from Endangered to Vulnerable as wild numbers grew."
+ },
+ {
+  "id": "ART-37",
+  "chamberId": "venn-10",
+  "name": "The Summit Crystal",
+  "motif": "mountain:diamond",
+  "lore": "Tenzing Norgay and Edmund Hillary made the first confirmed ascent of Mount Everest on 29 May 1953. Its summit stands about 8,849 metres above sea level."
+ },
+ {
+  "id": "ART-38",
+  "chamberId": "chrono-10",
+  "name": "The Jenner Lancet",
+  "motif": "hourglass:ring",
+  "lore": "In 1796 Edward Jenner tested his smallpox vaccine using material from a cowpox sore. The word vaccine comes from the Latin vacca, meaning cow."
+ },
+ {
+  "id": "ART-39",
+  "chamberId": "forge-10",
+  "name": "The Baikal Mirror",
+  "motif": "crystal:diamond",
+  "lore": "Lake Baikal in Siberia is the deepest lake on Earth, reaching more than 1,600 metres. It holds roughly a fifth of the world's unfrozen surface fresh water."
+ },
+ {
+  "id": "ART-40",
+  "chamberId": "astro-10",
+  "name": "The Smoke That Thunders",
+  "motif": "drop:diamond",
+  "lore": "Victoria Falls lies on the Zambezi River between Zambia and Zimbabwe. Its local name, Mosi-oa-Tunya, means the smoke that thunders."
+ },
+ {
+  "id": "ART-41",
+  "chamberId": "venn-11",
+  "name": "The Webb Mirror",
+  "motif": "astrolabe:ring",
+  "lore": "The James Webb Space Telescope launched on 25 December 2021 and works near the Sun–Earth L2 point, about 1.5 million kilometres from Earth. Its 6.5-metre mirror is made of 18 gold-coated hexagonal segments."
+ },
+ {
+  "id": "ART-42",
+  "chamberId": "chrono-11",
+  "name": "The Gagarin Compass",
+  "motif": "compass:diamond",
+  "lore": "On 12 April 1961 Yuri Gagarin became the first person in space, completing one orbit of Earth aboard Vostok 1. The flight lasted about 108 minutes."
+ },
+ {
+  "id": "ART-43",
+  "chamberId": "forge-11",
+  "name": "The Voyager Record",
+  "motif": "planet:ring",
+  "lore": "Voyager 1 crossed into interstellar space in 2012, the first spacecraft to do so. Each Voyager carries a gold-plated record of sounds and images from Earth."
+ },
+ {
+  "id": "ART-44",
+  "chamberId": "astro-11",
+  "name": "The Discovery Lens",
+  "motif": "lens:diamond",
+  "lore": "The Hubble Space Telescope launched in 1990 aboard the Space Shuttle Discovery. A flaw in its main mirror was corrected by astronauts on a servicing mission in 1993."
+ },
+ {
+  "id": "ART-45",
+  "chamberId": "venn-12",
+  "name": "The Tranquility Star",
+  "motif": "star:diamond",
+  "lore": "Apollo 11 landed on the Moon on 20 July 1969, and Neil Armstrong and Buzz Aldrin spent about two and a half hours walking on the surface. Michael Collins orbited above in the command module Columbia."
+ },
+ {
+  "id": "ART-46",
+  "chamberId": "chrono-12",
+  "name": "The Saturn Ring",
+  "motif": "planet:diamond",
+  "lore": "Cassini reached Saturn in 2004 and studied it for thirteen years. In 2017 it was deliberately plunged into Saturn's atmosphere to protect moons that might harbour life."
+ },
+ {
+  "id": "ART-47",
+  "chamberId": "forge-12",
+  "name": "The Galilean Eye",
+  "motif": "eye:diamond",
+  "lore": "Galileo Galilei spotted four moons circling Jupiter in January 1610 with a telescope he had built himself. Io, Europa, Ganymede and Callisto are still called the Galilean moons."
+ },
+ {
+  "id": "ART-48",
+  "chamberId": "astro-12",
+  "name": "The Philae Comet",
+  "motif": "comet:diamond",
+  "lore": "The European Space Agency's Rosetta reached comet 67P/Churyumov–Gerasimenko in 2014 and set the Philae lander down on its surface. It was the first spacecraft to orbit a comet."
+ },
+ {
+  "id": "ART-49",
+  "chamberId": "venn-13",
+  "name": "The Famicom Star",
+  "motif": "controller:ring",
+  "lore": "Super Mario Bros. was released for the Famicom in Japan in 1985. Its designer, Shigeru Miyamoto, also created Donkey Kong and The Legend of Zelda."
+ },
+ {
+  "id": "ART-50",
+  "chamberId": "chrono-13",
+  "name": "The Arcade Orb",
+  "motif": "controller:diamond",
+  "lore": "Atari released Pong in 1972 after engineer Allan Alcorn built it as a training exercise. Its success helped launch the arcade video game industry."
+ },
+ {
+  "id": "ART-51",
+  "chamberId": "forge-13",
+  "name": "The Cacao Bowl",
+  "motif": "bowl:ring",
+  "lore": "Cacao was prized in Mesoamerica, where the Maya and Aztecs prepared it as a bitter drink. The Aztecs even used cocoa beans as currency."
+ },
+ {
+  "id": "ART-52",
+  "chamberId": "astro-13",
+  "name": "The Pajitnov Block",
+  "motif": "gear:diamond",
+  "lore": "Alexey Pajitnov created Tetris in 1984 at the Soviet Academy of Sciences in Moscow. Its name blends tetra, Greek for four, with tennis, his favourite sport."
+ },
+ {
+  "id": "ART-53",
+  "chamberId": "venn-14",
+  "name": "The Invader's Crest",
+  "motif": "star:rays",
+  "lore": "Tomohiro Nishikado designed Space Invaders for Taito in 1978. Its aliens speed up as their numbers fall, originally a side effect of the hardware having fewer sprites to draw."
+ },
+ {
+  "id": "ART-54",
+  "chamberId": "chrono-14",
+  "name": "The Athens Laurel",
+  "motif": "leaf:diamond",
+  "lore": "The first modern Olympic Games were held in Athens in 1896, revived largely through the efforts of Pierre de Coubertin. Around 240 athletes from 14 nations took part."
+ },
+ {
+  "id": "ART-55",
+  "chamberId": "forge-14",
+  "name": "The Hyrule Key",
+  "motif": "key:rays",
+  "lore": "Shigeru Miyamoto has said The Legend of Zelda grew from his childhood explorations of the countryside around Kyoto, including the discovery of a cave. The first game launched in Japan in 1986."
+ },
+ {
+  "id": "ART-56",
+  "chamberId": "astro-14",
+  "name": "The Edo Bowl",
+  "motif": "bowl:diamond",
+  "lore": "Nigiri sushi, a slice of fish pressed onto vinegared rice, became a popular fast food in Edo, now Tokyo, in the early 19th century. Older forms of sushi used fermented rice to preserve fish."
+ },
+ {
+  "id": "ART-57",
+  "chamberId": "venn-15",
+  "name": "The Arles Sun",
+  "motif": "sun:diamond",
+  "lore": "Vincent van Gogh painted his Sunflowers series in Arles in 1888 to decorate the room of his friend Paul Gauguin. He painted further versions the following year."
+ },
+ {
+  "id": "ART-58",
+  "chamberId": "chrono-15",
+  "name": "The Iron Lattice",
+  "motif": "tower:diamond",
+  "lore": "The Eiffel Tower was built as the entrance arch to the 1889 World's Fair in Paris. It was meant to stand for only twenty years but was kept partly because it proved useful as a radio antenna."
+ },
+ {
+  "id": "ART-59",
+  "chamberId": "forge-15",
+  "name": "The Chilli Ember",
+  "motif": "flame:rays",
+  "lore": "Kimchi is Korea's fermented vegetable dish, most often made with napa cabbage and chilli. Chilli peppers reached Korea from the Americas only around the 16th or 17th century, so early kimchi was not red."
+ },
+ {
+  "id": "ART-60",
+  "chamberId": "astro-15",
+  "name": "The Rellstab Moon",
+  "motif": "moon:diamond",
+  "lore": "Beethoven published his fourteenth piano sonata in 1802 as a sonata in the manner of a fantasy. The nickname Moonlight came from the critic Ludwig Rellstab after the composer's death."
+ },
+ {
+  "id": "ART-61",
+  "chamberId": "venn-16",
+  "name": "The Narwhal Spiral",
+  "motif": "spiral:diamond",
+  "lore": "A narwhal's tusk is an elongated tooth that can grow longer than two metres. It is packed with nerve endings and may help the whale sense its surroundings."
+ },
+ {
+  "id": "ART-62",
+  "chamberId": "chrono-16",
+  "name": "The Cai Lun Scroll",
+  "motif": "scroll:diamond",
+  "lore": "The Chinese court official Cai Lun reported an improved method of papermaking in 105 CE, using bark, hemp, rags and old fishing nets. Simpler forms of paper had already existed in China before him."
+ },
+ {
+  "id": "ART-63",
+  "chamberId": "forge-16",
+  "name": "The Golden Span",
+  "motif": "anchor:ring",
+  "lore": "The Golden Gate Bridge opened in 1937, and its main span was the longest of any suspension bridge in the world until 1964. Its colour is officially called International Orange."
+ },
+ {
+  "id": "ART-64",
+  "chamberId": "astro-16",
+  "name": "The Coral Crown",
+  "motif": "fish:ring",
+  "lore": "The Great Barrier Reef stretches for more than 2,300 kilometres along the coast of Queensland. It is built by billions of tiny coral polyps and is the largest coral reef system on Earth."
  }
 ]

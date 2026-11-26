@@ -8,7 +8,6 @@
 export const SPRING_STIFFNESS = 290;
 export const SPRING_DAMPING = 24;
 export const SPRING_MASS = 1.0;
-export const MAGNETIC_SNAP_PX = 28; // M2 magnetic snap distance
 export const DRAG_ELEVATION_SCALE = 1.04; // M2 drag elevation
 
 export function clampDt(rawDt: number): number {
