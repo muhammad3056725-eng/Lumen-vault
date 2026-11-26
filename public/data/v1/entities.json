@@ -1,0 +1,4826 @@
+[
+ {
+  "aliases": [
+   "apollo 13 film"
+  ],
+  "canonical_title": "Apollo 13",
+  "creator_type": "TEAM",
+  "entity_id": "E-0001",
+  "era_year": 1995,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "matrix"
+  ],
+  "canonical_title": "The Matrix",
+  "creator_type": "DUO",
+  "entity_id": "E-0002",
+  "era_year": 1999,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_DUO",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "toy story 1"
+  ],
+  "canonical_title": "Toy Story",
+  "creator_type": "TEAM",
+  "entity_id": "E-0003",
+  "era_year": 1995,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "titanic film"
+  ],
+  "canonical_title": "Titanic",
+  "creator_type": "TEAM",
+  "entity_id": "E-0004",
+  "era_year": 1997,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "OCEANIC"
+  ]
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Interstellar",
+  "creator_type": "TEAM",
+  "entity_id": "E-0005",
+  "era_year": 2014,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "2001 a space odyssey",
+   "space odyssey"
+  ],
+  "canonical_title": "2001: A Space Odyssey",
+  "creator_type": "TEAM",
+  "entity_id": "E-0006",
+  "era_year": 1968,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "star wars a new hope",
+   "a new hope"
+  ],
+  "canonical_title": "Star Wars",
+  "creator_type": "TEAM",
+  "entity_id": "E-0007",
+  "era_year": 1977,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 98,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "et",
+   "e.t."
+  ],
+  "canonical_title": "E.T. the Extra-Terrestrial",
+  "creator_type": "TEAM",
+  "entity_id": "E-0008",
+  "era_year": 1982,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "fellowship of the ring",
+   "lotr fellowship"
+  ],
+  "canonical_title": "The Lord of the Rings: The Fellowship of the Ring",
+  "creator_type": "TEAM",
+  "entity_id": "E-0009",
+  "era_year": 2001,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "FANTASY_WORK",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "harry potter 1 film",
+   "philosophers stone film"
+  ],
+  "canonical_title": "Harry Potter and the Philosopher's Stone",
+  "creator_type": "TEAM",
+  "entity_id": "E-0010",
+  "era_year": 2001,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "FANTASY_WORK",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "sen to chihiro"
+  ],
+  "canonical_title": "Spirited Away",
+  "creator_type": "TEAM",
+  "entity_id": "E-0011",
+  "era_year": 2001,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "FANTASY_WORK",
+   "REGION_ASIA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "frozen film",
+   "disney frozen"
+  ],
+  "canonical_title": "Frozen",
+  "creator_type": "TEAM",
+  "entity_id": "E-0012",
+  "era_year": 2013,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "FANTASY_WORK",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Snowpiercer",
+  "creator_type": "TEAM",
+  "entity_id": "E-0013",
+  "era_year": 2013,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_ASIA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 84,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "gravity film"
+  ],
+  "canonical_title": "Gravity",
+  "creator_type": "TEAM",
+  "entity_id": "E-0014",
+  "era_year": 2013,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "martian film"
+  ],
+  "canonical_title": "The Martian",
+  "creator_type": "TEAM",
+  "entity_id": "E-0015",
+  "era_year": 2015,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "alien film"
+  ],
+  "canonical_title": "Alien",
+  "creator_type": "TEAM",
+  "entity_id": "E-0016",
+  "era_year": 1979,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "wall e",
+   "walle"
+  ],
+  "canonical_title": "WALL-E",
+  "creator_type": "TEAM",
+  "entity_id": "E-0017",
+  "era_year": 2008,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Jurassic Park",
+  "creator_type": "TEAM",
+  "entity_id": "E-0018",
+  "era_year": 1993,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "bttf"
+  ],
+  "canonical_title": "Back to the Future",
+  "creator_type": "TEAM",
+  "entity_id": "E-0019",
+  "era_year": 1985,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Pulp Fiction",
+  "creator_type": "TEAM",
+  "entity_id": "E-0020",
+  "era_year": 1994,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "lion king"
+  ],
+  "canonical_title": "The Lion King",
+  "creator_type": "TEAM",
+  "entity_id": "E-0021",
+  "era_year": 1994,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Casablanca",
+  "creator_type": "TEAM",
+  "entity_id": "E-0022",
+  "era_year": 1942,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1940S",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "gwtw"
+  ],
+  "canonical_title": "Gone with the Wind",
+  "creator_type": "TEAM",
+  "entity_id": "E-0023",
+  "era_year": 1939,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1930S",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "solaris film"
+  ],
+  "canonical_title": "Solaris",
+  "creator_type": "TEAM",
+  "entity_id": "E-0024",
+  "era_year": 1972,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_EUROPE",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 82,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "avatar film"
+  ],
+  "canonical_title": "Avatar",
+  "creator_type": "TEAM",
+  "entity_id": "E-0025",
+  "era_year": 2009,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Inception",
+  "creator_type": "TEAM",
+  "entity_id": "E-0026",
+  "era_year": 2010,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "gisaengchung"
+  ],
+  "canonical_title": "Parasite",
+  "creator_type": "TEAM",
+  "entity_id": "E-0027",
+  "era_year": 2019,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_ASIA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "amelie"
+  ],
+  "canonical_title": "Amélie",
+  "creator_type": "TEAM",
+  "entity_id": "E-0028",
+  "era_year": 2001,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mib"
+  ],
+  "canonical_title": "Men in Black",
+  "creator_type": "TEAM",
+  "entity_id": "E-0029",
+  "era_year": 1997,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "id4"
+  ],
+  "canonical_title": "Independence Day",
+  "creator_type": "TEAM",
+  "entity_id": "E-0030",
+  "era_year": 1996,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "terminator 2",
+   "t2"
+  ],
+  "canonical_title": "Terminator 2: Judgment Day",
+  "creator_type": "TEAM",
+  "entity_id": "E-0031",
+  "era_year": 1991,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "total recall 1990"
+  ],
+  "canonical_title": "Total Recall",
+  "creator_type": "TEAM",
+  "entity_id": "E-0032",
+  "era_year": 1990,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 85,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "beauty and the beast 1991"
+  ],
+  "canonical_title": "Beauty and the Beast",
+  "creator_type": "TEAM",
+  "entity_id": "E-0033",
+  "era_year": 1991,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "FANTASY_WORK",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "aladdin 1992"
+  ],
+  "canonical_title": "Aladdin",
+  "creator_type": "TEAM",
+  "entity_id": "E-0034",
+  "era_year": 1992,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "FANTASY_WORK",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pocahontas film"
+  ],
+  "canonical_title": "Pocahontas",
+  "creator_type": "TEAM",
+  "entity_id": "E-0035",
+  "era_year": 1995,
+  "facets": [
+   "ANIMATED",
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "WON_OSCAR"
+  ],
+  "notability_score": 82,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "bohemian rhapsody song"
+  ],
+  "canonical_title": "Bohemian Rhapsody",
+  "creator_type": "TEAM",
+  "entity_id": "E-0036",
+  "era_year": 1975,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "imagine song"
+  ],
+  "canonical_title": "Imagine",
+  "creator_type": "SOLO",
+  "entity_id": "E-0037",
+  "era_year": 1971,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1970S",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "thriller album"
+  ],
+  "canonical_title": "Thriller",
+  "creator_type": "SOLO",
+  "entity_id": "E-0038",
+  "era_year": 1982,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1980S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Winter Wonderland",
+  "creator_type": "DUO",
+  "entity_id": "E-0039",
+  "era_year": 1934,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_DUO",
+   "DECADE_1930S",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 80,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "beethoven moonlight",
+   "mondscheinsonate"
+  ],
+  "canonical_title": "Moonlight Sonata",
+  "creator_type": "SOLO",
+  "entity_id": "E-0040",
+  "era_year": 1801,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1800S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "vivaldi four seasons",
+   "le quattro stagioni"
+  ],
+  "canonical_title": "The Four Seasons",
+  "creator_type": "SOLO",
+  "entity_id": "E-0041",
+  "era_year": 1725,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1720S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Clair de Lune",
+  "creator_type": "SOLO",
+  "entity_id": "E-0042",
+  "era_year": 1890,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1890S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 86,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "chopin nocturnes",
+   "nocturnes"
+  ],
+  "canonical_title": "Nocturnes (Chopin)",
+  "creator_type": "SOLO",
+  "entity_id": "E-0043",
+  "era_year": 1832,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1830S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 83,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "a little night music mozart"
+  ],
+  "canonical_title": "Eine kleine Nachtmusik",
+  "creator_type": "SOLO",
+  "entity_id": "E-0044",
+  "era_year": 1787,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1780S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 85,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "voyager 1 space probe",
+   "voyager-1",
+   "v1 probe"
+  ],
+  "canonical_title": "Voyager 1",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0045",
+  "era_year": 1977,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_1970S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 98,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": "DOM_ENGINEERING",
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL",
+   "INTERSTELLAR",
+   "GOLDEN_RECORD"
+  ]
+ },
+ {
+  "aliases": [
+   "apollo eleven"
+  ],
+  "canonical_title": "Apollo 11",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0046",
+  "era_year": 1969,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_1960S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 99,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "hubble",
+   "hst"
+  ],
+  "canonical_title": "Hubble Space Telescope",
+  "creator_type": "TEAM",
+  "entity_id": "E-0047",
+  "era_year": 1990,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "jwst",
+   "webb telescope"
+  ],
+  "canonical_title": "James Webb Space Telescope",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0048",
+  "era_year": 2021,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_2020S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "sputnik"
+  ],
+  "canonical_title": "Sputnik 1",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0049",
+  "era_year": 1957,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_1950S",
+   "REGION_EUROPE",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "iss"
+  ],
+  "canonical_title": "International Space Station",
+  "creator_type": "TEAM",
+  "entity_id": "E-0050",
+  "era_year": 1998,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_GLOBAL",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "curiosity",
+   "msl"
+  ],
+  "canonical_title": "Curiosity Rover",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0051",
+  "era_year": 2011,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "perseverance",
+   "mars 2020"
+  ],
+  "canonical_title": "Perseverance Rover",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0052",
+  "era_year": 2020,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_2020S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "cassini"
+  ],
+  "canonical_title": "Cassini-Huygens",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0053",
+  "era_year": 1997,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "gagarin flight",
+   "yuri gagarin flight"
+  ],
+  "canonical_title": "Vostok 1",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0054",
+  "era_year": 1961,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM_GOVERNMENT_AGENCY",
+   "DECADE_1960S",
+   "REGION_EUROPE",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "edison bulb",
+   "incandescent bulb"
+  ],
+  "canonical_title": "Light Bulb",
+  "creator_type": "TEAM",
+  "entity_id": "E-0055",
+  "era_year": 1879,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_TEAM",
+   "DECADE_1870S",
+   "INVENTED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "bell telephone"
+  ],
+  "canonical_title": "Telephone",
+  "creator_type": "SOLO",
+  "entity_id": "E-0056",
+  "era_year": 1876,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1870S",
+   "INVENTED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "gutenberg press"
+  ],
+  "canonical_title": "Printing Press",
+  "creator_type": "SOLO",
+  "entity_id": "E-0057",
+  "era_year": 1440,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1440S",
+   "INVENTED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "www",
+   "the web"
+  ],
+  "canonical_title": "World Wide Web",
+  "creator_type": "SOLO",
+  "entity_id": "E-0058",
+  "era_year": 1989,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1980S",
+   "INVENTED",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "penicillin antibiotic"
+  ],
+  "canonical_title": "Penicillin",
+  "creator_type": "SOLO",
+  "entity_id": "E-0059",
+  "era_year": 1928,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1920S",
+   "DISCOVERED",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "relativity",
+   "e=mc2"
+  ],
+  "canonical_title": "Theory of Relativity",
+  "creator_type": "SOLO",
+  "entity_id": "E-0060",
+  "era_year": 1905,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1900S",
+   "DISCOVERED",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mendeleev table"
+  ],
+  "canonical_title": "Periodic Table",
+  "creator_type": "SOLO",
+  "entity_id": "E-0061",
+  "era_year": 1869,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1860S",
+   "DISCOVERED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "watt steam engine"
+  ],
+  "canonical_title": "Steam Engine",
+  "creator_type": "SOLO",
+  "entity_id": "E-0062",
+  "era_year": 1776,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1770S",
+   "INVENTED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "wright flyer",
+   "first aeroplane"
+  ],
+  "canonical_title": "Airplane",
+  "creator_type": "DUO",
+  "entity_id": "E-0063",
+  "era_year": 1903,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_DUO",
+   "DECADE_1900S",
+   "INVENTED",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "tv invention"
+  ],
+  "canonical_title": "Television",
+  "creator_type": "SOLO",
+  "entity_id": "E-0064",
+  "era_year": 1927,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1920S",
+   "INVENTED",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "magnetic compass"
+  ],
+  "canonical_title": "Compass",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0065",
+  "era_year": 1040,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "DECADE_1040S",
+   "INVENTED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "paper invention",
+   "cai lun paper"
+  ],
+  "canonical_title": "Paper",
+  "creator_type": "SOLO",
+  "entity_id": "E-0066",
+  "era_year": 105,
+  "facets": [
+   "ANCIENT_WORLD",
+   "CREATOR_SOLO",
+   "DECADE_100S",
+   "INVENTED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "black powder"
+  ],
+  "canonical_title": "Gunpowder",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0067",
+  "era_year": 850,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "DECADE_850S",
+   "DISCOVERED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "smallpox vaccine",
+   "jenner vaccine"
+  ],
+  "canonical_title": "Vaccination",
+  "creator_type": "SOLO",
+  "entity_id": "E-0068",
+  "era_year": 1796,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1790S",
+   "DISCOVERED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "x ray",
+   "rontgen rays"
+  ],
+  "canonical_title": "X-rays",
+  "creator_type": "SOLO",
+  "entity_id": "E-0069",
+  "era_year": 1895,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1890S",
+   "DISCOVERED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE",
+   "WON_NOBEL"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "double helix",
+   "dna structure"
+  ],
+  "canonical_title": "DNA Double Helix",
+  "creator_type": "TEAM",
+  "entity_id": "E-0070",
+  "era_year": 1953,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1950S",
+   "DISCOVERED",
+   "REGION_EUROPE",
+   "WON_NOBEL"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "radium element",
+   "curie radium"
+  ],
+  "canonical_title": "Radium",
+  "creator_type": "DUO",
+  "entity_id": "E-0071",
+  "era_year": 1898,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_DUO",
+   "DECADE_1890S",
+   "DISCOVERED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE",
+   "WON_NOBEL"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "GLOWING"
+  ]
+ },
+ {
+  "aliases": [
+   "newtons principia",
+   "principia"
+  ],
+  "canonical_title": "Principia Mathematica (Newton)",
+  "creator_type": "SOLO",
+  "entity_id": "E-0072",
+  "era_year": 1687,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1680S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "darwins origin of species",
+   "origin of species"
+  ],
+  "canonical_title": "On the Origin of Species",
+  "creator_type": "SOLO",
+  "entity_id": "E-0073",
+  "era_year": 1859,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1850S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "first battery",
+   "volta pile"
+  ],
+  "canonical_title": "Voltaic Pile",
+  "creator_type": "SOLO",
+  "entity_id": "E-0074",
+  "era_year": 1800,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1800S",
+   "INVENTED",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 84,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "everest",
+   "chomolungma"
+  ],
+  "canonical_title": "Mount Everest",
+  "creator_type": "NATURE",
+  "entity_id": "E-0075",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_ASIA"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "sahara"
+  ],
+  "canonical_title": "Sahara Desert",
+  "creator_type": "NATURE",
+  "entity_id": "E-0076",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_AFRICA"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "amazon forest"
+  ],
+  "canonical_title": "Amazon Rainforest",
+  "creator_type": "NATURE",
+  "entity_id": "E-0077",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_SOUTH_AMERICA"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "barrier reef"
+  ],
+  "canonical_title": "Great Barrier Reef",
+  "creator_type": "NATURE",
+  "entity_id": "E-0078",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_OCEANIA"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_OCEANIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "the grand canyon"
+  ],
+  "canonical_title": "Grand Canyon",
+  "creator_type": "NATURE",
+  "entity_id": "E-0079",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "niagara"
+  ],
+  "canonical_title": "Niagara Falls",
+  "creator_type": "NATURE",
+  "entity_id": "E-0080",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "antarctic continent"
+  ],
+  "canonical_title": "Antarctica",
+  "creator_type": "NATURE",
+  "entity_id": "E-0081",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "kilimanjaro"
+  ],
+  "canonical_title": "Mount Kilimanjaro",
+  "creator_type": "NATURE",
+  "entity_id": "E-0082",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_AFRICA"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "the dead sea"
+  ],
+  "canonical_title": "Dead Sea",
+  "creator_type": "NATURE",
+  "entity_id": "E-0083",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_MIDDLE_EAST"
+  ],
+  "notability_score": 85,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_MIDDLE_EAST",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "northern lights",
+   "aurora"
+  ],
+  "canonical_title": "Aurora Borealis",
+  "creator_type": "NATURE",
+  "entity_id": "E-0084",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "mariana"
+  ],
+  "canonical_title": "Mariana Trench",
+  "creator_type": "NATURE",
+  "entity_id": "E-0085",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_OCEANIA"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_OCEANIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC",
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "vic falls",
+   "mosi-oa-tunya"
+  ],
+  "canonical_title": "Victoria Falls",
+  "creator_type": "NATURE",
+  "entity_id": "E-0086",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_AFRICA"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "tour eiffel"
+  ],
+  "canonical_title": "Eiffel Tower",
+  "creator_type": "TEAM",
+  "entity_id": "E-0087",
+  "era_year": 1889,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_TEAM",
+   "DECADE_1880S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "great wall"
+  ],
+  "canonical_title": "Great Wall of China",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0088",
+  "era_year": -700,
+  "facets": [
+   "ANCIENT_WORLD",
+   "CREATOR_TRADITIONAL",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "great pyramid",
+   "giza pyramids"
+  ],
+  "canonical_title": "Pyramids of Giza",
+  "creator_type": "TEAM",
+  "entity_id": "E-0089",
+  "era_year": -2560,
+  "facets": [
+   "ANCIENT_WORLD",
+   "CREATOR_TEAM",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_AFRICA"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "taj"
+  ],
+  "canonical_title": "Taj Mahal",
+  "creator_type": "TEAM",
+  "entity_id": "E-0090",
+  "era_year": 1653,
+  "facets": [
+   "CREATOR_TEAM",
+   "DECADE_1650S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "roman colosseum",
+   "flavian amphitheatre"
+  ],
+  "canonical_title": "Colosseum",
+  "creator_type": "TEAM",
+  "entity_id": "E-0091",
+  "era_year": 80,
+  "facets": [
+   "ANCIENT_WORLD",
+   "CREATOR_TEAM",
+   "DECADE_80S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "lady liberty"
+  ],
+  "canonical_title": "Statue of Liberty",
+  "creator_type": "TEAM",
+  "entity_id": "E-0092",
+  "era_year": 1886,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_TEAM",
+   "DECADE_1880S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA",
+   "SCULPTURE"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "opera house sydney"
+  ],
+  "canonical_title": "Sydney Opera House",
+  "creator_type": "TEAM",
+  "entity_id": "E-0093",
+  "era_year": 1973,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "MAN_MADE_STRUCTURE",
+   "REGION_OCEANIA"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_OCEANIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "burj dubai"
+  ],
+  "canonical_title": "Burj Khalifa",
+  "creator_type": "TEAM",
+  "entity_id": "E-0094",
+  "era_year": 2010,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "MAN_MADE_STRUCTURE",
+   "REGION_MIDDLE_EAST"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_MIDDLE_EAST",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "machu pichu"
+  ],
+  "canonical_title": "Machu Picchu",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0095",
+  "era_year": 1450,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "DECADE_1450S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_SOUTH_AMERICA"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "stone henge"
+  ],
+  "canonical_title": "Stonehenge",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0096",
+  "era_year": -2500,
+  "facets": [
+   "ANCIENT_WORLD",
+   "CREATOR_TRADITIONAL",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "golden gate"
+  ],
+  "canonical_title": "Golden Gate Bridge",
+  "creator_type": "TEAM",
+  "entity_id": "E-0097",
+  "era_year": 1937,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1930S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "panama canal locks"
+  ],
+  "canonical_title": "Panama Canal",
+  "creator_type": "TEAM",
+  "entity_id": "E-0098",
+  "era_year": 1914,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1910S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "tower of pisa"
+  ],
+  "canonical_title": "Leaning Tower of Pisa",
+  "creator_type": "TEAM",
+  "entity_id": "E-0099",
+  "era_year": 1372,
+  "facets": [
+   "CREATOR_TEAM",
+   "DECADE_1370S",
+   "MAN_MADE_STRUCTURE",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "la gioconda"
+  ],
+  "canonical_title": "Mona Lisa",
+  "creator_type": "SOLO",
+  "entity_id": "E-0100",
+  "era_year": 1503,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1500S",
+   "PAINTING",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 99,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "starry night"
+  ],
+  "canonical_title": "The Starry Night",
+  "creator_type": "SOLO",
+  "entity_id": "E-0101",
+  "era_year": 1889,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1880S",
+   "PAINTING",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "great wave",
+   "kanagawa wave"
+  ],
+  "canonical_title": "The Great Wave off Kanagawa",
+  "creator_type": "SOLO",
+  "entity_id": "E-0102",
+  "era_year": 1831,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1830S",
+   "PAINTING",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "picasso guernica"
+  ],
+  "canonical_title": "Guernica",
+  "creator_type": "SOLO",
+  "entity_id": "E-0103",
+  "era_year": 1937,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1930S",
+   "PAINTING",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "melting clocks",
+   "dali clocks"
+  ],
+  "canonical_title": "The Persistence of Memory",
+  "creator_type": "SOLO",
+  "entity_id": "E-0104",
+  "era_year": 1931,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1930S",
+   "PAINTING",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "van gogh sunflowers"
+  ],
+  "canonical_title": "Sunflowers",
+  "creator_type": "SOLO",
+  "entity_id": "E-0105",
+  "era_year": 1888,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1880S",
+   "PAINTING",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pearl earring"
+  ],
+  "canonical_title": "Girl with a Pearl Earring",
+  "creator_type": "SOLO",
+  "entity_id": "E-0106",
+  "era_year": 1665,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1660S",
+   "PAINTING",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "munch scream"
+  ],
+  "canonical_title": "The Scream",
+  "creator_type": "SOLO",
+  "entity_id": "E-0107",
+  "era_year": 1893,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1890S",
+   "PAINTING",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "michelangelos david"
+  ],
+  "canonical_title": "David (Michelangelo)",
+  "creator_type": "SOLO",
+  "entity_id": "E-0108",
+  "era_year": 1504,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1500S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE",
+   "SCULPTURE"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "rembrandt night watch"
+  ],
+  "canonical_title": "The Night Watch",
+  "creator_type": "SOLO",
+  "entity_id": "E-0109",
+  "era_year": 1642,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1640S",
+   "PAINTING",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "lotr",
+   "tolkien lotr"
+  ],
+  "canonical_title": "The Lord of the Rings",
+  "creator_type": "SOLO",
+  "entity_id": "E-0110",
+  "era_year": 1954,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1950S",
+   "FANTASY_WORK",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "austen pride"
+  ],
+  "canonical_title": "Pride and Prejudice",
+  "creator_type": "SOLO",
+  "entity_id": "E-0111",
+  "era_year": 1813,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1810S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "moby dick",
+   "the whale"
+  ],
+  "canonical_title": "Moby-Dick",
+  "creator_type": "SOLO",
+  "entity_id": "E-0112",
+  "era_year": 1851,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1850S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "don quijote"
+  ],
+  "canonical_title": "Don Quixote",
+  "creator_type": "SOLO",
+  "entity_id": "E-0113",
+  "era_year": 1605,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1600S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "odyssey homer"
+  ],
+  "canonical_title": "The Odyssey",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0114",
+  "era_year": -700,
+  "facets": [
+   "ANCIENT_WORLD",
+   "CREATOR_TRADITIONAL",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "shakespeare romeo"
+  ],
+  "canonical_title": "Romeo and Juliet",
+  "creator_type": "SOLO",
+  "entity_id": "E-0115",
+  "era_year": 1597,
+  "facets": [
+   "CREATOR_SOLO",
+   "DECADE_1590S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "harry potter book 1",
+   "philosophers stone book"
+  ],
+  "canonical_title": "Harry Potter and the Philosopher's Stone",
+  "creator_type": "SOLO",
+  "entity_id": "E-0116",
+  "era_year": 1997,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1990S",
+   "FANTASY_WORK",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "hobbit book"
+  ],
+  "canonical_title": "The Hobbit",
+  "creator_type": "SOLO",
+  "entity_id": "E-0117",
+  "era_year": 1937,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1930S",
+   "FANTASY_WORK",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "alice in wonderland"
+  ],
+  "canonical_title": "Alice's Adventures in Wonderland",
+  "creator_type": "SOLO",
+  "entity_id": "E-0118",
+  "era_year": 1865,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1860S",
+   "FANTASY_WORK",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "cien anos de soledad"
+  ],
+  "canonical_title": "One Hundred Years of Solitude",
+  "creator_type": "SOLO",
+  "entity_id": "E-0119",
+  "era_year": 1967,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1960S",
+   "REGION_SOUTH_AMERICA"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "le petit prince"
+  ],
+  "canonical_title": "The Little Prince",
+  "creator_type": "SOLO",
+  "entity_id": "E-0120",
+  "era_year": 1943,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1940S",
+   "FANTASY_WORK",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mary shelley frankenstein"
+  ],
+  "canonical_title": "Frankenstein",
+  "creator_type": "SOLO",
+  "entity_id": "E-0121",
+  "era_year": 1818,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_SOLO",
+   "DECADE_1810S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "zeus god"
+  ],
+  "canonical_title": "Zeus",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0122",
+  "era_year": null,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "STORM"
+  ]
+ },
+ {
+  "aliases": [
+   "thor god",
+   "norse thor"
+  ],
+  "canonical_title": "Thor",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0123",
+  "era_year": null,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "STORM"
+  ]
+ },
+ {
+  "aliases": [
+   "anubis god"
+  ],
+  "canonical_title": "Anubis",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0124",
+  "era_year": null,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "REGION_AFRICA"
+  ],
+  "notability_score": 86,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "feathered serpent"
+  ],
+  "canonical_title": "Quetzalcoatl",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0125",
+  "era_year": null,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 84,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "amaterasu goddess"
+  ],
+  "canonical_title": "Amaterasu",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0126",
+  "era_year": null,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "REGION_ASIA"
+  ],
+  "notability_score": 83,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "phoenix bird"
+  ],
+  "canonical_title": "Phoenix",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0127",
+  "era_year": null,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "FIRE"
+  ]
+ },
+ {
+  "aliases": [
+   "largest animal"
+  ],
+  "canonical_title": "Blue Whale",
+  "creator_type": "NATURE",
+  "entity_id": "E-0128",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "peregrine",
+   "fastest animal"
+  ],
+  "canonical_title": "Peregrine Falcon",
+  "creator_type": "NATURE",
+  "entity_id": "E-0129",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "panda"
+  ],
+  "canonical_title": "Giant Panda",
+  "creator_type": "NATURE",
+  "entity_id": "E-0130",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_ASIA"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "emperor penguins"
+  ],
+  "canonical_title": "Emperor Penguin",
+  "creator_type": "NATURE",
+  "entity_id": "E-0131",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "monarch"
+  ],
+  "canonical_title": "Monarch Butterfly",
+  "creator_type": "NATURE",
+  "entity_id": "E-0132",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 86,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mexican axolotl"
+  ],
+  "canonical_title": "Axolotl",
+  "creator_type": "NATURE",
+  "entity_id": "E-0133",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "snow leopards"
+  ],
+  "canonical_title": "Snow Leopard",
+  "creator_type": "NATURE",
+  "entity_id": "E-0134",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_ASIA"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "common octopus"
+  ],
+  "canonical_title": "Octopus",
+  "creator_type": "NATURE",
+  "entity_id": "E-0135",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "barn owls"
+  ],
+  "canonical_title": "Barn Owl",
+  "creator_type": "NATURE",
+  "entity_id": "E-0136",
+  "era_year": null,
+  "facets": [
+   "CREATOR_NATURE",
+   "REGION_GLOBAL"
+  ],
+  "notability_score": 85,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "tetris game"
+  ],
+  "canonical_title": "Tetris",
+  "creator_type": "SOLO",
+  "entity_id": "E-0137",
+  "era_year": 1984,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1980S",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mario bros",
+   "super mario"
+  ],
+  "canonical_title": "Super Mario Bros.",
+  "creator_type": "TEAM",
+  "entity_id": "E-0138",
+  "era_year": 1985,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_ASIA"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "zelda 1986",
+   "zelda"
+  ],
+  "canonical_title": "The Legend of Zelda",
+  "creator_type": "TEAM",
+  "entity_id": "E-0139",
+  "era_year": 1986,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "FANTASY_WORK",
+   "REGION_ASIA"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "minecraft game"
+  ],
+  "canonical_title": "Minecraft",
+  "creator_type": "TEAM",
+  "entity_id": "E-0140",
+  "era_year": 2011,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pacman",
+   "pac man"
+  ],
+  "canonical_title": "Pac-Man",
+  "creator_type": "SOLO",
+  "entity_id": "E-0141",
+  "era_year": 1980,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_SOLO",
+   "DECADE_1980S",
+   "REGION_ASIA"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "portal game"
+  ],
+  "canonical_title": "Portal",
+  "creator_type": "TEAM",
+  "entity_id": "E-0142",
+  "era_year": 2007,
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA",
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pizza margherita",
+   "neapolitan pizza"
+  ],
+  "canonical_title": "Pizza",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0143",
+  "era_year": 1889,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_TRADITIONAL",
+   "DECADE_1880S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "edo sushi",
+   "nigiri"
+  ],
+  "canonical_title": "Sushi",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0144",
+  "era_year": 1824,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_TRADITIONAL",
+   "DECADE_1820S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "viennoiserie"
+  ],
+  "canonical_title": "Croissant",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0145",
+  "era_year": 1839,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_TRADITIONAL",
+   "DECADE_1830S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "cacao",
+   "cocoa"
+  ],
+  "canonical_title": "Chocolate",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0146",
+  "era_year": -1500,
+  "facets": [
+   "ANCIENT_WORLD",
+   "CREATOR_TRADITIONAL",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "coffee beans",
+   "arabica"
+  ],
+  "canonical_title": "Coffee",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0147",
+  "era_year": 850,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "DECADE_850S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_AFRICA"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "icecream",
+   "gelato"
+  ],
+  "canonical_title": "Ice Cream",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0148",
+  "era_year": 697,
+  "facets": [
+   "CREATOR_TRADITIONAL",
+   "DECADE_690S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_ASIA"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "olympics 1896",
+   "athens olympics"
+  ],
+  "canonical_title": "First Modern Olympic Games",
+  "creator_type": "TEAM",
+  "entity_id": "E-0149",
+  "era_year": 1896,
+  "facets": [
+   "CENTURY_19TH",
+   "CREATOR_TEAM",
+   "DECADE_1890S",
+   "PRE_1900",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_SPORT",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "world cup football",
+   "mundial"
+  ],
+  "canonical_title": "FIFA World Cup",
+  "creator_type": "TEAM",
+  "entity_id": "E-0150",
+  "era_year": 1930,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1930S",
+   "PRE_1950",
+   "REGION_SOUTH_AMERICA"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_SPORT",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "berlin wall fall"
+  ],
+  "canonical_title": "Fall of the Berlin Wall",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0151",
+  "era_year": 1989,
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TRADITIONAL",
+   "DECADE_1980S",
+   "REGION_EUROPE"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_HISTORY",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "entity_id": "E-10000",
+  "canonical_title": "Pancho Villa",
+  "aliases": [],
+  "era_year": 1972,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q45988"
+ },
+ {
+  "entity_id": "E-10001",
+  "canonical_title": "Labyrinth of Passion",
+  "aliases": [],
+  "era_year": 1982,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q46044"
+ },
+ {
+  "entity_id": "E-10002",
+  "canonical_title": "Letters by a Novice",
+  "aliases": [],
+  "era_year": 1960,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q46361"
+ },
+ {
+  "entity_id": "E-10003",
+  "canonical_title": "L'imprevisto",
+  "aliases": [],
+  "era_year": 1961,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q46386"
+ },
+ {
+  "entity_id": "E-10004",
+  "canonical_title": "Don Juan in Sicily",
+  "aliases": [],
+  "era_year": 1967,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q46477"
+ },
+ {
+  "entity_id": "E-10005",
+  "canonical_title": "Favorites of the Moon",
+  "aliases": [],
+  "era_year": 1984,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q46533"
+ },
+ {
+  "entity_id": "E-10006",
+  "canonical_title": "Q46551",
+  "aliases": [],
+  "era_year": 2006,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q46551"
+ },
+ {
+  "entity_id": "E-10007",
+  "canonical_title": "Sweet Delusions",
+  "aliases": [],
+  "era_year": 1960,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q46568"
+ },
+ {
+  "entity_id": "E-10008",
+  "canonical_title": "Una spina nel cuore",
+  "aliases": [],
+  "era_year": 1986,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q46609"
+ },
+ {
+  "entity_id": "E-10009",
+  "canonical_title": "Maximum Overdrive",
+  "aliases": [],
+  "era_year": 1986,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q46637"
+ },
+ {
+  "entity_id": "E-10010",
+  "canonical_title": "Q46717",
+  "aliases": [],
+  "era_year": 2003,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q46717"
+ },
+ {
+  "entity_id": "E-10011",
+  "canonical_title": "Plumíferos",
+  "aliases": [],
+  "era_year": 2010,
+  "region_id": "REG_GLOBAL",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_GLOBAL"
+  ],
+  "wikidata_id": "Q46916"
+ },
+ {
+  "entity_id": "E-10012",
+  "canonical_title": "Roadside Romeo",
+  "aliases": [],
+  "era_year": 2008,
+  "region_id": "REG_ASIA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_ASIA"
+  ],
+  "wikidata_id": "Q46918"
+ },
+ {
+  "entity_id": "E-10013",
+  "canonical_title": "Scarface",
+  "aliases": [],
+  "era_year": 1983,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q47075"
+ },
+ {
+  "entity_id": "E-10014",
+  "canonical_title": "Q47221",
+  "aliases": [],
+  "era_year": 1976,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q47221"
+ },
+ {
+  "entity_id": "E-10015",
+  "canonical_title": "Family Plot",
+  "aliases": [],
+  "era_year": 1976,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q47296"
+ },
+ {
+  "entity_id": "E-10016",
+  "canonical_title": "Saturday Night Fever",
+  "aliases": [],
+  "era_year": 1977,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q47654"
+ },
+ {
+  "entity_id": "E-10017",
+  "canonical_title": "Q47703",
+  "aliases": [],
+  "era_year": 1972,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q47703"
+ },
+ {
+  "entity_id": "E-10018",
+  "canonical_title": "Marmaduke",
+  "aliases": [],
+  "era_year": 2010,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q48734"
+ },
+ {
+  "entity_id": "E-10019",
+  "canonical_title": "Wonderful Apples",
+  "aliases": [],
+  "era_year": 1975,
+  "region_id": "REG_GLOBAL",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_GLOBAL"
+  ],
+  "wikidata_id": "Q48904"
+ },
+ {
+  "entity_id": "E-10020",
+  "canonical_title": "Q48980",
+  "aliases": [],
+  "era_year": 1997,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q48980"
+ },
+ {
+  "entity_id": "E-10021",
+  "canonical_title": "Married to the Mob",
+  "aliases": [],
+  "era_year": 1988,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q48984"
+ },
+ {
+  "entity_id": "E-10022",
+  "canonical_title": "Russian Ark",
+  "aliases": [],
+  "era_year": 2002,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q59721"
+ },
+ {
+  "entity_id": "E-10023",
+  "canonical_title": "Secret Things",
+  "aliases": [],
+  "era_year": 2002,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q59722"
+ },
+ {
+  "entity_id": "E-10024",
+  "canonical_title": "Luna Park",
+  "aliases": [],
+  "era_year": 1992,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q59789"
+ },
+ {
+  "entity_id": "E-10025",
+  "canonical_title": "Q59931",
+  "aliases": [],
+  "era_year": 2004,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q59931"
+ },
+ {
+  "entity_id": "E-10026",
+  "canonical_title": "Kiss the Girls",
+  "aliases": [],
+  "era_year": 1998,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q60016"
+ },
+ {
+  "entity_id": "E-10027",
+  "canonical_title": "Cabaret Balkan",
+  "aliases": [],
+  "era_year": 1998,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q60021"
+ },
+ {
+  "entity_id": "E-10028",
+  "canonical_title": "The Sound of Music",
+  "aliases": [],
+  "era_year": 1965,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q60072"
+ },
+ {
+  "entity_id": "E-10029",
+  "canonical_title": "The Weather Man",
+  "aliases": [],
+  "era_year": 2005,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q60296"
+ },
+ {
+  "entity_id": "E-10030",
+  "canonical_title": "The Puppet Masters",
+  "aliases": [],
+  "era_year": 1994,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q60362"
+ },
+ {
+  "entity_id": "E-10031",
+  "canonical_title": "Q60464",
+  "aliases": [],
+  "era_year": 1950,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1950S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q60464"
+ },
+ {
+  "entity_id": "E-10032",
+  "canonical_title": "The Twilight Saga: Breaking Dawn – Part 2",
+  "aliases": [],
+  "era_year": 2012,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q60487"
+ },
+ {
+  "entity_id": "E-10033",
+  "canonical_title": "We Live in Public",
+  "aliases": [],
+  "era_year": 2009,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q372"
+ },
+ {
+  "entity_id": "E-10034",
+  "canonical_title": "A Gang Story",
+  "aliases": [],
+  "era_year": 2011,
+  "region_id": "REG_GLOBAL",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_GLOBAL"
+  ],
+  "wikidata_id": "Q593"
+ },
+ {
+  "entity_id": "E-10035",
+  "canonical_title": "The Intouchables",
+  "aliases": [],
+  "era_year": 2011,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q595"
+ },
+ {
+  "entity_id": "E-10036",
+  "canonical_title": "Swept Away",
+  "aliases": [],
+  "era_year": 1974,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q1365"
+ },
+ {
+  "entity_id": "E-10037",
+  "canonical_title": "Q2201",
+  "aliases": [],
+  "era_year": 2010,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q2201"
+ },
+ {
+  "entity_id": "E-10038",
+  "canonical_title": "Q2345",
+  "aliases": [],
+  "era_year": 1957,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1950S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q2345"
+ },
+ {
+  "entity_id": "E-10039",
+  "canonical_title": "Q2875",
+  "aliases": [],
+  "era_year": 1939,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1930S",
+   "PRE_1950",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q2875"
+ },
+ {
+  "entity_id": "E-10040",
+  "canonical_title": "The Man Between",
+  "aliases": [],
+  "era_year": 1953,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1950S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q3092"
+ },
+ {
+  "entity_id": "E-10041",
+  "canonical_title": "Rough Night in Jericho",
+  "aliases": [],
+  "era_year": 1967,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q3187"
+ },
+ {
+  "entity_id": "E-10042",
+  "canonical_title": "Alien Raiders",
+  "aliases": [],
+  "era_year": 2008,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q3208"
+ },
+ {
+  "entity_id": "E-10043",
+  "canonical_title": "A Fantastic Fear of Everything",
+  "aliases": [],
+  "era_year": 2012,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q3242"
+ },
+ {
+  "entity_id": "E-10044",
+  "canonical_title": "Q3589",
+  "aliases": [],
+  "era_year": 2004,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q3589"
+ },
+ {
+  "entity_id": "E-10045",
+  "canonical_title": "Nalai Manithan",
+  "aliases": [],
+  "era_year": 1989,
+  "region_id": "REG_ASIA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_ASIA"
+  ],
+  "wikidata_id": "Q3997"
+ },
+ {
+  "entity_id": "E-10046",
+  "canonical_title": "Adhisaya Manithan",
+  "aliases": [],
+  "era_year": 1990,
+  "region_id": "REG_ASIA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_ASIA"
+  ],
+  "wikidata_id": "Q3998"
+ },
+ {
+  "entity_id": "E-10047",
+  "canonical_title": "Vaa Arugil Vaa",
+  "aliases": [],
+  "era_year": 1991,
+  "region_id": "REG_ASIA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_ASIA"
+  ],
+  "wikidata_id": "Q4005"
+ },
+ {
+  "entity_id": "E-10048",
+  "canonical_title": "Cleopatra",
+  "aliases": [],
+  "era_year": 1963,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q4430"
+ },
+ {
+  "entity_id": "E-10049",
+  "canonical_title": "Wanted",
+  "aliases": [],
+  "era_year": 2008,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q4444"
+ },
+ {
+  "entity_id": "E-10050",
+  "canonical_title": "Delirious",
+  "aliases": [],
+  "era_year": 2006,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q4471"
+ },
+ {
+  "entity_id": "E-10051",
+  "canonical_title": "Mirageman",
+  "aliases": [],
+  "era_year": 2007,
+  "region_id": "REG_GLOBAL",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_GLOBAL"
+  ],
+  "wikidata_id": "Q4479"
+ },
+ {
+  "entity_id": "E-10052",
+  "canonical_title": "Matchstick Men",
+  "aliases": [],
+  "era_year": 2003,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q4536"
+ },
+ {
+  "entity_id": "E-10053",
+  "canonical_title": "Percy",
+  "aliases": [],
+  "era_year": 1971,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q4657"
+ },
+ {
+  "entity_id": "E-10054",
+  "canonical_title": "Bloodbath at the House of Death",
+  "aliases": [],
+  "era_year": 1984,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q4733"
+ },
+ {
+  "entity_id": "E-10055",
+  "canonical_title": "The Oranges",
+  "aliases": [],
+  "era_year": 2011,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q4739"
+ },
+ {
+  "entity_id": "E-10056",
+  "canonical_title": "Das wandernde Bild",
+  "aliases": [],
+  "era_year": 1920,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1920S",
+   "PRE_1950",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q4744"
+ },
+ {
+  "entity_id": "E-10057",
+  "canonical_title": "Percy's Progress",
+  "aliases": [],
+  "era_year": 1974,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q4815"
+ },
+ {
+  "entity_id": "E-10058",
+  "canonical_title": "Q4941",
+  "aliases": [],
+  "era_year": 2012,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q4941"
+ },
+ {
+  "entity_id": "E-10059",
+  "canonical_title": "Four Lions",
+  "aliases": [],
+  "era_year": 2010,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q5590"
+ },
+ {
+  "entity_id": "E-10060",
+  "canonical_title": "V for Vendetta",
+  "aliases": [],
+  "era_year": 2005,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q5890"
+ },
+ {
+  "entity_id": "E-10061",
+  "canonical_title": "Q6074",
+  "aliases": [],
+  "era_year": 2015,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q6074"
+ },
+ {
+  "entity_id": "E-10062",
+  "canonical_title": "Pirates II: Stagnetti's Revenge",
+  "aliases": [],
+  "era_year": 2008,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q7216"
+ },
+ {
+  "entity_id": "E-10063",
+  "canonical_title": "Q34414",
+  "aliases": [],
+  "era_year": 1995,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q34414"
+ },
+ {
+  "entity_id": "E-10064",
+  "canonical_title": "Stranger",
+  "aliases": [],
+  "era_year": 2004,
+  "region_id": "REG_GLOBAL",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_GLOBAL"
+  ],
+  "wikidata_id": "Q34499"
+ },
+ {
+  "entity_id": "E-10065",
+  "canonical_title": "Celluloide",
+  "aliases": [],
+  "era_year": 1996,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q34643"
+ },
+ {
+  "entity_id": "E-10066",
+  "canonical_title": "The Trial",
+  "aliases": [],
+  "era_year": 1993,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1990S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q35725"
+ },
+ {
+  "entity_id": "E-10067",
+  "canonical_title": "Frida",
+  "aliases": [],
+  "era_year": 2002,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q35738"
+ },
+ {
+  "entity_id": "E-10068",
+  "canonical_title": "Grunts",
+  "aliases": [],
+  "era_year": 2007,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q36055"
+ },
+ {
+  "entity_id": "E-10069",
+  "canonical_title": "Zemlya, do vostrebovaniya",
+  "aliases": [],
+  "era_year": 1972,
+  "region_id": "REG_GLOBAL",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1970S",
+   "REGION_GLOBAL"
+  ],
+  "wikidata_id": "Q36169"
+ },
+ {
+  "entity_id": "E-10070",
+  "canonical_title": "Men of Israel",
+  "aliases": [],
+  "era_year": 2009,
+  "region_id": "REG_MIDDLE_EAST",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_MIDDLE_EAST"
+  ],
+  "wikidata_id": "Q36190"
+ },
+ {
+  "entity_id": "E-10071",
+  "canonical_title": "The Postman Always Rings Twice",
+  "aliases": [],
+  "era_year": 1981,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q36739"
+ },
+ {
+  "entity_id": "E-10072",
+  "canonical_title": "The File of the Golden Goose",
+  "aliases": [],
+  "era_year": 1969,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q38143"
+ },
+ {
+  "entity_id": "E-10073",
+  "canonical_title": "Basileus Quartet",
+  "aliases": [],
+  "era_year": 1982,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1980S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q38226"
+ },
+ {
+  "entity_id": "E-10074",
+  "canonical_title": "The Girl from Nowhere",
+  "aliases": [],
+  "era_year": 2012,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q38235"
+ },
+ {
+  "entity_id": "E-10075",
+  "canonical_title": "Back to Stay",
+  "aliases": [],
+  "era_year": 2011,
+  "region_id": "REG_GLOBAL",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2010S",
+   "REGION_GLOBAL"
+  ],
+  "wikidata_id": "Q38297"
+ },
+ {
+  "entity_id": "E-10076",
+  "canonical_title": "The Long Duel",
+  "aliases": [],
+  "era_year": 1967,
+  "region_id": "REG_EUROPE",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_20TH",
+   "CREATOR_TEAM",
+   "DECADE_1960S",
+   "REGION_EUROPE"
+  ],
+  "wikidata_id": "Q38365"
+ },
+ {
+  "entity_id": "E-10077",
+  "canonical_title": "The Death and Life of Bobby Z",
+  "aliases": [],
+  "era_year": 2007,
+  "region_id": "REG_NORTH_AMERICA",
+  "primary_domain": "DOM_FILM",
+  "secondary_domain": null,
+  "creator_type": "TEAM",
+  "notability_score": 60,
+  "sensory_tags": [],
+  "facets": [
+   "CENTURY_21ST",
+   "CREATOR_TEAM",
+   "DECADE_2000S",
+   "REGION_NORTH_AMERICA"
+  ],
+  "wikidata_id": "Q38486"
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "chambers": [
+   "venn-03",
+   "chrono-04",
+   "forge-01"
+  ],
+  "id": "wing-cinema",
+  "theme": "Projected light and the music of the spheres.",
+  "title": "Cinema & Sound"
+ },
+ {
+  "chambers": [
+   "venn-04",
+   "chrono-02",
+   "chrono-03"
+  ],
+  "id": "wing-inventions",
+  "theme": "Ideas that rewired the world.",
+  "title": "Inventions & Science"
+ },
+ {
+  "chambers": [
+   "venn-05",
+   "forge-04",
+   "astro-03"
+  ],
+  "id": "wing-myth",
+  "theme": "Old stones, older stories.",
+  "title": "Myth & World Wonders"
+ },
+ {
+  "chambers": [
+   "forge-02",
+   "forge-03",
+   "astro-02"
+  ],
+  "id": "wing-lateral",
+  "theme": "Sideways thinking, gently lit.",
+  "title": "Lateral Riddles"
+ }
+]

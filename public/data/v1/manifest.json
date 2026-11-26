@@ -1,0 +1,16 @@
+{
+ "version": "1.0.0-starter+wd229",
+ "generatedAt": "2026-11-26T09:11:30.019Z",
+ "entityCount": 229,
+ "chamberCount": 16,
+ "wingCount": 4,
+ "artifactCount": 16,
+ "trieShards": 141,
+ "files": {
+  "entities.json": "9a533c9ebb47b9c4",
+  "chambers.json": "a68dca267410cff0",
+  "wings.json": "358f0358cc4ec461",
+  "artifacts.json": "6c4b85b748e1b8de",
+  "daily/latest.json": "4a5d4989afd76194"
+ }
+}

@@ -1,0 +1,2643 @@
+[
+ {
+  "aliases": [
+   "apollo 13 film"
+  ],
+  "canonical_title": "Apollo 13",
+  "creator_type": "TEAM",
+  "entity_id": "E-0001",
+  "era_year": 1995,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "matrix"
+  ],
+  "canonical_title": "The Matrix",
+  "creator_type": "DUO",
+  "entity_id": "E-0002",
+  "era_year": 1999,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "toy story 1"
+  ],
+  "canonical_title": "Toy Story",
+  "creator_type": "TEAM",
+  "entity_id": "E-0003",
+  "era_year": 1995,
+  "facets": [
+   "ANIMATED"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "titanic film"
+  ],
+  "canonical_title": "Titanic",
+  "creator_type": "TEAM",
+  "entity_id": "E-0004",
+  "era_year": 1997,
+  "facets": [
+   "WON_OSCAR"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "OCEANIC"
+  ]
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Interstellar",
+  "creator_type": "TEAM",
+  "entity_id": "E-0005",
+  "era_year": 2014,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "2001 a space odyssey",
+   "space odyssey"
+  ],
+  "canonical_title": "2001: A Space Odyssey",
+  "creator_type": "TEAM",
+  "entity_id": "E-0006",
+  "era_year": 1968,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "star wars a new hope",
+   "a new hope"
+  ],
+  "canonical_title": "Star Wars",
+  "creator_type": "TEAM",
+  "entity_id": "E-0007",
+  "era_year": 1977,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 98,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "et",
+   "e.t."
+  ],
+  "canonical_title": "E.T. the Extra-Terrestrial",
+  "creator_type": "TEAM",
+  "entity_id": "E-0008",
+  "era_year": 1982,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "fellowship of the ring",
+   "lotr fellowship"
+  ],
+  "canonical_title": "The Lord of the Rings: The Fellowship of the Ring",
+  "creator_type": "TEAM",
+  "entity_id": "E-0009",
+  "era_year": 2001,
+  "facets": [
+   "FANTASY_WORK",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "harry potter 1 film",
+   "philosophers stone film"
+  ],
+  "canonical_title": "Harry Potter and the Philosopher's Stone",
+  "creator_type": "TEAM",
+  "entity_id": "E-0010",
+  "era_year": 2001,
+  "facets": [
+   "FANTASY_WORK"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "sen to chihiro"
+  ],
+  "canonical_title": "Spirited Away",
+  "creator_type": "TEAM",
+  "entity_id": "E-0011",
+  "era_year": 2001,
+  "facets": [
+   "ANIMATED",
+   "FANTASY_WORK",
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "frozen film",
+   "disney frozen"
+  ],
+  "canonical_title": "Frozen",
+  "creator_type": "TEAM",
+  "entity_id": "E-0012",
+  "era_year": 2013,
+  "facets": [
+   "ANIMATED",
+   "FANTASY_WORK",
+   "WON_OSCAR"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Snowpiercer",
+  "creator_type": "TEAM",
+  "entity_id": "E-0013",
+  "era_year": 2013,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 84,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "gravity film"
+  ],
+  "canonical_title": "Gravity",
+  "creator_type": "TEAM",
+  "entity_id": "E-0014",
+  "era_year": 2013,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "martian film"
+  ],
+  "canonical_title": "The Martian",
+  "creator_type": "TEAM",
+  "entity_id": "E-0015",
+  "era_year": 2015,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "alien film"
+  ],
+  "canonical_title": "Alien",
+  "creator_type": "TEAM",
+  "entity_id": "E-0016",
+  "era_year": 1979,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "wall e",
+   "walle"
+  ],
+  "canonical_title": "WALL-E",
+  "creator_type": "TEAM",
+  "entity_id": "E-0017",
+  "era_year": 2008,
+  "facets": [
+   "ANIMATED",
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Jurassic Park",
+  "creator_type": "TEAM",
+  "entity_id": "E-0018",
+  "era_year": 1993,
+  "facets": [
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "bttf"
+  ],
+  "canonical_title": "Back to the Future",
+  "creator_type": "TEAM",
+  "entity_id": "E-0019",
+  "era_year": 1985,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Pulp Fiction",
+  "creator_type": "TEAM",
+  "entity_id": "E-0020",
+  "era_year": 1994,
+  "facets": [
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "lion king"
+  ],
+  "canonical_title": "The Lion King",
+  "creator_type": "TEAM",
+  "entity_id": "E-0021",
+  "era_year": 1994,
+  "facets": [
+   "ANIMATED",
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Casablanca",
+  "creator_type": "TEAM",
+  "entity_id": "E-0022",
+  "era_year": 1942,
+  "facets": [
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "gwtw"
+  ],
+  "canonical_title": "Gone with the Wind",
+  "creator_type": "TEAM",
+  "entity_id": "E-0023",
+  "era_year": 1939,
+  "facets": [
+   "WON_OSCAR"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "solaris film"
+  ],
+  "canonical_title": "Solaris",
+  "creator_type": "TEAM",
+  "entity_id": "E-0024",
+  "era_year": 1972,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 82,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "avatar film"
+  ],
+  "canonical_title": "Avatar",
+  "creator_type": "TEAM",
+  "entity_id": "E-0025",
+  "era_year": 2009,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Inception",
+  "creator_type": "TEAM",
+  "entity_id": "E-0026",
+  "era_year": 2010,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "gisaengchung"
+  ],
+  "canonical_title": "Parasite",
+  "creator_type": "TEAM",
+  "entity_id": "E-0027",
+  "era_year": 2019,
+  "facets": [
+   "WON_OSCAR"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "amelie"
+  ],
+  "canonical_title": "Amélie",
+  "creator_type": "TEAM",
+  "entity_id": "E-0028",
+  "era_year": 2001,
+  "facets": [],
+  "notability_score": 88,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mib"
+  ],
+  "canonical_title": "Men in Black",
+  "creator_type": "TEAM",
+  "entity_id": "E-0029",
+  "era_year": 1997,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "id4"
+  ],
+  "canonical_title": "Independence Day",
+  "creator_type": "TEAM",
+  "entity_id": "E-0030",
+  "era_year": 1996,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "terminator 2",
+   "t2"
+  ],
+  "canonical_title": "Terminator 2: Judgment Day",
+  "creator_type": "TEAM",
+  "entity_id": "E-0031",
+  "era_year": 1991,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "total recall 1990"
+  ],
+  "canonical_title": "Total Recall",
+  "creator_type": "TEAM",
+  "entity_id": "E-0032",
+  "era_year": 1990,
+  "facets": [
+   "SETTING_SPACE_SCIFI",
+   "WON_OSCAR"
+  ],
+  "notability_score": 85,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "beauty and the beast 1991"
+  ],
+  "canonical_title": "Beauty and the Beast",
+  "creator_type": "TEAM",
+  "entity_id": "E-0033",
+  "era_year": 1991,
+  "facets": [
+   "ANIMATED",
+   "FANTASY_WORK",
+   "WON_OSCAR"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "aladdin 1992"
+  ],
+  "canonical_title": "Aladdin",
+  "creator_type": "TEAM",
+  "entity_id": "E-0034",
+  "era_year": 1992,
+  "facets": [
+   "ANIMATED",
+   "FANTASY_WORK",
+   "WON_OSCAR"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pocahontas film"
+  ],
+  "canonical_title": "Pocahontas",
+  "creator_type": "TEAM",
+  "entity_id": "E-0035",
+  "era_year": 1995,
+  "facets": [
+   "ANIMATED",
+   "WON_OSCAR"
+  ],
+  "notability_score": 82,
+  "primary_domain": "DOM_FILM",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "bohemian rhapsody song"
+  ],
+  "canonical_title": "Bohemian Rhapsody",
+  "creator_type": "TEAM",
+  "entity_id": "E-0036",
+  "era_year": 1975,
+  "facets": [],
+  "notability_score": 96,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "imagine song"
+  ],
+  "canonical_title": "Imagine",
+  "creator_type": "SOLO",
+  "entity_id": "E-0037",
+  "era_year": 1971,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "thriller album"
+  ],
+  "canonical_title": "Thriller",
+  "creator_type": "SOLO",
+  "entity_id": "E-0038",
+  "era_year": 1982,
+  "facets": [],
+  "notability_score": 95,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Winter Wonderland",
+  "creator_type": "DUO",
+  "entity_id": "E-0039",
+  "era_year": 1934,
+  "facets": [],
+  "notability_score": 80,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "beethoven moonlight",
+   "mondscheinsonate"
+  ],
+  "canonical_title": "Moonlight Sonata",
+  "creator_type": "SOLO",
+  "entity_id": "E-0040",
+  "era_year": 1801,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "vivaldi four seasons",
+   "le quattro stagioni"
+  ],
+  "canonical_title": "The Four Seasons",
+  "creator_type": "SOLO",
+  "entity_id": "E-0041",
+  "era_year": 1725,
+  "facets": [],
+  "notability_score": 89,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [],
+  "canonical_title": "Clair de Lune",
+  "creator_type": "SOLO",
+  "entity_id": "E-0042",
+  "era_year": 1890,
+  "facets": [],
+  "notability_score": 86,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "chopin nocturnes",
+   "nocturnes"
+  ],
+  "canonical_title": "Nocturnes (Chopin)",
+  "creator_type": "SOLO",
+  "entity_id": "E-0043",
+  "era_year": 1832,
+  "facets": [],
+  "notability_score": 83,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "a little night music mozart"
+  ],
+  "canonical_title": "Eine kleine Nachtmusik",
+  "creator_type": "SOLO",
+  "entity_id": "E-0044",
+  "era_year": 1787,
+  "facets": [],
+  "notability_score": 85,
+  "primary_domain": "DOM_MUSIC",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "voyager 1 space probe",
+   "voyager-1",
+   "v1 probe"
+  ],
+  "canonical_title": "Voyager 1",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0045",
+  "era_year": 1977,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 98,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": "DOM_ENGINEERING",
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL",
+   "INTERSTELLAR",
+   "GOLDEN_RECORD"
+  ]
+ },
+ {
+  "aliases": [
+   "apollo eleven"
+  ],
+  "canonical_title": "Apollo 11",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0046",
+  "era_year": 1969,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 99,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "hubble",
+   "hst"
+  ],
+  "canonical_title": "Hubble Space Telescope",
+  "creator_type": "TEAM",
+  "entity_id": "E-0047",
+  "era_year": 1990,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "jwst",
+   "webb telescope"
+  ],
+  "canonical_title": "James Webb Space Telescope",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0048",
+  "era_year": 2021,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "sputnik"
+  ],
+  "canonical_title": "Sputnik 1",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0049",
+  "era_year": 1957,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "iss"
+  ],
+  "canonical_title": "International Space Station",
+  "creator_type": "TEAM",
+  "entity_id": "E-0050",
+  "era_year": 1998,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "curiosity",
+   "msl"
+  ],
+  "canonical_title": "Curiosity Rover",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0051",
+  "era_year": 2011,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "perseverance",
+   "mars 2020"
+  ],
+  "canonical_title": "Perseverance Rover",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0052",
+  "era_year": 2020,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "cassini"
+  ],
+  "canonical_title": "Cassini-Huygens",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0053",
+  "era_year": 1997,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 87,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "gagarin flight",
+   "yuri gagarin flight"
+  ],
+  "canonical_title": "Vostok 1",
+  "creator_type": "TEAM_GOVERNMENT_AGENCY",
+  "entity_id": "E-0054",
+  "era_year": 1961,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_SPACE_EXPLORATION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "edison bulb",
+   "incandescent bulb"
+  ],
+  "canonical_title": "Light Bulb",
+  "creator_type": "TEAM",
+  "entity_id": "E-0055",
+  "era_year": 1879,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "bell telephone"
+  ],
+  "canonical_title": "Telephone",
+  "creator_type": "SOLO",
+  "entity_id": "E-0056",
+  "era_year": 1876,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "gutenberg press"
+  ],
+  "canonical_title": "Printing Press",
+  "creator_type": "SOLO",
+  "entity_id": "E-0057",
+  "era_year": 1440,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "www",
+   "the web"
+  ],
+  "canonical_title": "World Wide Web",
+  "creator_type": "SOLO",
+  "entity_id": "E-0058",
+  "era_year": 1989,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "penicillin antibiotic"
+  ],
+  "canonical_title": "Penicillin",
+  "creator_type": "SOLO",
+  "entity_id": "E-0059",
+  "era_year": 1928,
+  "facets": [
+   "DISCOVERED"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "relativity",
+   "e=mc2"
+  ],
+  "canonical_title": "Theory of Relativity",
+  "creator_type": "SOLO",
+  "entity_id": "E-0060",
+  "era_year": 1905,
+  "facets": [
+   "DISCOVERED"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mendeleev table"
+  ],
+  "canonical_title": "Periodic Table",
+  "creator_type": "SOLO",
+  "entity_id": "E-0061",
+  "era_year": 1869,
+  "facets": [
+   "DISCOVERED"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "watt steam engine"
+  ],
+  "canonical_title": "Steam Engine",
+  "creator_type": "SOLO",
+  "entity_id": "E-0062",
+  "era_year": 1776,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "wright flyer",
+   "first aeroplane"
+  ],
+  "canonical_title": "Airplane",
+  "creator_type": "DUO",
+  "entity_id": "E-0063",
+  "era_year": 1903,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "tv invention"
+  ],
+  "canonical_title": "Television",
+  "creator_type": "SOLO",
+  "entity_id": "E-0064",
+  "era_year": 1927,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "magnetic compass"
+  ],
+  "canonical_title": "Compass",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0065",
+  "era_year": 1040,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 88,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "paper invention",
+   "cai lun paper"
+  ],
+  "canonical_title": "Paper",
+  "creator_type": "SOLO",
+  "entity_id": "E-0066",
+  "era_year": 105,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "black powder"
+  ],
+  "canonical_title": "Gunpowder",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0067",
+  "era_year": 850,
+  "facets": [
+   "DISCOVERED"
+  ],
+  "notability_score": 89,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "smallpox vaccine",
+   "jenner vaccine"
+  ],
+  "canonical_title": "Vaccination",
+  "creator_type": "SOLO",
+  "entity_id": "E-0068",
+  "era_year": 1796,
+  "facets": [
+   "DISCOVERED"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "x ray",
+   "rontgen rays"
+  ],
+  "canonical_title": "X-rays",
+  "creator_type": "SOLO",
+  "entity_id": "E-0069",
+  "era_year": 1895,
+  "facets": [
+   "DISCOVERED",
+   "WON_NOBEL"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "double helix",
+   "dna structure"
+  ],
+  "canonical_title": "DNA Double Helix",
+  "creator_type": "TEAM",
+  "entity_id": "E-0070",
+  "era_year": 1953,
+  "facets": [
+   "DISCOVERED",
+   "WON_NOBEL"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "radium element",
+   "curie radium"
+  ],
+  "canonical_title": "Radium",
+  "creator_type": "DUO",
+  "entity_id": "E-0071",
+  "era_year": 1898,
+  "facets": [
+   "DISCOVERED",
+   "WON_NOBEL"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "GLOWING"
+  ]
+ },
+ {
+  "aliases": [
+   "newtons principia",
+   "principia"
+  ],
+  "canonical_title": "Principia Mathematica (Newton)",
+  "creator_type": "SOLO",
+  "entity_id": "E-0072",
+  "era_year": 1687,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "darwins origin of species",
+   "origin of species"
+  ],
+  "canonical_title": "On the Origin of Species",
+  "creator_type": "SOLO",
+  "entity_id": "E-0073",
+  "era_year": 1859,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_SCIENCE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "first battery",
+   "volta pile"
+  ],
+  "canonical_title": "Voltaic Pile",
+  "creator_type": "SOLO",
+  "entity_id": "E-0074",
+  "era_year": 1800,
+  "facets": [
+   "INVENTED"
+  ],
+  "notability_score": 84,
+  "primary_domain": "DOM_INVENTION",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "everest",
+   "chomolungma"
+  ],
+  "canonical_title": "Mount Everest",
+  "creator_type": "NATURE",
+  "entity_id": "E-0075",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 97,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "sahara"
+  ],
+  "canonical_title": "Sahara Desert",
+  "creator_type": "NATURE",
+  "entity_id": "E-0076",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 92,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "amazon forest"
+  ],
+  "canonical_title": "Amazon Rainforest",
+  "creator_type": "NATURE",
+  "entity_id": "E-0077",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 94,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "barrier reef"
+  ],
+  "canonical_title": "Great Barrier Reef",
+  "creator_type": "NATURE",
+  "entity_id": "E-0078",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 91,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_OCEANIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "the grand canyon"
+  ],
+  "canonical_title": "Grand Canyon",
+  "creator_type": "NATURE",
+  "entity_id": "E-0079",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "niagara"
+  ],
+  "canonical_title": "Niagara Falls",
+  "creator_type": "NATURE",
+  "entity_id": "E-0080",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 91,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "antarctic continent"
+  ],
+  "canonical_title": "Antarctica",
+  "creator_type": "NATURE",
+  "entity_id": "E-0081",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "kilimanjaro"
+  ],
+  "canonical_title": "Mount Kilimanjaro",
+  "creator_type": "NATURE",
+  "entity_id": "E-0082",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 88,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "the dead sea"
+  ],
+  "canonical_title": "Dead Sea",
+  "creator_type": "NATURE",
+  "entity_id": "E-0083",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 85,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_MIDDLE_EAST",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "northern lights",
+   "aurora"
+  ],
+  "canonical_title": "Aurora Borealis",
+  "creator_type": "NATURE",
+  "entity_id": "E-0084",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 92,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "mariana"
+  ],
+  "canonical_title": "Mariana Trench",
+  "creator_type": "NATURE",
+  "entity_id": "E-0085",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 87,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_OCEANIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC",
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "vic falls",
+   "mosi-oa-tunya"
+  ],
+  "canonical_title": "Victoria Falls",
+  "creator_type": "NATURE",
+  "entity_id": "E-0086",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 88,
+  "primary_domain": "DOM_NATURE",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "tour eiffel"
+  ],
+  "canonical_title": "Eiffel Tower",
+  "creator_type": "TEAM",
+  "entity_id": "E-0087",
+  "era_year": 1889,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "great wall"
+  ],
+  "canonical_title": "Great Wall of China",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0088",
+  "era_year": -700,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 96,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "great pyramid",
+   "giza pyramids"
+  ],
+  "canonical_title": "Pyramids of Giza",
+  "creator_type": "TEAM",
+  "entity_id": "E-0089",
+  "era_year": -2560,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "ARID"
+  ]
+ },
+ {
+  "aliases": [
+   "taj"
+  ],
+  "canonical_title": "Taj Mahal",
+  "creator_type": "TEAM",
+  "entity_id": "E-0090",
+  "era_year": 1653,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "roman colosseum",
+   "flavian amphitheatre"
+  ],
+  "canonical_title": "Colosseum",
+  "creator_type": "TEAM",
+  "entity_id": "E-0091",
+  "era_year": 80,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "lady liberty"
+  ],
+  "canonical_title": "Statue of Liberty",
+  "creator_type": "TEAM",
+  "entity_id": "E-0092",
+  "era_year": 1886,
+  "facets": [
+   "MAN_MADE_STRUCTURE",
+   "SCULPTURE"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "opera house sydney"
+  ],
+  "canonical_title": "Sydney Opera House",
+  "creator_type": "TEAM",
+  "entity_id": "E-0093",
+  "era_year": 1973,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_OCEANIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "burj dubai"
+  ],
+  "canonical_title": "Burj Khalifa",
+  "creator_type": "TEAM",
+  "entity_id": "E-0094",
+  "era_year": 2010,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_MIDDLE_EAST",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "machu pichu"
+  ],
+  "canonical_title": "Machu Picchu",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0095",
+  "era_year": 1450,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "stone henge"
+  ],
+  "canonical_title": "Stonehenge",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0096",
+  "era_year": -2500,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "golden gate"
+  ],
+  "canonical_title": "Golden Gate Bridge",
+  "creator_type": "TEAM",
+  "entity_id": "E-0097",
+  "era_year": 1937,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "panama canal locks"
+  ],
+  "canonical_title": "Panama Canal",
+  "creator_type": "TEAM",
+  "entity_id": "E-0098",
+  "era_year": 1914,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "tower of pisa"
+  ],
+  "canonical_title": "Leaning Tower of Pisa",
+  "creator_type": "TEAM",
+  "entity_id": "E-0099",
+  "era_year": 1372,
+  "facets": [
+   "MAN_MADE_STRUCTURE"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ENGINEERING",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "la gioconda"
+  ],
+  "canonical_title": "Mona Lisa",
+  "creator_type": "SOLO",
+  "entity_id": "E-0100",
+  "era_year": 1503,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 99,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "starry night"
+  ],
+  "canonical_title": "The Starry Night",
+  "creator_type": "SOLO",
+  "entity_id": "E-0101",
+  "era_year": 1889,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "great wave",
+   "kanagawa wave"
+  ],
+  "canonical_title": "The Great Wave off Kanagawa",
+  "creator_type": "SOLO",
+  "entity_id": "E-0102",
+  "era_year": 1831,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "picasso guernica"
+  ],
+  "canonical_title": "Guernica",
+  "creator_type": "SOLO",
+  "entity_id": "E-0103",
+  "era_year": 1937,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "melting clocks",
+   "dali clocks"
+  ],
+  "canonical_title": "The Persistence of Memory",
+  "creator_type": "SOLO",
+  "entity_id": "E-0104",
+  "era_year": 1931,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "van gogh sunflowers"
+  ],
+  "canonical_title": "Sunflowers",
+  "creator_type": "SOLO",
+  "entity_id": "E-0105",
+  "era_year": 1888,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pearl earring"
+  ],
+  "canonical_title": "Girl with a Pearl Earring",
+  "creator_type": "SOLO",
+  "entity_id": "E-0106",
+  "era_year": 1665,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "munch scream"
+  ],
+  "canonical_title": "The Scream",
+  "creator_type": "SOLO",
+  "entity_id": "E-0107",
+  "era_year": 1893,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "michelangelos david"
+  ],
+  "canonical_title": "David (Michelangelo)",
+  "creator_type": "SOLO",
+  "entity_id": "E-0108",
+  "era_year": 1504,
+  "facets": [
+   "SCULPTURE"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "rembrandt night watch"
+  ],
+  "canonical_title": "The Night Watch",
+  "creator_type": "SOLO",
+  "entity_id": "E-0109",
+  "era_year": 1642,
+  "facets": [
+   "PAINTING"
+  ],
+  "notability_score": 90,
+  "primary_domain": "DOM_ART",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "lotr",
+   "tolkien lotr"
+  ],
+  "canonical_title": "The Lord of the Rings",
+  "creator_type": "SOLO",
+  "entity_id": "E-0110",
+  "era_year": 1954,
+  "facets": [
+   "FANTASY_WORK"
+  ],
+  "notability_score": 97,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "austen pride"
+  ],
+  "canonical_title": "Pride and Prejudice",
+  "creator_type": "SOLO",
+  "entity_id": "E-0111",
+  "era_year": 1813,
+  "facets": [],
+  "notability_score": 91,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "moby dick",
+   "the whale"
+  ],
+  "canonical_title": "Moby-Dick",
+  "creator_type": "SOLO",
+  "entity_id": "E-0112",
+  "era_year": 1851,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "don quijote"
+  ],
+  "canonical_title": "Don Quixote",
+  "creator_type": "SOLO",
+  "entity_id": "E-0113",
+  "era_year": 1605,
+  "facets": [],
+  "notability_score": 92,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "odyssey homer"
+  ],
+  "canonical_title": "The Odyssey",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0114",
+  "era_year": -700,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "shakespeare romeo"
+  ],
+  "canonical_title": "Romeo and Juliet",
+  "creator_type": "SOLO",
+  "entity_id": "E-0115",
+  "era_year": 1597,
+  "facets": [],
+  "notability_score": 94,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "harry potter book 1",
+   "philosophers stone book"
+  ],
+  "canonical_title": "Harry Potter and the Philosopher's Stone",
+  "creator_type": "SOLO",
+  "entity_id": "E-0116",
+  "era_year": 1997,
+  "facets": [
+   "FANTASY_WORK"
+  ],
+  "notability_score": 95,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "hobbit book"
+  ],
+  "canonical_title": "The Hobbit",
+  "creator_type": "SOLO",
+  "entity_id": "E-0117",
+  "era_year": 1937,
+  "facets": [
+   "FANTASY_WORK"
+  ],
+  "notability_score": 93,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "alice in wonderland"
+  ],
+  "canonical_title": "Alice's Adventures in Wonderland",
+  "creator_type": "SOLO",
+  "entity_id": "E-0118",
+  "era_year": 1865,
+  "facets": [
+   "FANTASY_WORK"
+  ],
+  "notability_score": 92,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "cien anos de soledad"
+  ],
+  "canonical_title": "One Hundred Years of Solitude",
+  "creator_type": "SOLO",
+  "entity_id": "E-0119",
+  "era_year": 1967,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "le petit prince"
+  ],
+  "canonical_title": "The Little Prince",
+  "creator_type": "SOLO",
+  "entity_id": "E-0120",
+  "era_year": 1943,
+  "facets": [
+   "FANTASY_WORK"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mary shelley frankenstein"
+  ],
+  "canonical_title": "Frankenstein",
+  "creator_type": "SOLO",
+  "entity_id": "E-0121",
+  "era_year": 1818,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_LITERATURE",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "zeus god"
+  ],
+  "canonical_title": "Zeus",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0122",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "STORM"
+  ]
+ },
+ {
+  "aliases": [
+   "thor god",
+   "norse thor"
+  ],
+  "canonical_title": "Thor",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0123",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 92,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "STORM"
+  ]
+ },
+ {
+  "aliases": [
+   "anubis god"
+  ],
+  "canonical_title": "Anubis",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0124",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 86,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "feathered serpent"
+  ],
+  "canonical_title": "Quetzalcoatl",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0125",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 84,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "amaterasu goddess"
+  ],
+  "canonical_title": "Amaterasu",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0126",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 83,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "phoenix bird"
+  ],
+  "canonical_title": "Phoenix",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0127",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 89,
+  "primary_domain": "DOM_MYTHOLOGY",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "FIRE"
+  ]
+ },
+ {
+  "aliases": [
+   "largest animal"
+  ],
+  "canonical_title": "Blue Whale",
+  "creator_type": "NATURE",
+  "entity_id": "E-0128",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "peregrine",
+   "fastest animal"
+  ],
+  "canonical_title": "Peregrine Falcon",
+  "creator_type": "NATURE",
+  "entity_id": "E-0129",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 88,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "panda"
+  ],
+  "canonical_title": "Giant Panda",
+  "creator_type": "NATURE",
+  "entity_id": "E-0130",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 92,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "emperor penguins"
+  ],
+  "canonical_title": "Emperor Penguin",
+  "creator_type": "NATURE",
+  "entity_id": "E-0131",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD",
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "monarch"
+  ],
+  "canonical_title": "Monarch Butterfly",
+  "creator_type": "NATURE",
+  "entity_id": "E-0132",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 86,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mexican axolotl"
+  ],
+  "canonical_title": "Axolotl",
+  "creator_type": "NATURE",
+  "entity_id": "E-0133",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 87,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "snow leopards"
+  ],
+  "canonical_title": "Snow Leopard",
+  "creator_type": "NATURE",
+  "entity_id": "E-0134",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 88,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "common octopus"
+  ],
+  "canonical_title": "Octopus",
+  "creator_type": "NATURE",
+  "entity_id": "E-0135",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC",
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "barn owls"
+  ],
+  "canonical_title": "Barn Owl",
+  "creator_type": "NATURE",
+  "entity_id": "E-0136",
+  "era_year": null,
+  "facets": [],
+  "notability_score": 85,
+  "primary_domain": "DOM_ANIMALS",
+  "region_id": "REG_GLOBAL",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "NOCTURNAL"
+  ]
+ },
+ {
+  "aliases": [
+   "tetris game"
+  ],
+  "canonical_title": "Tetris",
+  "creator_type": "SOLO",
+  "entity_id": "E-0137",
+  "era_year": 1984,
+  "facets": [],
+  "notability_score": 94,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "mario bros",
+   "super mario"
+  ],
+  "canonical_title": "Super Mario Bros.",
+  "creator_type": "TEAM",
+  "entity_id": "E-0138",
+  "era_year": 1985,
+  "facets": [],
+  "notability_score": 96,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "zelda 1986",
+   "zelda"
+  ],
+  "canonical_title": "The Legend of Zelda",
+  "creator_type": "TEAM",
+  "entity_id": "E-0139",
+  "era_year": 1986,
+  "facets": [
+   "FANTASY_WORK"
+  ],
+  "notability_score": 94,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "minecraft game"
+  ],
+  "canonical_title": "Minecraft",
+  "creator_type": "TEAM",
+  "entity_id": "E-0140",
+  "era_year": 2011,
+  "facets": [],
+  "notability_score": 96,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pacman",
+   "pac man"
+  ],
+  "canonical_title": "Pac-Man",
+  "creator_type": "SOLO",
+  "entity_id": "E-0141",
+  "era_year": 1980,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "portal game"
+  ],
+  "canonical_title": "Portal",
+  "creator_type": "TEAM",
+  "entity_id": "E-0142",
+  "era_year": 2007,
+  "facets": [
+   "SETTING_SPACE_SCIFI"
+  ],
+  "notability_score": 91,
+  "primary_domain": "DOM_VIDEO_GAMES",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "pizza margherita",
+   "neapolitan pizza"
+  ],
+  "canonical_title": "Pizza",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0143",
+  "era_year": 1889,
+  "facets": [],
+  "notability_score": 95,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "edo sushi",
+   "nigiri"
+  ],
+  "canonical_title": "Sushi",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0144",
+  "era_year": 1824,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "AQUATIC"
+  ]
+ },
+ {
+  "aliases": [
+   "viennoiserie"
+  ],
+  "canonical_title": "Croissant",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0145",
+  "era_year": 1839,
+  "facets": [],
+  "notability_score": 90,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "cacao",
+   "cocoa"
+  ],
+  "canonical_title": "Chocolate",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0146",
+  "era_year": -1500,
+  "facets": [],
+  "notability_score": 93,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_NORTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "coffee beans",
+   "arabica"
+  ],
+  "canonical_title": "Coffee",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0147",
+  "era_year": 850,
+  "facets": [],
+  "notability_score": 94,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_AFRICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "icecream",
+   "gelato"
+  ],
+  "canonical_title": "Ice Cream",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0148",
+  "era_year": 697,
+  "facets": [],
+  "notability_score": 92,
+  "primary_domain": "DOM_FOOD",
+  "region_id": "REG_ASIA",
+  "secondary_domain": null,
+  "sensory_tags": [
+   "COLD"
+  ]
+ },
+ {
+  "aliases": [
+   "olympics 1896",
+   "athens olympics"
+  ],
+  "canonical_title": "First Modern Olympic Games",
+  "creator_type": "TEAM",
+  "entity_id": "E-0149",
+  "era_year": 1896,
+  "facets": [],
+  "notability_score": 91,
+  "primary_domain": "DOM_SPORT",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "world cup football",
+   "mundial"
+  ],
+  "canonical_title": "FIFA World Cup",
+  "creator_type": "TEAM",
+  "entity_id": "E-0150",
+  "era_year": 1930,
+  "facets": [],
+  "notability_score": 96,
+  "primary_domain": "DOM_SPORT",
+  "region_id": "REG_SOUTH_AMERICA",
+  "secondary_domain": null,
+  "sensory_tags": []
+ },
+ {
+  "aliases": [
+   "berlin wall fall"
+  ],
+  "canonical_title": "Fall of the Berlin Wall",
+  "creator_type": "TRADITIONAL",
+  "entity_id": "E-0151",
+  "era_year": 1989,
+  "facets": [],
+  "notability_score": 91,
+  "primary_domain": "DOM_HISTORY",
+  "region_id": "REG_EUROPE",
+  "secondary_domain": null,
+  "sensory_tags": []
+ }
+]

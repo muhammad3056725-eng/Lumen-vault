@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lumen-vault-pipeline"
+version = "0.1.0"
+description = "LUMEN VAULT data pipeline: Wikidata ingest, facet tagging, chamber generation, solvability verification (Blueprint §5/§6)."
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.4"]
+
+[tool.ruff]
+line-length = 110

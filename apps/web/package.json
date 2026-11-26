@@ -1,0 +1,1 @@
+{"dependencies":{"@lumen-vault/shared-types":"*","@lumen-vault/vault-engine":"*"},"name":"@lumen-vault/web","private":true,"scripts":{"build":"vite build","dev":"vite","preview":"vite preview","test":"vitest run"},"type":"module","version":"0.1.0"}

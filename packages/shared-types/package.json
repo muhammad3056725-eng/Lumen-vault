@@ -1,0 +1,1 @@
+{"description":"Schema definitions for Entity records, Chamber specifications, and Wonder Artifact Cards (Blueprint §4 S4 / §5).","exports":{".":"./src/index.ts"},"main":"src/index.ts","name":"@lumen-vault/shared-types","private":true,"type":"module","version":"0.1.0"}
