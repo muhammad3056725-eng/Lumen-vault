@@ -1,0 +1,50 @@
+# LUMEN VAULT — Wikidata data build.
+# Pulls entities + relations from Wikidata, rebuilds the dictionary
+# (facets tagged, trie shards recompiled), validates every chamber
+# with the H3 solvability proof, and commits the enlarged dataset —
+# which then flows into the Pages deploy. Real counts are printed in
+# the run log by each step; nothing is extrapolated.
+name: Wikidata Data Build
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max Wikidata rows per class"
+        required: false
+        default: "1000"
+  schedule:
+    - cron: "0 4 1 * *" # monthly, 04:00 UTC on the 1st
+permissions:
+  contents: write
+jobs:
+  grow-dataset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pipeline dependencies
+        run: pip install -r pipeline/requirements.txt
+      - name: Ingest from Wikidata
+        run: python3 pipeline/ingest_wikidata.py --limit ${{ inputs.limit || '1000' }}
+      - name: Tag facets and merge into the shipped dataset
+        run: |
+          python3 pipeline/tag_facets.py --merge
+          python3 pipeline/compile_shards.py
+      - name: Validate (H3 solvability proof + pipeline tests)
+        run: |
+          python3 pipeline/verify_solvability.py
+          python3 -m pytest pipeline/tests -q
+      - name: Commit and push the enlarged dataset
+        run: |
+          git config user.name "LumenVault-Bot"
+          git config user.email "bot@lumenvault.app"
+          git add public/data/v1
+          if git diff --cached --quiet; then
+            echo "Dataset unchanged — nothing to publish."
+          else
+            git commit -m "data(wikidata): enlarge entity dictionary [skip ci]"
+            git push origin main
+          fi
+          
